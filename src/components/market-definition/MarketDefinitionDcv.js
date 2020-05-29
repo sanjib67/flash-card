@@ -75,18 +75,34 @@ export default class MarketDefinitionDcv extends Component {
           }
         ]
       };
+
+      iconRenderer = (eachColumn) => {
+        
+        switch (eachColumn) {
+          case 'R':
+            return "true"
+          case 'S':
+            return "false"
+          default:
+            return eachColumn
+        }
+
+      }
     
       handleChangePage = (dataKey) => {
         this.setState({
           page: dataKey
         });
       };
+
       handleChangeLength = (dataKey) => {
         this.setState({
           page: 1,
           displayLength: dataKey
         });
       };
+
+     
     
       getData = () => {
         const { displayLength, page } = this.state;
@@ -119,7 +135,7 @@ export default class MarketDefinitionDcv extends Component {
                             fontWeight: 'bold',
                             fontSize: '15px'
                           }}>
-                          {eachColumn.name}
+                           {eachColumn.name}
                         </HeaderCell>
                         <Cell dataKey={eachColumn.name} />
                       </Column>
