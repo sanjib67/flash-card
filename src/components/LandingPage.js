@@ -27,12 +27,12 @@ export default class LandingPage extends Component {
   render() {
     return (
       <div>
-        <section className='breadcrumbs-section'>
+        <section hidden={window.location.pathname === "/"} className='breadcrumbs-section'>
           <div className='container'>
             <div className='breadcrumbs'>
               <p>
-                <span>Support Landing</span> <span>Glossary</span>{' '}
-                <a href='#'>Flashcard Dimensions</a>
+                <span>Support Landing</span> <span>Flashcard Help</span>{' '}
+                <a href='#'>Overview</a>
               </p>
             </div>
           </div>
