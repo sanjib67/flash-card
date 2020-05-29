@@ -77,7 +77,6 @@ export default class MarketDefinitionDcv extends Component {
       };
 
       iconRenderer = (eachColumn) => {
-        
         switch (eachColumn) {
           case 'R':
             return <i style={{color:'#2ecc72'}} class="fas fa-check"></i>
@@ -86,7 +85,6 @@ export default class MarketDefinitionDcv extends Component {
           default:
             return eachColumn
         }
-
       }
     
       handleChangePage = (dataKey) => {
@@ -116,11 +114,6 @@ export default class MarketDefinitionDcv extends Component {
       componentDidMount() {
         $('#menu-parent-3, #menu-child-3-1').addClass('active');
       }
-      ImageCell = ({ rowData, dataKey, ...props }) => (
-        <Cell {...props}>
-          <img src={rowData[dataKey]} width="50" />
-        </Cell>
-      );
     
       render() {
         const data = this.getData();
@@ -130,10 +123,10 @@ export default class MarketDefinitionDcv extends Component {
             <div className='content'>
               <h1>Market Definition : DCV</h1>
               <div className='table-responsive'>
-                <Table height={500} data={data} loading={loading}>
+                <Table height={500} data={data} loading={loading} onSortColumn={(sortColumn, sortType) => { console.log(sortColumn, sortType); }}>
                   {this.state.tableColumns.map((eachColumn) => {
                     return (
-                      <Column width={eachColumn.width}>
+                      <Column width={eachColumn.width} sortable align='center'>
                         <HeaderCell
                           style={{
                             color: '#535CA3',
