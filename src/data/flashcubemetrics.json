@@ -1,0 +1,161 @@
+ [
+        {
+            "Category": "∑ Country",
+            "Group/ Item": "Nb of country",
+            "Description": "Number of countries"
+        },
+        {
+            "Category": "∑ Market",
+            "Group/ Item": "Nb of markets",
+            "Description": "Number of markets"
+        },
+        {
+            "Category": "∑ Network",
+            "Group/ Item": "Aligned period",
+            "Description": "Data on last period which is common over the current set of panel, countries, region or cluster"
+        },
+        {
+            "Category": "∑ Network",
+            "Group/ Item": "Latest period",
+            "Description": "Data on last period of each panel received"
+        },
+        {
+            "Category": "∑ Products",
+            "Group/ Item": "Avg. Price (MNF)",
+            "Description": "Average Manufacturer price"
+        },
+        {
+            "Category": "∑ Products",
+            "Group/ Item": "Avg. Price (PUB)",
+            "Description": "Average Public price"
+        },
+        {
+            "Category": "∑ Products",
+            "Group/ Item": "Nb of Products",
+            "Description": "Number of products"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Value",
+            "Description": "Value"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Patient",
+            "Sub-Group/ Item": "Peq",
+            "Description": "Patient Equivalent (PEQ) : To compare products within the same market independently of indication, dosage, treatment regimen, compliance (Kevzara market and few OC categories)"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Prescription",
+            "Sub-Group/ Item": "RX",
+            "Description": "Whether or not a prescription drug"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Treatment days",
+            "Sub-Group/ Item": "TD",
+            "Description": "Number of Days of Treatment to compare products within the same market independently of administration form, posology and dosage (APA wo ASA market, LLT market, Prostate cancer, OAD, Pyostacine Mkt., Targocid Mkt. etc. )"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Treatment Cycle",
+            "Sub-Group/ Item": "TC",
+            "Description": "Dose of drug administered to a patient at regular time intervals during the course of treatment. Currently implmented in Sinergi for Oncology market (Taxotere and Eloxatin)"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Turnover",
+            "Sub-Group/ Item": "EU (MNF)",
+            "Description": "Turnover (Manufacturer) - Sum of the sales at the price level for the manufacturer"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Turnover",
+            "Sub-Group/ Item": "EU (PUB)",
+            "Description": "Turnover (Public) - Sum of the sales at the price level for the end consumers, this field is pertinent only to CHC"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Turnover",
+            "Sub-Group/ Item": "LC",
+            "Description": "Sales value in local currency (e.g : CHF for Switzerland, USD for USA)"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Volume",
+            "Sub-Group/ Item": "IU",
+            "Description": "International Unit : Conversion of volumes of diabetes injectable products in a common unit in order to compare basal, rapid & premix products head to head."
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Volume",
+            "Sub-Group/ Item": "IUt",
+            "Description": "Internation Unit (total) : Metric to monitor GLP1 and FRC (fix ratio combination) to compare them to other injectable diabetes products"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Volume",
+            "Sub-Group/ Item": "PACK",
+            "Description": "Pack Units - Similar to the number of pads in one box For example, '30 pills 20 Mg' contains one 30 pill pack whereas '30 pills 2 20 Mg' means 2 pads of 30 pills each in the same box"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Volume",
+            "Sub-Group/ Item": "SU",
+            "Description": "Standard Units (volume unit): The number of standard dose units sold such as the number of tablets, the number of 5ml doses, or the number of vials, sold for a particular product.\r\nIt is determined by taking the number of counting units sold divided by the standard unit factor which is the smallest common dose of a product form as defined by IMS HEALTH"
+        },
+        {
+            "Category": "∑ Sales",
+            "Group/ Item": "Volume",
+            "Sub-Group/ Item": "UN",
+            "Description": "Units : Volume Unit received in the raw data. Basically it is number of packs sold.\r\nFor CHC : unit = pack For others BU(s) : only if retail channel and unit defined by pack by the country : unit = pack"
+        },
+        {
+            "Category": "∑ Value",
+            "Group/ Item": "Product",
+            "Sub-Group/ Item": "AvgPrice_LC",
+            "Description": "Average price"
+        },
+        {
+            "Category": "∑ Value",
+            "Group/ Item": "Product",
+            "Sub-Group/ Item": "AvgPrice_LC-1"
+        },
+        {
+            "Category": "∑ Value",
+            "Group/ Item": "Total Effect",
+            "Sub-Group/ Item": "Effect_Launch",
+            "Description": "New launch effect"
+        },
+        {
+            "Category": "∑ Value",
+            "Group/ Item": "Total Effect",
+            "Sub-Group/ Item": "Effect_Price",
+            "Description": "Price effect"
+        },
+        {
+            "Category": "∑ Value",
+            "Group/ Item": "Total Effect",
+            "Sub-Group/ Item": "Effect_Volume",
+            "Description": "Volume effect"
+        },
+        {
+            "Category": "∑ Value",
+            "Group/ Item": "Total Effect",
+            "Sub-Group/ Item": "Effect_Mix",
+            "Description": "Mix effect"
+        },
+        {
+            "Category": "∑ Value",
+            "Group/ Item": "Total Effect",
+            "Sub-Group/ Item": "Effect_Total",
+            "Description": "Total Growth"
+        },
+        {
+            "Category": "KG",
+            "Group/ Item": "Kilogarms",
+            "Sub-Group/ Item": "KG",
+            "Description": "To measure the chemical weight sold of the active ingredients (molecules) in products. Metric on-boarded for AIS dahsboard"
+        }
+    ]
