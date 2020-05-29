@@ -80,9 +80,9 @@ export default class MarketDefinitionDcv extends Component {
         
         switch (eachColumn) {
           case 'R':
-            return <i style={{color:'#2ecc72'}} class="fas fa-circle"></i>
+            return <i style={{color:'#2ecc72'}} class="fas fa-check"></i>
           case 'S':
-            return <i style={{color:'tomato'}} class="fas fa-circle"></i>
+            return <i style={{color:'tomato'}} class="fas fa-times"></i>
           default:
             return eachColumn
         }
