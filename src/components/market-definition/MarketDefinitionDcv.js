@@ -80,9 +80,9 @@ export default class MarketDefinitionDcv extends Component {
         
         switch (eachColumn) {
           case 'R':
-            return "true"
+            return <i style={{color:'#2ecc72'}} class="fas fa-circle"></i>
           case 'S':
-            return "false"
+            return <i style={{color:'tomato'}} class="fas fa-circle"></i>
           default:
             return eachColumn
         }
@@ -116,6 +116,11 @@ export default class MarketDefinitionDcv extends Component {
       componentDidMount() {
         $('#menu-parent-3, #menu-child-3-1').addClass('active');
       }
+      ImageCell = ({ rowData, dataKey, ...props }) => (
+        <Cell {...props}>
+          <img src={rowData[dataKey]} width="50" />
+        </Cell>
+      );
     
       render() {
         const data = this.getData();
@@ -137,7 +142,9 @@ export default class MarketDefinitionDcv extends Component {
                           }}>
                            {eachColumn.name}
                         </HeaderCell>
-                        <Cell dataKey={eachColumn.name} />
+                        <Cell   >
+                        {rowData => this.iconRenderer(rowData[eachColumn.name])}
+                        </Cell>
                       </Column>
                     );
                   })}
