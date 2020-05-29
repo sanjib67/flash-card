@@ -14,6 +14,7 @@ import FlashcubeSliceDice from './flashcard-help/FlashcubeSliceDice';
 import SlicersBoard from './flashcard-help/SlicersBoard';
 import Troubleshooting from './faq/Troubleshoot';
 import DataStewardsList from './sinergi-data-stewards/DataStewardsList';
+import MarketDefinitionDcv from './market-definition/MarketDefinitionDcv'
 
 
 
@@ -168,7 +169,7 @@ export default class LandingPage extends Component {
                   <Route path='/landing-page/export-options' component={ExportOptions} exact={true} />
                   <Route path='/landing-page/flashcube-slice-dice' component={FlashcubeSliceDice} exact={true} />
                   {/*Market Definition*/ }
-                <Route path='/landing-page/market-definition-dcv' component={FlashcardDimentions} exact={true} />
+                <Route path='/landing-page/market-definition-dcv' component={MarketDefinitionDcv} exact={true} />
                   <Route path='/landing-page/market-definition-ep' component={FlashcardDimentions} exact={true} />
                   <Route path='/market-definition-pasteur' component={FlashcardDimentions} exact={true} />
                   <Route path='/landing-page/market-definition-gz' component={FlashcardDimentions} exact={true} />
