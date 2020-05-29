@@ -50,7 +50,7 @@ body {
   margin: 0;
   font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 400 !important;
   line-height: 19px;
   color: #212529;
   text-align: left;
@@ -401,11 +401,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
-  color: #424242;
-  margin-bottom: 34px;
+  font-weight: 400 !important;
+  font-size: 30px !important;
+  line-height: 36px !important;
+  color: #424242 !important;
+  margin-bottom: 34px !important;
 }
 
 h2, .h2 {
