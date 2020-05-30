@@ -13,7 +13,7 @@ export default class FlashcubeSliceDice extends Component {
               <div className='col-main-content'>
                 <div className='content'>
                   <h1>Flashcube: Slice & Dice Data</h1>
-                  <img src={graphFlashCube2} />
+                  <img alt="" src={graphFlashCube2} />
                   <p>
                     <strong>
                       By using this option, user can create the Flashcube in

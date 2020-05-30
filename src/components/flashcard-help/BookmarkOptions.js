@@ -12,7 +12,7 @@ export default class BookmarkOptions extends Component {
       <div className='col-main-content'>
         <div className='content'>
           <h1>Bookmark Options</h1>
-          <img src={graphBookmarks2} />
+          <img alt="" src={graphBookmarks2} />
           <ol>
             <li>
               <strong>Save current analysis</strong> - User will be able to save

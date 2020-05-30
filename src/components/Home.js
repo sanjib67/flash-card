@@ -154,7 +154,7 @@ export default class Home extends Component {
                       </div>
                     </div>
                     <div className='col-right'>
-                      <img src={landingSlide} />
+                      <img alt="" src={landingSlide} />
                     </div>
                   </div>
                 </div>

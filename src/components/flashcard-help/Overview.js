@@ -12,7 +12,7 @@ export default class Overview extends Component {
       <div className='col-main-content'>
         <div className='content'>
           <h1>Overview</h1>
-          <img src={graphOverview2} />
+          <img alt="" src={graphOverview2} />
           <ol>
             <li>
               <strong>

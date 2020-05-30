@@ -29,9 +29,12 @@ export default class RsuiteTable extends Component {
           displayLength,
           page,
           sortColumn,
-          sortType = 'asc'
+          sortType
         } = this.state;
         const { data } = this.props;
+          
+          console.log('data: ', sortColumn,sortType)
+
         // search sort pagination
         const filteredData = data.filter((eachRow) => {
             return Object.values(eachRow)
@@ -68,6 +71,17 @@ export default class RsuiteTable extends Component {
         $('#menu-parent-3, #menu-child-3-1').addClass('active');
       }
 
+      iconRenderer = (eachColumn) => {
+        switch (eachColumn) {
+          case 'R':
+            return <i style={{color:'#2ecc72'}} class="fas fa-check"></i>
+          case 'S':
+            return <i style={{color:'tomato'}} class="fas fa-times"></i>
+          default:
+            return eachColumn
+        }
+      }
+
       render() {
         const data = this.getData().sortedData;
         const { loading, displayLength, page } = this.state;
@@ -87,8 +101,6 @@ export default class RsuiteTable extends Component {
                         style={{ marginBottom: 10 }}>
                         <Input
                           onChange={(searchValue) => {
-                            console.log(this.getData().filteredData.length)
-                            console.log(searchValue);
                             this.setState({ searchValue });
                           }}
                           placeholder='Search'
@@ -107,6 +119,7 @@ export default class RsuiteTable extends Component {
                   sortColumn={this.state.sortColumn}
                   sortType={this.state.sortType}
                   onSortColumn={(sortColumn, sortType) => {
+                    console.log("sortColumn, sortType",sortColumn, sortType)
                     this.setState({ sortColumn, sortType });
                   }}>
                   {this.props.tableColumns.map((eachColumn) => {
@@ -120,7 +133,9 @@ export default class RsuiteTable extends Component {
                           }}>
                           {eachColumn.name}
                         </HeaderCell>
-                        <Cell dataKey={eachColumn.name} />
+                        <Cell dataKey={eachColumn.name}>
+                        {rowData => this.iconRenderer(rowData[eachColumn.name])}
+                        </Cell>
                       </Column>
                     );
                   })}

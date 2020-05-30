@@ -3,21 +3,22 @@ import HelpfulButtons from '../HelpfulButtons';
 import $ from 'jquery';
 import RsuiteTable from '../../lib/RsuiteTable';
 import dcv from '../../data/dcv.json';
-export default class MarketDefinitionDcv extends Component {
+
+export default class MarketDefinitionPast extends Component {
     state = {
         data: dcv,
         tableColumns: [
           {
             name: "Category 5",
-            width: 150
+            width: 100
           },
           {
             name: "Category 4",
-            width: 150
+            width: 100
           },
           {
             name:  "Category 3",
-            width: 150
+            width: 100
           },
           {
             name: "Category 2",
@@ -79,7 +80,7 @@ export default class MarketDefinitionDcv extends Component {
         return (
           <div className='col-main-content'>
             <div className='content'>
-              <h1>Market Definition : DCV</h1>
+              <h1>Market Definition : Pasteur</h1>
               <RsuiteTable data={this.state.data} tableColumns={this.state.tableColumns} />
             </div>
             <div className='content-footer mt-30'>

@@ -9,11 +9,11 @@ export default class HelpfulButtons extends Component {
       <p>
         Did you find it helpful?
         <a href='#' className='did-yes'>
-          <img src={happyIcon} />
+          <img alt="" src={happyIcon} />
           <span>Yes</span>
         </a>{' '}
         <a href='#' className='did-no'>
-          <img src={sadIcon} />
+          <img alt="" src={sadIcon} />
           <span>No</span>
         </a>
       </p>

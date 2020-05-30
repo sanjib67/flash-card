@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import FlashcardDimentions from './glossary/FlashcardDimentions';
-import { BrowserRouter,useLocation,Redirect , Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter,Redirect , Route, Switch, Link } from 'react-router-dom';
 
 import Home from './Home';
-
 import Overview from './flashcard-help/Overview';
 import Flashview from './flashcard-help/Flashview';
 import Charts from './flashcard-help/Charts';
@@ -15,6 +14,14 @@ import SlicersBoard from './flashcard-help/SlicersBoard';
 import Troubleshooting from './faq/Troubleshoot';
 import DataStewardsList from './sinergi-data-stewards/DataStewardsList';
 import MarketDefinitionDcv from './market-definition/MarketDefinitionDcv'
+import MarketDefinitionChc from './market-definition/MarketDefinitionChc'
+import MarketDefinitionDup from './market-definition/MarketDefinitionDup'
+import MarketDefinitionEp from './market-definition/MarketDefinitionEp'
+import MarketDefinitionGz from './market-definition/MarketDefinitionGz'
+import MarketDefinitionPast from './market-definition/MarketDefinitionPast'
+
+
+
 
 
 
@@ -170,11 +177,11 @@ export default class LandingPage extends Component {
                   <Route path='/landing-page/flashcube-slice-dice' component={FlashcubeSliceDice} exact={true} />
                   {/*Market Definition*/ }
                 <Route path='/landing-page/market-definition-dcv' component={MarketDefinitionDcv} exact={true} />
-                  <Route path='/landing-page/market-definition-ep' component={FlashcardDimentions} exact={true} />
-                  <Route path='/market-definition-pasteur' component={FlashcardDimentions} exact={true} />
-                  <Route path='/landing-page/market-definition-gz' component={FlashcardDimentions} exact={true} />
-                  <Route path='/landing-page/market-definition-chc' component={FlashcardDimentions} exact={true} />
-                  <Route path='/landing-page/market-definition-dupixent' component={FlashcardDimentions} exact={true} />
+                  <Route path='/landing-page/market-definition-ep' component={MarketDefinitionEp} exact={true} />
+                  <Route path='/market-definition-pasteur' component={MarketDefinitionPast} exact={true} />
+                  <Route path='/landing-page/market-definition-gz' component={MarketDefinitionGz} exact={true} />
+                  <Route path='/landing-page/market-definition-chc' component={MarketDefinitionChc} exact={true} />
+                  <Route path='/landing-page/market-definition-dupixent' component={MarketDefinitionDup} exact={true} />
 
                 {/*Sinergi Data Stewards*/ }
                 <Route path='/landing-page/sinergi-data-stewards' component={DataStewardsList} exact={true} />

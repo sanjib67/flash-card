@@ -14,7 +14,7 @@ export default class Flashview extends Component {
       <div className='col-main-content'>
         <div className='content'>
           <h1>Flashview: Key KPIs</h1>
-          <img src={graphFlashView} />
+          <img alt="" src={graphFlashView} />
           <p>
             <strong>Flashview</strong> shows at a glance your selected item (
             product, corp…) performance in the selected market.

@@ -12,7 +12,7 @@ export default class SlicersBoard extends Component {
               <div class='col-main-content'>
                 <div class='content'>
                   <h1>Slicers Board</h1>
-                  <img src={graphSlicer} />
+                  <img alt="" src={graphSlicer} />
                   <p>
                     This component is Flashcard Slicers provide buttons that
                     user can click to filter report. In addition to quick

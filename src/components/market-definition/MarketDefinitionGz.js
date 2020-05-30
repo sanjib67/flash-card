@@ -2,10 +2,12 @@ import React, { Component } from 'react'
 import HelpfulButtons from '../HelpfulButtons';
 import $ from 'jquery';
 import RsuiteTable from '../../lib/RsuiteTable';
-import dcv from '../../data/dcv.json';
-export default class MarketDefinitionDcv extends Component {
+import gz from '../../data/gz.json';
+
+export default class MarketDefinitionGz extends Component {
+    
     state = {
-        data: dcv,
+        data: gz,
         tableColumns: [
           {
             name: "Category 5",
@@ -44,24 +46,15 @@ export default class MarketDefinitionDcv extends Component {
             width: 100
           },
           {
-            name:  "IU",
-            width: 100
-          },
-          {
-            name: "IUt",
-            width: 100
-          },
-          {
             name:"TD",
             width: 100
           }
-          ,
-          {
+          ,{
             name:  "TC",
             width: 100
           },
           {
-            name: "Rx",
+            name: "PEq",
             width: 100
           },
           {
@@ -79,7 +72,7 @@ export default class MarketDefinitionDcv extends Component {
         return (
           <div className='col-main-content'>
             <div className='content'>
-              <h1>Market Definition : DCV</h1>
+              <h1>Market Definition : Gz</h1>
               <RsuiteTable data={this.state.data} tableColumns={this.state.tableColumns} />
             </div>
             <div className='content-footer mt-30'>

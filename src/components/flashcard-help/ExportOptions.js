@@ -12,7 +12,7 @@ export default class ExportOptions extends Component {
       <div className='col-main-content'>
         <div className='content'>
           <h1>Export Features</h1>
-          <img src={graphExport2} />
+          <img alt="" src={graphExport2} />
           <p>
             By using the export options, user can export the KPIs table and
             Chart to different formats like MS-PowerPoint, Excel and Outlook as

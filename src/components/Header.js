@@ -7,8 +7,8 @@ export default class Header extends Component {
             <div id="page-top">
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
                 <div className="container">
-                    <a className="navbar-brand mr-auto" href="/"><img src={flashCardLogo} /></a>
-                    <a className="second-brand" href="/"><img src={sanofiLogo}  /></a>
+                    <a className="navbar-brand mr-auto" href="/"><img alt="" src={flashCardLogo} /></a>
+                    <a className="second-brand" href="/"><img alt="" src={sanofiLogo}  /></a>
                     <div className="nav-iteml-wrap ml-auto" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto align-items-center">
                             <li className="nav-item"><a className="nav-link notifications" href="#"><i className="zmdi zmdi-notifications-none"></i><span className="count-bubble">1</span></a></li>

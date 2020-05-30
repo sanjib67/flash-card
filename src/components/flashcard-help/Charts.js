@@ -12,7 +12,7 @@ export default class Charts extends Component {
       <div className='col-main-content'>
         <div className='content'>
           <h1>Charts</h1>
-          <img src={graphCharts2} />
+          <img alt="" src={graphCharts2} />
           <p>
             <strong>
               This part of Flashcard contains the charts which provides detail
