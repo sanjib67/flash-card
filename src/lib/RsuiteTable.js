@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import $ from 'jquery';
 import { Table,Input, InputGroup,Col,Grid,Row,Icon } from 'rsuite';
 const { Column, HeaderCell, Cell, Pagination } = Table;
 
@@ -67,9 +66,7 @@ export default class RsuiteTable extends Component {
           return {sortedData,filteredData}
       };
 
-      componentDidMount() {
-        $('#menu-parent-3, #menu-child-3-1').addClass('active');
-      }
+     
 
       iconRenderer = (eachColumn) => {
         switch (eachColumn) {

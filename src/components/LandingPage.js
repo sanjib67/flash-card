@@ -232,6 +232,17 @@ export default class LandingPage extends Component {
     this.setState({sideBar:[...sideBar]})
   }
 
+  onChileClick(parent,index,children,childIndex){
+    const sideBar = this.state.sideBar
+    sideBar.forEach((eachParent) => {
+      eachParent.children.forEach((eachChild) => {
+        eachChild.active = false;
+      })
+    }) 
+    sideBar[index].children[childIndex].active = true;
+    this.setState({sideBar:[...sideBar]})
+  }
+
   render() {
     return (
       <div>
@@ -252,9 +263,7 @@ export default class LandingPage extends Component {
             <div className='page-content'>
               <BrowserRouter>
                 <div
-                  hidden={
-                    window.location.pathname.indexOf('landing-page') === -1
-                  }
+                  hidden={window.location.pathname.indexOf('landing-page') === -1}
                   className='col-sidebar'>
                   <div className='vertical-menu'>
                     <ul>
@@ -269,7 +278,9 @@ export default class LandingPage extends Component {
                             <ul>
                               {parent.children.map((children,childIndex) => {
                                 return (
-                                  <li className="active">
+                                  <li onClick={()=>this.onChileClick(parent,index,children,childIndex)} className={classNames({
+                                    active:children.active
+                                  })}>
                                     <Link to={children.path}>
                                       {children.name}
                                     </Link>

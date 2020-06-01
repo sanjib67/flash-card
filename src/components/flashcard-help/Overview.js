@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import HelpfulButtons from '../HelpfulButtons';
-import $ from 'jquery';
 import graphOverview2 from '../../images/graph-overview-2.png';
 
 export default class Overview extends Component {
   componentDidMount() {
-    // $('#menu-parent-1, #menu-child-1').addClass('active');
   }
   render() {
     return (

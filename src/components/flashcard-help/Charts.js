@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import HelpfulButtons from '../HelpfulButtons';
-import $ from 'jquery';
 import graphCharts2 from '../../images/graph-charts-2.png';
 
 export default class Charts extends Component {
-  componentDidMount() {
-    // $('#menu-parent-1, #menu-child-3').addClass('active');
-  }
+  
   render() {
     return (
       <div className='col-main-content'>

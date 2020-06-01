@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import HelpfulButtons from '../HelpfulButtons';
-import $ from 'jquery';
 import graphExport2 from '../../images/graph-export-2.png';
 
 export default class ExportOptions extends Component {
   componentDidMount() {
-    // $('#menu-parent-1, #menu-child-7').addClass('active');
   }
   render() {
     return (

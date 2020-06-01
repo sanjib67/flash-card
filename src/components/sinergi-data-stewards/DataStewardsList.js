@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import HelpfulButtons from '../HelpfulButtons';
-import $ from 'jquery';
 import dataStewardsList from '../../data/datastewardslist.json';
 import RsuiteTable from '../../lib/RsuiteTable';
 export default class DataStewardsList extends Component {
@@ -40,9 +39,7 @@ export default class DataStewardsList extends Component {
                 
 
 
-                 componentDidMount() {
-                   $('#menu-parent-3, #menu-child-3-1').addClass('active');
-                 }
+                
 
                  render() {
                    return (

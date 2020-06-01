@@ -10,15 +10,15 @@ export default class MarketDefinitionPast extends Component {
         tableColumns: [
           {
             name: "Category 5",
-            width: 100
+            width: 150
           },
           {
             name: "Category 4",
-            width: 100
+            width: 150
           },
           {
             name:  "Category 3",
-            width: 100
+            width: 150
           },
           {
             name: "Category 2",

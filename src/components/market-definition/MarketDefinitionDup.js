@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import HelpfulButtons from '../HelpfulButtons';
-import $ from 'jquery';
+
 import RsuiteTable from '../../lib/RsuiteTable';
 import dupixent from '../../data/dupixent.json';
 
@@ -45,9 +45,7 @@ export default class MarketDefinitionDup extends Component {
         ]
       };
       
-      componentDidMount() {
-        $('#menu-parent-3, #menu-child-3-1').addClass('active');
-      }
+      
     
       render() {
         return (

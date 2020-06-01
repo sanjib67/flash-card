@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import HelpfulButtons from '../HelpfulButtons';
-import $ from 'jquery';
 import RsuiteTable from '../../lib/RsuiteTable';
 import dcv from '../../data/dcv.json';
 export default class MarketDefinitionDcv extends Component {
@@ -72,7 +71,7 @@ export default class MarketDefinitionDcv extends Component {
       };
       
       componentDidMount() {
-        $('#menu-parent-3, #menu-child-3-1').addClass('active');
+       
       }
     
       render() {

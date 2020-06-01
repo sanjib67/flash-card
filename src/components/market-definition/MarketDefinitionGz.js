@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import HelpfulButtons from '../HelpfulButtons';
-import $ from 'jquery';
 import RsuiteTable from '../../lib/RsuiteTable';
 import gz from '../../data/gz.json';
 
@@ -64,9 +63,7 @@ export default class MarketDefinitionGz extends Component {
         ]
       };
       
-      componentDidMount() {
-        $('#menu-parent-3, #menu-child-3-1').addClass('active');
-      }
+      
     
       render() {
         return (

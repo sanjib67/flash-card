@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import HelpfulButtons from '../HelpfulButtons';
-import $ from 'jquery';
 import graphSlicer from '../../images/graph-slicer.png'
 
 export default class SlicersBoard extends Component {
   componentDidMount() {
-    // $('#menu-parent-1, #menu-child-4').addClass('active');
   }
   render() {
     return (
-              <div class='col-main-content'>
-                <div class='content'>
+              <div className='col-main-content'>
+                <div className='content'>
                   <h1>Slicers Board</h1>
                   <img alt="" src={graphSlicer} />
                   <p>
@@ -36,16 +34,16 @@ export default class SlicersBoard extends Component {
                     </li>
                   </ul>
                 </div>
-                <div class='content-footer'>
-                  <div class='mr-auto'>
+                <div className='content-footer'>
+                  <div className='mr-auto'>
                     <HelpfulButtons />
                   </div>
-                  <div class='next-page'>
+                  <div className='next-page'>
                     <p>
-                      <span class='next-page-title'>Dimensions & Views</span>{' '}
+                      <span className='next-page-title'>Dimensions & Views</span>{' '}
                       <a
                         href='page-dimensions.php'
-                        class='btn btn-outline-primary btn-arrow'>
+                        className='btn btn-outline-primary btn-arrow'>
                         Next
                       </a>
                     </p>

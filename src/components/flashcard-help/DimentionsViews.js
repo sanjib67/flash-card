@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import HelpfulButtons from '../HelpfulButtons';
-import $ from 'jquery';
 import graphDimentions from '../../images/graph-dimensions.png';
 
 export default class DimentionsViews extends Component {
-  componentDidMount() {
-    // $('#menu-parent-1, #menu-child-5').addClass('active');
-  }
+ 
   render() {
     return (
       <div className='col-main-content'>
