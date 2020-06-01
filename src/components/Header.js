@@ -1,11 +1,35 @@
 import React, { Component } from 'react'
 import sanofiLogo from "../images/logo-sanofi.png"
-import flashCardLogo from "../images/logo.png"
+import flashCardLogo from "../images/logo.png";
+import classNames from "classnames";
 export default class Header extends Component {
+
+    state = {
+        pageYOffset:null
+    }
+
+componentDidMount(){
+    this.setState({pageYOffset:window.pageYOffset})
+    window.addEventListener("scroll",()=>{
+        this.setState({pageYOffset:window.pageYOffset})
+    }  );
+}
     render() {
         return (
             <div id="page-top">
-            <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <nav  className={classNames({
+                "navbar": true,
+                "navbar-expand-lg": true,
+                "navbar-dark": true,
+                "fixed-top": true,
+                "navbar-shrink":this.state.pageYOffset>171,
+              })} style={this.state.pageYOffset>171?{
+                background       : '#000000bf',
+                transition : 'background .25s ease-in-out'
+            }:{
+                background       : 'transparent',
+                transition : 'background .25s ease-in-out'
+            }} id="mainNav">
                 <div className="container">
                     <a className="navbar-brand mr-auto" href="/"><img alt="" src={flashCardLogo} /></a>
                     <a className="second-brand" href="/"><img alt="" src={sanofiLogo}  /></a>

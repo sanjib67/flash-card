@@ -5,7 +5,7 @@ import graphSlicer from '../../images/graph-slicer.png'
 
 export default class SlicersBoard extends Component {
   componentDidMount() {
-    $('#menu-parent-1, #menu-child-4').addClass('active');
+    // $('#menu-parent-1, #menu-child-4').addClass('active');
   }
   render() {
     return (

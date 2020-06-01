@@ -6,7 +6,7 @@ import graphFlashView from '../../images/graph-flashview.png';
 
 export default class Flashview extends Component {
   componentDidMount() {
-    $('#menu-parent-1, #menu-child-2').addClass('active');
+    // $('#menu-parent-1, #menu-child-2').addClass('active');
   }
 
   render() {

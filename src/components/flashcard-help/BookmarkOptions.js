@@ -5,7 +5,7 @@ import graphBookmarks2 from '../../images/graph-bookmark-2.png';
 
 export default class BookmarkOptions extends Component {
   componentDidMount() {
-    $('#menu-parent-1, #menu-child-6').addClass('active');
+    // $('#menu-parent-1, #menu-child-6').addClass('active');
   }
   render() {
     return (

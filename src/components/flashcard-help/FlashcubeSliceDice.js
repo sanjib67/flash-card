@@ -5,7 +5,7 @@ import graphFlashCube2 from '../../images/graph-flashcube-2.png'
 
 export default class FlashcubeSliceDice extends Component {
   componentDidMount() {
-    $('#menu-parent-1, #menu-child-8').addClass('active');
+    // $('#menu-parent-1, #menu-child-8').addClass('active');
   }
   render() {
     return (

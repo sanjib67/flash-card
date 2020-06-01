@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-bar-black {
+  background : '#000000bf' !important;
+  transition : 'background .25s ease-in-out' !important
+}
+
+.nav-bar-transparent {
+  background       : 'transparent';
+  transition : 'background .25s ease-in-out'
+}
