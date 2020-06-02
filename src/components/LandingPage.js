@@ -11,6 +11,40 @@ export default class LandingPage extends Component {
     sideBar:this.props.sideBar
   }
 
+  componentDidMount(){
+    console.log(this.props);
+    console.log(window.location.pathname)
+    
+    const sideBar = this.state.sideBar;
+    sideBar.forEach((eachParent) => {
+      eachParent.active = false;
+      eachParent.children.forEach((eachChild) => {
+        eachChild.active = false;
+      });
+    });
+
+    let x = this.state.sideBar
+      .map((parent, parentIndex) => {
+        return parent.children.map((child, childIndex) => {
+          return {
+            path: child.path,
+            name: child.name,
+            parent,
+            parentIndex,
+            childIndex
+          };
+        });
+      })
+      .flat().find((eachChild) => {
+        return eachChild.path === window.location.pathname;
+      });
+    sideBar[x.parentIndex].children[x.childIndex].active = true;
+    sideBar[x.parentIndex].active = true
+    console.log(x);
+    
+    this.setState({ sideBar: [...sideBar] });
+    
+  }
   breadCrumbs = () => {
     let allChildren = this.state.sideBar
       .map((parent, parentIndex) => {
