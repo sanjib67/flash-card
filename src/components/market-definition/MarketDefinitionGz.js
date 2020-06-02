@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HelpfulButtons from '../HelpfulButtons';
 import RsuiteTable from '../../lib/RsuiteTable';
 import gz from '../../data/gz.json';
 

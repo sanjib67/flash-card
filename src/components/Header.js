@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import sanofiLogo from "../images/logo-sanofi.png"
 import flashCardLogo from "../images/logo.png";
 import classNames from "classnames";
+import { Link } from 'react-router-dom';
 export default class Header extends Component {
 
     state = {
@@ -31,8 +32,8 @@ componentDidMount(){
                 transition : 'background .25s ease-in-out'
             }} id="mainNav">
                 <div className="container">
-                    <a className="navbar-brand mr-auto" href="/"><img alt="" src={flashCardLogo} /></a>
-                    <a className="second-brand" href="/"><img alt="" src={sanofiLogo}  /></a>
+                    <Link className="navbar-brand mr-auto" to="/"><img alt="" src={flashCardLogo} /></Link>
+                    <Link className="second-brand" to="/"><img alt="" src={sanofiLogo}  /></Link>
                     <div className="nav-iteml-wrap ml-auto" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto align-items-center">
                             <li className="nav-item"><a className="nav-link notifications" href="#"><i className="zmdi zmdi-notifications-none"></i><span className="count-bubble">1</span></a></li>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HelpfulButtons from '../HelpfulButtons';
 
 export default class FlashcardDimentions extends Component {
   render() {

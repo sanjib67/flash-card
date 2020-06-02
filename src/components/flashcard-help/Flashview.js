@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HelpfulButtons from '../HelpfulButtons';
 import graphFlashView from '../../images/graph-flashview.png';
 
 export default class Flashview extends Component {

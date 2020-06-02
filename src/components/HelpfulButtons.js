@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
-import happyIcon from '../images/sad.svg';
-import sadIcon from '../images/sad-1.svg';
 
 export default class HelpfulButtons extends Component {
   state = {
     yesClicked: false,
     noClicked: false
   };
-
-  // componentDidUpdate(){
-  //   console.log(window.location.pathname);
-    
-  // }
 
   render() {
     return (

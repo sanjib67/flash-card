@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HelpfulButtons from '../HelpfulButtons';
 import graphFlashCube2 from '../../images/graph-flashcube-2.png';
 
 export default class FlashcubeSliceDice extends Component {

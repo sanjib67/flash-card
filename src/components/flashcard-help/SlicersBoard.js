@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HelpfulButtons from '../HelpfulButtons';
 import graphSlicer from '../../images/graph-slicer.png';
 
 export default class SlicersBoard extends Component {
