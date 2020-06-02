@@ -70,32 +70,13 @@ export default class MarketDefinitionEp extends Component {
           }
         ]
       };
-      
-      
     
       render() {
         return (
-          <div className='col-main-content'>
             <div className='content'>
               <h1>Market Definition : EP</h1>
               <RsuiteTable data={this.state.data} tableColumns={this.state.tableColumns} />
             </div>
-            <div className='content-footer mt-30'>
-              <div className='mr-auto'>
-                <HelpfulButtons />
-              </div>
-              <div className='next-page'>
-                <p>
-                  <span className='next-page-title'>Price Detail</span>{' '}
-                  <a
-                    href='page-charts.php'
-                    className='btn btn-outline-primary btn-arrow'>
-                    Next
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
         );
       }
 }

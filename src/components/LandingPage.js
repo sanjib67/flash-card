@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import FlashcardDimentions from './glossary/FlashcardDimentions';
 import { BrowserRouter, Redirect, Route, Switch, Link } from 'react-router-dom';
-import classNames from "classnames";
+import classNames from 'classnames';
+import HelpfulButtons from './HelpfulButtons';
 
 import Home from './Home';
 import Overview from './flashcard-help/Overview';
@@ -39,43 +40,43 @@ export default class LandingPage extends Component {
             name: 'Flashview: Key KPIs',
             path: '/landing-page/flashview',
             component: Flashview,
-            active: true
+            active: false
           },
           {
             name: 'Charts',
             path: '/landing-page/charts',
             component: Charts,
-            active: true
+            active: false
           },
           {
             name: 'Slicers Board',
             path: '/landing-page/slicers-board',
             component: SlicersBoard,
-            active: true
+            active: false
           },
           {
             name: 'Dimensions & Views',
             path: '/landing-page/dimensions-views',
             component: DimentionsViews,
-            active: true
+            active: false
           },
           {
             name: 'Bookmark Options',
             path: '/landing-page/bookmark-options',
             component: BookmarkOptions,
-            active: true
+            active: false
           },
           {
             name: 'Export Features',
             path: '/landing-page/export-options',
             component: ExportOptions,
-            active: true
+            active: false
           },
           {
             name: 'Flashcube: Slice & Dice Data',
             path: '/landing-page/flashcube-slice-dice',
             component: FlashcubeSliceDice,
-            active: true
+            active: false
           }
         ]
       },
@@ -88,37 +89,37 @@ export default class LandingPage extends Component {
             name: 'Market Definition: DCV',
             path: '/landing-page/market-definition-dcv',
             component: MarketDefinitionDcv,
-            active: true
+            active: false
           },
           {
             name: 'Market Definition: EP',
             path: '/landing-page/market-definition-ep',
             component: MarketDefinitionEp,
-            active: true
+            active: false
           },
           {
             name: 'Market Definition: Pasteur',
             path: '/landing-page/market-definition-pasteur',
             component: MarketDefinitionPast,
-            active: true
+            active: false
           },
           {
             name: 'Market Definition: Gz',
             path: '/landing-page/market-definition-gz',
             component: MarketDefinitionGz,
-            active: true
+            active: false
           },
           {
             name: 'Market Definition: CHC',
             path: '/landing-page/market-definition-chc',
             component: MarketDefinitionChc,
-            active: true
+            active: false
           },
           {
             name: 'Market Definition: Dupixent',
             path: '/landing-page/market-definition-dupixent',
             component: MarketDefinitionDup,
-            active: true
+            active: false
           }
         ]
       },
@@ -131,7 +132,7 @@ export default class LandingPage extends Component {
             name: 'Data Stewards List',
             path: '/landing-page/sinergi-data-stewards',
             component: DataStewardsList,
-            active: true
+            active: false
           }
         ]
       },
@@ -144,7 +145,7 @@ export default class LandingPage extends Component {
             name: 'Price Detail',
             path: '/landing-page/sinergi-data-panel',
             component: FlashcardDimentions,
-            active: true
+            active: false
           }
         ]
       },
@@ -157,25 +158,25 @@ export default class LandingPage extends Component {
             name: 'Flashcard Dimensions',
             path: '/landing-page/flashcard-dimensions',
             component: FlashcardDimentions,
-            active: true
+            active: false
           },
           {
             name: 'Flashcard Metrics',
             path: '/landing-page/flashcard-metrics',
             component: FlashcardDimentions,
-            active: true
+            active: false
           },
           {
             name: 'Flashcube Dimensions',
             path: '/landing-page/flashcube-dimensions',
             component: FlashcardDimentions,
-            active: true
+            active: false
           },
           {
             name: 'Volume Calculations',
             path: '/landing-page/volume-calculations',
             component: FlashcardDimentions,
-            active: true
+            active: false
           }
         ]
       },
@@ -188,25 +189,25 @@ export default class LandingPage extends Component {
             name: 'Troubleshooting',
             path: '/landing-page/troubleshooting',
             component: Troubleshooting,
-            active: true
+            active: false
           },
           {
             name: 'Frequently Asked Questions',
             path: '/landing-page/faqs',
             component: Overview,
-            active: true
+            active: false
           },
           {
             name: 'Tips and Tricks',
             path: '/landing-page/tips-and-tricks',
             component: Overview,
-            active: true
+            active: false
           },
           {
             name: 'Contact Us',
             path: '/landing-page/contact-us',
             component: Overview,
-            active: true
+            active: false
           }
         ]
       },
@@ -217,30 +218,57 @@ export default class LandingPage extends Component {
         children: [
           {
             name: 'xxx',
-            path: '',
+            path: '/landing-page/xxx',
             component: Overview,
-            active: true
+            active: false
           }
         ]
       }
     ]
   };
 
-  onParentClick = (parent,index) => {
-    const sideBar = this.state.sideBar
-    sideBar[index].active = !sideBar[index].active
-    this.setState({sideBar:[...sideBar]})
+  next = (present) => {
+console.log(present);
+let allChildren =  this.state.sideBar.map((parent,parentIndex) => {
+  return parent.children.map((child,childIndex) => {
+     return {path:child.path,name:child.name,parent,parentIndex,childIndex} 
+  })}).flat()
+  
+  const presentIndex = allChildren.findIndex((eachChild) => {
+    return eachChild.name === present	
+  })
+
+  const nextIndex = allChildren.length===presentIndex + 1?0:presentIndex + 1
+  const nextPath = allChildren[nextIndex].path
+  const nextName = allChildren[nextIndex].name
+  const parentIndex = allChildren[nextIndex].parentIndex
+  const childIndex = allChildren[nextIndex].childIndex
+
+
+return {nextIndex,nextPath,nextName,parentIndex,childIndex}
   }
 
-  onChileClick(parent,index,children,childIndex){
-    const sideBar = this.state.sideBar
+  onParentClick = (parent, index) => {
+    const sideBar = this.state.sideBar;
+    sideBar[index].active = !sideBar[index].active;
+    this.setState({ sideBar: [...sideBar] });
+  };
+
+  onChildClick(index,childIndex) {
+    const sideBar = this.state.sideBar;
     sideBar.forEach((eachParent) => {
       eachParent.children.forEach((eachChild) => {
         eachChild.active = false;
-      })
-    }) 
+      });
+    });
     sideBar[index].children[childIndex].active = true;
-    this.setState({sideBar:[...sideBar]})
+    this.setState({ sideBar: [...sideBar] });
+  }
+
+  componentDidMount(){
+   console.log(this.props);
+   
+    
   }
 
   render() {
@@ -261,26 +289,38 @@ export default class LandingPage extends Component {
         <section className='page-section' id='services'>
           <div className='container'>
             <div className='page-content'>
-              <BrowserRouter>
                 <div
-                  hidden={window.location.pathname.indexOf('landing-page') === -1}
+                  hidden={
+                    window.location.pathname.indexOf('landing-page') === -1
+                  }
                   className='col-sidebar'>
                   <div className='vertical-menu'>
                     <ul>
                       {this.state.sideBar.map((parent, index) => {
                         return (
-                          <li  className={classNames({
-                            active:parent.active
-                          })}  >
-                            <a onClick={()=>this.onParentClick(parent,index)} >
+                          <li
+                            key={parent.name}
+                            className={classNames({
+                              active: parent.active
+                            })}>
+                            <a
+                              onClick={() => this.onParentClick(parent, index)}>
                               {parent.name}
                             </a>
                             <ul>
-                              {parent.children.map((children,childIndex) => {
+                              {parent.children.map((children, childIndex) => {
                                 return (
-                                  <li onClick={()=>this.onChileClick(parent,index,children,childIndex)} className={classNames({
-                                    active:children.active
-                                  })}>
+                                  <li
+                                    key={children.name}
+                                    onClick={() =>
+                                      this.onChildClick(
+                                        index,
+                                        childIndex
+                                      )
+                                    }
+                                    className={classNames({
+                                      active: children.active
+                                    })}>
                                     <Link to={children.path}>
                                       {children.name}
                                     </Link>
@@ -304,14 +344,38 @@ export default class LandingPage extends Component {
                       return (
                         <Route
                           path={children.path}
-                          component={children.component}
+                          render={() => {
+                            return (
+                              <div className='col-main-content'>
+                                <children.component />
+                                <div className='content-footer'>
+                                  <div className='mr-auto'>
+                                    <HelpfulButtons />
+                                  </div>
+                                  <div className='next-page'>
+                                    <p>
+                                      <span className='next-page-title'>
+                                        {this.next(children.name).nextName}
+                                      </span>{' '}
+                                      <Link
+                                        to={this.next(children.name).nextPath}
+                                        onClick={()=>{this.onChildClick(this.next(children.name).parentIndex,this.next(children.name).childIndex)}}
+                                        className='btn btn-outline-primary btn-arrow'>
+                                        Next
+                                      </Link>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            );
+                          }}
                           exact={true}
                         />
                       );
                     });
                   })}
                 </Switch>
-              </BrowserRouter>
+             
             </div>
           </div>
         </section>

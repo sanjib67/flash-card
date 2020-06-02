@@ -10720,8 +10720,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .did-no {
   margin-left: 30px;
 }
-.did-yes img,
-.did-no img {
+.did-yes i,
+.did-no i {
   margin-right: 11px;
 }
 .cta-box {
@@ -10799,9 +10799,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-left: auto;
   padding-left: 20px;
 }
-.col-main-content-full {
 
-}
 .pt-63 {
   padding-top: 63px;
 }

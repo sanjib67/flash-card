@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import HelpfulButtons from '../HelpfulButtons';
 import graphBookmarks2 from '../../images/graph-bookmark-2.png';
+import { BrowserRouter, Redirect, Route, Switch, Link } from 'react-router-dom';
 
 export default class BookmarkOptions extends Component {
  
   render() {
     return (
-      <div className='col-main-content'>
+      
         <div className='content'>
           <h1>Bookmark Options</h1>
           <img alt="" src={graphBookmarks2} />
@@ -25,22 +26,8 @@ export default class BookmarkOptions extends Component {
             </li>
           </ol>
         </div>
-        <div className='content-footer'>
-          <div className='mr-auto'>
-            <HelpfulButtons />
-          </div>
-          <div className='next-page'>
-            <p>
-              <span className='next-page-title'>Export Features</span>{' '}
-              <a
-                href='page-export.php'
-                className='btn btn-outline-primary btn-arrow'>
-                Next
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
+        
+     
     );
   }
 }

@@ -6,7 +6,7 @@ export default class Charts extends Component {
   
   render() {
     return (
-      <div className='col-main-content'>
+     
         <div className='content'>
           <h1>Charts</h1>
           <img alt="" src={graphCharts2} />
@@ -34,22 +34,7 @@ export default class Charts extends Component {
             </li>
           </ul>
         </div>
-        <div className='content-footer'>
-          <div className='mr-auto'>
-            <HelpfulButtons />
-          </div>
-          <div className='next-page'>
-            <p>
-              <span className='next-page-title'>Slicers Board</span>{' '}
-              <a
-                href='page-slice-board.php'
-                className='btn btn-outline-primary btn-arrow'>
-                Next
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
+        
     );
   }
 }
