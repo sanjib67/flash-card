@@ -8,10 +8,10 @@ export default class HelpfulButtons extends Component {
     noClicked: false
   };
 
-  componentDidUpdate(){
-    console.log(window.location.pathname);
+  // componentDidUpdate(){
+  //   console.log(window.location.pathname);
     
-  }
+  // }
 
   render() {
     return (

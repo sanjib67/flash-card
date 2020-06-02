@@ -227,26 +227,62 @@ export default class LandingPage extends Component {
     ]
   };
 
+  componentWillMount = () => {};
+
+  breadCrumbs = () => {
+    let allChildren = this.state.sideBar
+      .map((parent, parentIndex) => {
+        return parent.children.map((child, childIndex) => {
+          return {
+            path: child.path,
+            name: child.name,
+            parent,
+            parentIndex,
+            childIndex
+          };
+        });
+      })
+      .flat();
+
+    const data = allChildren.find((eachChild) => {
+      return eachChild.path === window.location.pathname;
+    });
+    return data;
+  };
+
   next = (present) => {
-console.log(present);
-let allChildren =  this.state.sideBar.map((parent,parentIndex) => {
-  return parent.children.map((child,childIndex) => {
-     return {path:child.path,name:child.name,parent,parentIndex,childIndex} 
-  })}).flat()
-  
-  const presentIndex = allChildren.findIndex((eachChild) => {
-    return eachChild.name === present	
-  })
+    let allChildren = this.state.sideBar
+      .map((parent, parentIndex) => {
+        return parent.children.map((child, childIndex) => {
+          return {
+            path: child.path,
+            name: child.name,
+            parent,
+            parentIndex,
+            childIndex
+          };
+        });
+      })
+      .flat();
 
-  const nextIndex = allChildren.length===presentIndex + 1?0:presentIndex + 1
-  const nextPath = allChildren[nextIndex].path
-  const nextName = allChildren[nextIndex].name
-  const parentIndex = allChildren[nextIndex].parentIndex
-  const childIndex = allChildren[nextIndex].childIndex
+    const presentIndex = allChildren.findIndex((eachChild) => {
+      return eachChild.name === present;
+    });
+    const nextIndex =
+      allChildren.length === presentIndex + 1 ? 0 : presentIndex + 1;
+    const nextPath = allChildren[nextIndex].path;
+    const nextName = allChildren[nextIndex].name;
+    const parentIndex = allChildren[nextIndex].parentIndex;
+    const childIndex = allChildren[nextIndex].childIndex;
 
-
-return {nextIndex,nextPath,nextName,parentIndex,childIndex}
-  }
+    return {
+      nextIndex,
+      nextPath,
+      nextName,
+      parentIndex,
+      childIndex
+    };
+  };
 
   onParentClick = (parent, index) => {
     const sideBar = this.state.sideBar;
@@ -254,7 +290,7 @@ return {nextIndex,nextPath,nextName,parentIndex,childIndex}
     this.setState({ sideBar: [...sideBar] });
   };
 
-  onChildClick(index,childIndex) {
+  onChildClick(index, childIndex) {
     const sideBar = this.state.sideBar;
     sideBar.forEach((eachParent) => {
       eachParent.children.forEach((eachChild) => {
@@ -265,10 +301,8 @@ return {nextIndex,nextPath,nextName,parentIndex,childIndex}
     this.setState({ sideBar: [...sideBar] });
   }
 
-  componentDidMount(){
-   console.log(this.props);
-   
-    
+  componentDidMount() {
+    console.log();
   }
 
   render() {
@@ -280,8 +314,9 @@ return {nextIndex,nextPath,nextName,parentIndex,childIndex}
           <div className='container'>
             <div className='breadcrumbs'>
               <p>
-                <span>Support Landing</span> <span>Flashcard Help</span>{' '}
-                <a href='#'>Overview</a>
+                <span>Support Landing</span>{' '}
+                <span>{this.breadCrumbs().parent.name}</span>{' '}
+                <a>{this.breadCrumbs().name}</a>
               </p>
             </div>
           </div>
@@ -289,93 +324,91 @@ return {nextIndex,nextPath,nextName,parentIndex,childIndex}
         <section className='page-section' id='services'>
           <div className='container'>
             <div className='page-content'>
-                <div
-                  hidden={
-                    window.location.pathname.indexOf('landing-page') === -1
-                  }
-                  className='col-sidebar'>
-                  <div className='vertical-menu'>
-                    <ul>
-                      {this.state.sideBar.map((parent, index) => {
-                        return (
-                          <li
-                            key={parent.name}
-                            className={classNames({
-                              active: parent.active
-                            })}>
-                            <a
-                              onClick={() => this.onParentClick(parent, index)}>
-                              {parent.name}
-                            </a>
-                            <ul>
-                              {parent.children.map((children, childIndex) => {
-                                return (
-                                  <li
-                                    key={children.name}
-                                    onClick={() =>
-                                      this.onChildClick(
-                                        index,
-                                        childIndex
-                                      )
-                                    }
-                                    className={classNames({
-                                      active: children.active
-                                    })}>
-                                    <Link to={children.path}>
-                                      {children.name}
-                                    </Link>
-                                  </li>
-                                );
-                              })}
-                            </ul>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                </div>
-                <Switch>
-                  <Route path='/' component={Home} exact={true} />
-                  <Route exact path='/landing-page'>
-                    <Redirect to='/landing-page/overview' />
-                  </Route>
-                  {this.state.sideBar.map((parent) => {
-                    return parent.children.map((children) => {
+              <div
+                hidden={window.location.pathname.indexOf('landing-page') === -1}
+                className='col-sidebar'>
+                <div className='vertical-menu'>
+                  <ul>
+                    {this.state.sideBar.map((parent, index) => {
                       return (
-                        <Route
-                          path={children.path}
-                          render={() => {
-                            return (
-                              <div className='col-main-content'>
-                                <children.component />
-                                <div className='content-footer'>
-                                  <div className='mr-auto'>
-                                    <HelpfulButtons />
-                                  </div>
-                                  <div className='next-page'>
-                                    <p>
-                                      <span className='next-page-title'>
-                                        {this.next(children.name).nextName}
-                                      </span>{' '}
-                                      <Link
-                                        to={this.next(children.name).nextPath}
-                                        onClick={()=>{this.onChildClick(this.next(children.name).parentIndex,this.next(children.name).childIndex)}}
-                                        className='btn btn-outline-primary btn-arrow'>
-                                        Next
-                                      </Link>
-                                    </p>
-                                  </div>
+                        <li
+                          key={parent.name}
+                          className={classNames({
+                            active: parent.active
+                          })}>
+                          <a onClick={() => this.onParentClick(parent, index)}>
+                            {parent.name}
+                          </a>
+                          <ul>
+                            {parent.children.map((children, childIndex) => {
+                              return (
+                                <li
+                                  key={children.name}
+                                  onClick={() =>
+                                    this.onChildClick(index, childIndex)
+                                  }
+                                  className={classNames({
+                                    active: children.active
+                                  })}>
+                                  <Link to={children.path}>
+                                    {children.name}
+                                  </Link>
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              </div>
+              <Switch>
+                <Route path='/' component={Home} exact={true} />
+                <Route exact path='/landing-page'>
+                  <Redirect to='/landing-page/overview' />
+                </Route>
+                {this.state.sideBar.map((parent) => {
+                  return parent.children.map((children) => {
+                    return (
+                      <Route
+                        path={children.path}
+                        render={() => {
+                          return (
+                            <div className='col-main-content'>
+                              <children.component />
+                              <div className='content-footer'>
+                                <div className='mr-auto'>
+                                  <HelpfulButtons />
+                                </div>
+                                <div className='next-page'>
+                                  <p>
+                                    <span className='next-page-title'>
+                                      {this.next(children.name).nextName}
+                                    </span>{' '}
+                                    <Link
+                                      to={this.next(children.name).nextPath}
+                                      onClick={() => {
+                                        this.onChildClick(
+                                          this.next(children.name).parentIndex,
+                                          this.next(children.name).childIndex
+                                        );
+                                      }}
+                                      className='btn btn-outline-primary btn-arrow'>
+                                      Next
+                                    </Link>
+                                  </p>
                                 </div>
                               </div>
-                            );
-                          }}
-                          exact={true}
-                        />
-                      );
-                    });
-                  })}
-                </Switch>
-             
+                            </div>
+                          );
+                        }}
+                        exact={true}
+                      />
+                    );
+                  });
+                })}
+              </Switch>
             </div>
           </div>
         </section>
