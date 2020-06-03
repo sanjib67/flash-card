@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import solutionecLogo from '../images/logo-black.png';
+import {Link} from 'react-router-dom'
 export default class Footer extends Component {
   render() {
     return (
@@ -14,9 +15,9 @@ export default class Footer extends Component {
                 </p>
               </div>
               <div className='ml-auto'>
-                <a href='' className='btn btn-outline-white'>
+                <Link to='/landing-page/contact-us' className='btn btn-outline-white'>
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>

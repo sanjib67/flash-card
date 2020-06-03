@@ -1,0 +1,186 @@
+[
+    {
+        "Abbreviation": "MTH",
+        "Description": "Month"
+    },
+    {
+        "Abbreviation": "YTD",
+        "Description": "Year to Date"
+    },
+    {
+        "Abbreviation": "MAT",
+        "Description": "Moving Annual Total"
+    },
+    {
+        "Abbreviation": "RQTR",
+        "Description": "Rolling Quarter (3 months total)"
+    },
+    {
+        "Abbreviation": "QTR",
+        "Description": "Quarter"
+    },
+    {
+        "Abbreviation": "R6M",
+        "Description": "Rolling 6 months"
+    },
+    {
+        "Abbreviation": "YTG",
+        "Description": "Year to Go"
+    },
+    {
+        "Abbreviation": "EU",
+        "Description": "Euro"
+    },
+    {
+        "Abbreviation": "MS",
+        "Description": "Market Share"
+    },
+    {
+        "Abbreviation": "PY",
+        "Description": "Previous Year"
+    },
+    {
+        "Abbreviation": "A vs. B",
+        "Description": "Actual vs. Budget"
+    },
+    {
+        "Abbreviation": "A vs. T",
+        "Description": "Actual vs. Latest Target (B/F1/F2)"
+    },
+    {
+        "Abbreviation": "EI",
+        "Description": "Evolution Index"
+    },
+    {
+        "Abbreviation": "Mkt",
+        "Description": "Market"
+    },
+    {
+        "Abbreviation": "Gt",
+        "Description": "Growth"
+    },
+    {
+        "Abbreviation": "yr",
+        "Description": "Year"
+    },
+    {
+        "Abbreviation": "IU",
+        "Description": "International Unit"
+    },
+    {
+        "Abbreviation": "IUt",
+        "Description": "International Unit Total"
+    },
+    {
+        "Abbreviation": "SU",
+        "Description": "Standard Units"
+    },
+    {
+        "Abbreviation": "PEQ",
+        "Description": "Patient Equivalent"
+    },
+    {
+        "Abbreviation": "TD",
+        "Description": "Treatment days"
+    },
+    {
+        "Abbreviation": "UN",
+        "Description": "Unit"
+    },
+    {
+        "Abbreviation": "RA factor",
+        "Description": "Rhumatoid Arthritis factor"
+    },
+    {
+        "Abbreviation": "PI",
+        "Description": "Parallel Import"
+    },
+    {
+        "Abbreviation": "MNF rate",
+        "Description": "Manufacturer price rate"
+    },
+    {
+        "Abbreviation": "PUB rate",
+        "Description": "Public price rate"
+    },
+    {
+        "Abbreviation": "TRD rate",
+        "Description": "Trade price rate"
+    },
+    {
+        "Abbreviation": "ML",
+        "Description": "Milliliter"
+    },
+    {
+        "Abbreviation": "MG",
+        "Description": "Milligram"
+    },
+    {
+        "Abbreviation": "RX/OTC Market",
+        "Description": "Prescription/Over-The-Counter Market"
+    },
+    {
+        "Abbreviation": "GBUs",
+        "Description": "Global Business Units"
+    },
+    {
+        "Abbreviation": "LC",
+        "Description": "Local Currency"
+    },
+    {
+        "Abbreviation": "ATC",
+        "Description": "Anatomical Therapeutic Chemical Classification"
+    },
+    {
+        "Abbreviation": "Other Corps",
+        "Description": "Other Corporations"
+    },
+    {
+        "Abbreviation": "bn",
+        "Description": "Billion"
+    },
+    {
+        "Abbreviation": "M",
+        "Description": "Million"
+    },
+    {
+        "Abbreviation": "pts",
+        "Description": "Points"
+    },
+    {
+        "Abbreviation": "PE (Act.)/ PE (A)",
+        "Description": "Patient Equivalent Actual (Finance data)"
+    },
+    {
+        "Abbreviation": "PE (B)",
+        "Description": "Patient Equivalent Budget (Finance data)"
+    },
+    {
+        "Abbreviation": "PE (T)",
+        "Description": "Patient Equivalent Latest Target (Finance data)"
+    },
+    {
+        "Abbreviation": "PE (F1)",
+        "Description": "Patient Equivalent Forecast 1 (Finance data)"
+    },
+    {
+        "Abbreviation": "PE (F2)",
+        "Description": "Patient Equivalent Forecast 2 (Finance data)"
+    },
+    {
+        "Abbreviation": "SU (A)",
+        "Description": "Standard Units Actual (Finance data)"
+    },
+    {
+        "Abbreviation": "SU (T)",
+        "Description": "Standard Units Latest Target (Finance data)"
+    },
+    {
+        "Abbreviation": "SU (F1)",
+        "Description": "Standard Units Forecast 1 (Finance data)"
+    },
+    {
+        "Abbreviation": "SU (F2)",
+        "Description": "Standard Units Forecast 2 (Finance data)"
+    }
+]

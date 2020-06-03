@@ -1,0 +1,316 @@
+[
+    {
+        "Category": "Metric",
+        "Field Name": "EU (Act)",
+        "Description": "Actual Net sales (internal sales) in Euro"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "EU (Bud)",
+        "Description": "Budgeted Net Sales in Euro"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "EU (MNF)",
+        "Description": "Turnover (Manufacturer) - Sum of the sales at the price level for the manufacturer"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "EU (PUB)",
+        "Description": "Turnover (Public) - Sum of the sales at the price level for the end consumers, this field is pertinent only to CHC"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "IU",
+        "Description": "Conversion of volumes of diabetes injectable products in a common unit (International Unit = IU) in order to compare basal, rapid & premix products head to head."
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "IUt",
+        "Description": "Metric to monitor GLP1 and FRC (fix ratio combination) to compare them to other injectable diabetes products"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "PACK",
+        "Description": "Pack (volume unit) : number of packs contained in a box (from raw data)"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "PE (Bud)",
+        "Description": "Budgeted Patients (Patient Equivalent - Finance source - For Genzyme only)"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "Price (PUB)",
+        "Description": "Price value (public price in euro)"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "PEQ",
+        "Description": "Patient Equivalent (PEQ) : To compare products within the same market independently of indication, dosage, treatment regimen, compliance (Kevzara market)"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "Portfolio",
+        "Description": "Volume or value metric based on the market and applicable only for the porfolio view",
+        "Example": "Basal [IU] and CHC [EU(PUB)]"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "RX",
+        "Description": "Whether (RX) or not (No RX) a prescription drug"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "SU",
+        "Description": "Standard Units (volume unit) : The number of standard �dose� units sold. (Calculations in calculation sheet). It is determined by taking the number of counting units sold divided by the standard unit factor which is the smallest common dose of a product form as defined by IMS HEALTH For example, if we receive \"Simvastatin 1 box of 30 pills of 20 mg\" --> SU = 30"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "SU (Act)",
+        "Description": "Actual Net Sales in Volume ( in Standard Units)"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "SU (Bud)",
+        "Description": "Budgeted Net Sales in Volume (in Standard Units)"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "TD",
+        "Description": "Treatment days : Number of Days of Treatment to compare products within the same market independently of dosage and treatment regimen (APA wo ASA market, LLT market, Prostate cancer)"
+    },
+    {
+        "Category": "Metric",
+        "Field Name": "UN",
+        "Description": "Units : Volume Unit received in the raw data For CHC : unit = pack For others BU(s) : only if retail channel and unit defined by pack by the country : unit = pack"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "A vs B % (EU)",
+        "Description": "Actual Net Sales vs budget in percentage (%) for Euro"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "A vs B % (PE)",
+        "Description": "Actual Net Sales vs budget in percentage (%) for PE"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "A vs B % (SU)",
+        "Description": "Actual Net Sales vs budget in percentage (%) for Standard Units"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "A vs B (EU)",
+        "Description": "Actual Net Sales vs budget in Absolute number for Euro"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "A vs B (PE)",
+        "Description": "Actual Net Sales vs budget in Absolute number for PE"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "A vs B (SU)",
+        "Description": "Actual Net Sales vs budget in Absolute number for Standard Units"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "EI",
+        "Description": "Evolution Index: Ratio between growth for actual period and a previous period for the selected metric Evolution Index ="
+    },
+    {
+        "Description": "((Product growth vs PY % + 1) / (Market growth vs PY % + 1) ) X 100"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "EI vs PY",
+        "Description": "Evolution Index of the current year vs Evolution index of Previous year (growth - evolution of this month compared to previous year) for the selected metric"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "EU (A)",
+        "Description": "Actual Net sales in value (Euro)"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "EU (B)",
+        "Description": "Budgeted Net sales in value (Euro)"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "Gt vs Mkt",
+        "Description": "Growth vs Market : sales growth (for the selected metric) of the product (or corporation) divided by sales growth of the market (or all corporations)"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "Gt vs PY",
+        "Description": "Growth vs Previous Year : Growth in percentage compared to the previous period for the selected metric"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "MS",
+        "Description": "Market share : A percentage of total sales in a market captured by a brand, product, or company for the selected metric"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "MS vs PY / MS gain/ loss",
+        "Description": "Market share vs Previous year : comparison of a percentage of total sales volume in a market captured by a brand, product, or company vs previous year MS for the selected metric"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "PE (A.)",
+        "Description": "Actual Net Sales in PE"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "PE (B.)",
+        "Description": "Budgeted Net Sales in PE"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "SU (A.)",
+        "Description": "Actual Net Sales in SU"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "SU (B.)",
+        "Description": "Budgeted Net Sales in SU"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "YTG (EU)",
+        "Description": "Year to go: what's left of the year for the Net Sales (in EU) YTG = SUM ( all months ) - YTD"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "YTG (PE)",
+        "Description": "Year to go: what's left of the year for the Net Sales (in PE) YTG = SUM ( all months ) - YTD"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "YTG (SU)",
+        "Description": "Year to go: what's left of the year for the Net Sales (in SU) YTG = SUM ( all months ) - YTD"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "YTG % (EU)",
+        "Description": "% Year to go: what's left of the year divided by total year for the Net Sales (in EU) % YTG = (SUM ( all months ) - YTD)/ SUM ( all months )"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "YTG % (PE)",
+        "Description": "% Year to go: what's left of the year divided by total year for the Net Sales (in PE) % YTG = (SUM ( all months ) - YTD)/ SUM ( all months )"
+    },
+    {
+        "Category": "Metric / Board calculation",
+        "Field Name": "YTG % (SU)",
+        "Description": "% Year to go: what's left of the year divided by total year for the Net Sales (in SU) % YTG = (SUM ( all months ) - YTD)/ SUM ( all months )"
+    },
+    {
+        "Category": "Metric / Time Aggregation",
+        "Field Name": "MAT",
+        "Description": "Moving annual total : last 12 months data for the selected metric"
+    },
+    {
+        "Category": "Metric / Time Aggregation",
+        "Field Name": "MTH",
+        "Description": "Month : latest month of data received by the country (for the selected metric)"
+    },
+    {
+        "Category": "Metric / Time Aggregation",
+        "Field Name": "RQTR",
+        "Description": "Rolling quarter : last 3 months of data (for the selected metric)"
+    },
+    {
+        "Category": "Metric / Time Aggregation",
+        "Field Name": "QTR",
+        "Description": "Quarterly : last 4 months of data (for the selected metric)"
+    },
+    {
+        "Category": "Metric / Time Aggregation",
+        "Field Name": "R6M",
+        "Description": "Rolling 6 months : last 6 months of data (for the selected metric)"
+    },
+    {
+        "Category": "Metric / Time Aggregation",
+        "Field Name": "YTD",
+        "Description": "Year to date : Period beginning the first month of the current calendar up to the latest month data"
+    },
+    {
+        "Category": "Metric / Charts, historical data",
+        "Field Name": "1 year",
+        "Description": "Historic of the data : Charts show only for latest 1 year of data points"
+    },
+    {
+        "Category": "Metric / Charts, historical data",
+        "Field Name": "2 year",
+        "Description": "Historic of the data : Charts show only for last 2 years of data points"
+    },
+    {
+        "Category": "Metric / Charts, historical data",
+        "Field Name": "3 year",
+        "Description": "Historic of the data : Charts show only for last 3 years of data points"
+    },
+    {
+        "Category": "Metric / Period aligned",
+        "Field Name": "Aligned",
+        "Description": "Data on last period in common that we received from countries in the scope"
+    },
+    {
+        "Category": "Metric / Period aligned",
+        "Field Name": "Latest",
+        "Description": "Data on last period of each country received"
+    },
+    {
+        "Category": "Board",
+        "Field Name": "Arrow",
+        "Description": "The arrow represents the evolution trend. It is calculated by the comparison of average of MAT , MTH and RQTR"
+    },
+    {
+        "Category": "Charts / Sales",
+        "Field Name": "Analysis vs Market Growth",
+        "Description": "Growth of the product or market or corporation chosen vs Growth of the total market"
+    },
+    {
+        "Category": "Charts / Sales",
+        "Field Name": "Analysis vs Market (Evolution Index)",
+        "Description": "Evolution Index of the product or market or corporation chosen vs Evolution Index of the total market"
+    },
+    {
+        "Category": "Charts / Sales",
+        "Field Name": "Absolute Growth",
+        "Description": "Stacked bars to compare the growth of the product/market/corporation chosen vs others included in the total market"
+    },
+    {
+        "Category": "Charts / Sales",
+        "Field Name": "Market Share Evolution",
+        "Description": "Evolution of Market Share of a product/market/corporation/country chosen vs others included in the total market"
+    },
+    {
+        "Category": "Charts / Sales",
+        "Field Name": "Absolute Sales",
+        "Description": "Absolute sales of a product/market/corporation/country chosen vs others included in the total market"
+    },
+    {
+        "Category": "Charts / Sales",
+        "Field Name": "Delta Market share ",
+        "Description": "Current year MS vs Previous year MS"
+    },
+    {
+        "Category": "Charts / Launch",
+        "Field Name": "Market share Evolution Since Launch",
+        "Description": "Market share evolution of a launch product. It starts from 0, when the product was launched. This chart is available only for products launched less than 37 months ago."
+    },
+    {
+        "Category": "Charts / Internal Sales",
+        "Field Name": "Actual VS budget",
+        "Description": "Actual Net sales vs Budget chart"
+    },
+    {
+        "Category": "Charts / Internal Sales",
+        "Field Name": "Forecasting F1 ",
+        "Description": "Forecast 1 chart"
+    }
+]

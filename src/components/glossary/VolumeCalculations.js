@@ -1,30 +1,27 @@
 import React, { Component } from 'react';
-import flashcarddimentions from '../../data/flashcarddimentions.json';
+import volumecalculation from '../../data/volumecalculation.json';
 import RsuiteTable from '../../lib/RsuiteTable';
 
-export default class FlascardDimentions extends Component {
+export default class VolumeCalculations extends Component {
   state = {
     searchValue: '',
     displayLength: 10,
     loading: false,
     page: 1,
-    data: flashcarddimentions,
+    data: volumecalculation,
     tableColumns: [
+
       {
-        name: 'Category',
-        width: 200
-      },
-      {
-        name: 'Field Name',
-        width: 200
+        name: 'Metrics',
+        width: 150
       },
       {
         name: 'Description',
         width: 300
       },
       {
-        name: 'Example',
-        width: 150
+        name: 'Calculation',
+        width: 300
       }
     ]
   };
@@ -32,7 +29,7 @@ export default class FlascardDimentions extends Component {
   render() {
     return (
       <div className='content'>
-        <h1>Flascard Dimentions</h1>
+        <h1>Volume Calculations</h1>
         <RsuiteTable
           data={this.state.data}
           tableColumns={this.state.tableColumns}

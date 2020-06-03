@@ -1,0 +1,100 @@
+[
+    {
+        "Category": "Geography",
+        "Field Name": "Cluster",
+        "Description": "Depends on the business requirements for identifying priorities for CHC, GEM, EU, DB 1/2/3/4 For example, priority 1 countries for Diabetes will be in EU DB1",
+        "Example": "CHC"
+    },
+    {
+        "Category": "Geography",
+        "Field Name": "Region",
+        "Description": "Region classification as per Sanofi definition",
+        "Example": "Europe"
+    },
+    {
+        "Category": "Geography",
+        "Field Name": "Zone",
+        "Description": "Business geographic segmentation as per Sanofi definition - sub-regions",
+        "Example": "NOBA"
+    },
+    {
+        "Category": "Geography",
+        "Field Name": "MCO",
+        "Description": "Multi countries organization - group of countries based on BU requirements",
+        "Example": "Benelux"
+    },
+    {
+        "Category": "Geography",
+        "Field Name": "Country",
+        "Description": "Country name within the data",
+        "Example": "Belgium"
+    },
+    {
+        "Category": "Geography",
+        "Field Name": "Channel",
+        "Description": "Last intermediary between Manufacturer and the final user: where the patient get the product, e.g.; Retail, Hospital",
+        "Example": "Retail"
+    },
+    {
+        "Category": "Market",
+        "Field Name": "Market Categories ",
+        "Description": "Sanofi Market description: 6 levels of categories (Category 0 is the more granular) , detailed in 'Market Definition' section",
+        "Example": "DCV (Category 5)",
+        "Note": "For CHC, we have only 2 levels : Master category & sub category"
+    },
+    {
+        "Category": "Market",
+        "Field Name": "Mode of Delivery",
+        "Description": "Split into the three existing types of mode of delivery which are disposables, cartridges and vials for all Diabetes injectable products (GLP-1, FRC, Rapid, Premix, Basal)",
+        "Example": "Disposable",
+        "Note": "Only available for Europe Market"
+    },
+    {
+        "Category": "Market",
+        "Field Name": "Segment",
+        "Description": "Level of granularity specific to a category according to business needs",
+        "Example": "Human"
+    },
+    {
+        "Category": "Product",
+        "Field Name": "Corporation group 2",
+        "Description": "Split on specific Multinational Corporations (MNC) or others Multinational Corporations (Others MNCs) For example, at a global level, the list of MNCs includes mainly Astrazeneca, Bristol-Myers SQB, Glaxosmithkline, Johnson & Johnson, Lilly, Merck & Co, Merck KGAA, Novartis, Pfizer, Sanofi At a global level, the list of Others MNCs includes mainly Aspen, Bayer, Mylan, Takeda, etc."
+    },
+    {
+        "Category": "Product",
+        "Field Name": "Corporation group 1 ",
+        "Description": "International corporations cleaned, mapped and regrouped For example, the local corporation called 'Genzyme corp' will be harmonized at an international leval as 'Sanofi'",
+        "Example": "Sanofi"
+    },
+    {
+        "Category": "Product",
+        "Field Name": "Product Group 3 ",
+        "Description": "Product grouping defined by the name of the molecule",
+        "Example": "GLARGINE",
+        "Note": "For CHC, another segmentation is applied : product family and product name"
+    },
+    {
+        "Category": "Product",
+        "Field Name": "Product Group 2",
+        "Description": "Product grouping defined by the name of the family brand or the name of the product or the generic",
+        "Example": "Sanofi Glargine"
+    },
+    {
+        "Category": "Product",
+        "Field Name": "Product Group 1 ",
+        "Description": "Product grouping defined by the name of the product or the generic. This dimension can be used if products have different names in the countries or if several products exist",
+        "Example": "LANTUS"
+    },
+    {
+        "Category": "Product",
+        "Field Name": "RX / OTC",
+        "Description": "Split between RX and OTC",
+        "Example": "RX"
+    },
+    {
+        "Category": "Product",
+        "Field Name": "PI status",
+        "Description": "Classification according to the IMS definition of a parallel Import/non parallel import (PI or no PI status) products. For example, Germany imports drugs from others countries, then this products will be marked as PI",
+        "Example": "PI"
+    }
+]

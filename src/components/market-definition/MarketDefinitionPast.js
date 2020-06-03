@@ -1,27 +1,13 @@
 import React, { Component } from 'react';
 import RsuiteTable from '../../lib/RsuiteTable';
-import dcv from '../../data/dcv.json';
+import vx from '../../data/vx.json';
 
 export default class MarketDefinitionPast extends Component {
   state = {
-    data: dcv,
+    data: vx,
     tableColumns: [
-      {
-        name: 'Category 5',
-        width: 150
-      },
-      {
-        name: 'Category 4',
-        width: 150
-      },
-      {
-        name: 'Category 3',
-        width: 150
-      },
-      {
-        name: 'Category 2',
-        width: 150
-      },
+        
+     
       {
         name: 'Category 1',
         width: 150
@@ -40,26 +26,6 @@ export default class MarketDefinitionPast extends Component {
       },
       {
         name: 'SU',
-        width: 100
-      },
-      {
-        name: 'IU',
-        width: 100
-      },
-      {
-        name: 'IUt',
-        width: 100
-      },
-      {
-        name: 'TD',
-        width: 100
-      },
-      {
-        name: 'TC',
-        width: 100
-      },
-      {
-        name: 'Rx',
         width: 100
       },
       {

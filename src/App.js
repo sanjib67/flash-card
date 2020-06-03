@@ -6,7 +6,6 @@ import LandingPage from './components/LandingPage';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import FlashcardDimentions from './components/glossary/FlashcardDimentions';
 import Home from './components/Home';
 import Overview from './components/flashcard-help/Overview';
 import Flashview from './components/flashcard-help/Flashview';
@@ -16,7 +15,6 @@ import DimentionsViews from './components/flashcard-help/DimentionsViews';
 import ExportOptions from './components/flashcard-help/ExportOptions';
 import FlashcubeSliceDice from './components/flashcard-help/FlashcubeSliceDice';
 import SlicersBoard from './components/flashcard-help/SlicersBoard';
-import Troubleshooting from './components/faq/Troubleshoot';
 import DataStewardsList from './components/sinergi-data-stewards/DataStewardsList';
 import MarketDefinitionDcv from './components/market-definition/MarketDefinitionDcv';
 import MarketDefinitionChc from './components/market-definition/MarketDefinitionChc';
@@ -24,9 +22,26 @@ import MarketDefinitionDup from './components/market-definition/MarketDefinition
 import MarketDefinitionEp from './components/market-definition/MarketDefinitionEp';
 import MarketDefinitionGz from './components/market-definition/MarketDefinitionGz';
 import MarketDefinitionPast from './components/market-definition/MarketDefinitionPast';
+import DataPanel from './components/sinergi-data-panel/DataPanel';
+import PriceDetail from './components/sinergi-data-panel/PriceDetail';
+
+import FlashcardDimentions from './components/glossary/FlashcardDimentions';
+import FlashcardMetrics from './components/glossary/FlashcardMetrics';
+import FlashcubeDimentions from './components/glossary/FlashcubeDimentions';
+import FlashcubeMetrics from './components/glossary/FlashcubeMetrics';
+import VolumeCalculations from './components/glossary/VolumeCalculations';
+
+import Troubleshooting from './components/faq/Troubleshoot';
+import Faqs from './components/faq/Faqs';
+import TipsAndTricks from './components/faq/TipsAndTricks';
+import ContactUs from './components/faq/ContactUs';
+
+
+
+import Abbreviations from './components/abbreviations/Abbreviations';
+
 
 class App extends React.Component {
-
   state = {
     sideBar: [
       {
@@ -146,9 +161,15 @@ class App extends React.Component {
         active: false,
         children: [
           {
-            name: 'Price Detail',
+            name: 'Data Panel',
             path: '/landing-page/sinergi-data-panel',
-            component: FlashcardDimentions,
+            component: DataPanel,
+            active: false
+          },
+          {
+            name: 'Price Detail',
+            path: '/landing-page/sinergi-price-detail',
+            component: PriceDetail,
             active: false
           }
         ]
@@ -164,22 +185,29 @@ class App extends React.Component {
             component: FlashcardDimentions,
             active: false
           },
+
           {
             name: 'Flashcard Metrics',
             path: '/landing-page/flashcard-metrics',
-            component: FlashcardDimentions,
+            component: FlashcardMetrics,
             active: false
           },
           {
             name: 'Flashcube Dimensions',
             path: '/landing-page/flashcube-dimensions',
-            component: FlashcardDimentions,
+            component: FlashcubeDimentions,
+            active: false
+          },
+          {
+            name: 'Flashcube Metrics',
+            path: '/landing-page/flashcube-metrics',
+            component: FlashcubeMetrics,
             active: false
           },
           {
             name: 'Volume Calculations',
             path: '/landing-page/volume-calculations',
-            component: FlashcardDimentions,
+            component: VolumeCalculations,
             active: false
           }
         ]
@@ -198,19 +226,19 @@ class App extends React.Component {
           {
             name: 'Frequently Asked Questions',
             path: '/landing-page/faqs',
-            component: Overview,
+            component: Faqs,
             active: false
           },
           {
             name: 'Tips and Tricks',
             path: '/landing-page/tips-and-tricks',
-            component: Overview,
+            component: TipsAndTricks,
             active: false
           },
           {
             name: 'Contact Us',
             path: '/landing-page/contact-us',
-            component: Overview,
+            component: ContactUs,
             active: false
           }
         ]
@@ -221,9 +249,9 @@ class App extends React.Component {
         active: false,
         children: [
           {
-            name: 'xxx',
-            path: '/landing-page/xxx',
-            component: Overview,
+            name: 'Abbreviations',
+            path: '/landing-page/abbreviations',
+            component: Abbreviations,
             active: false
           }
         ]
@@ -234,13 +262,19 @@ class App extends React.Component {
   render() {
     return (
       <div>
-      <BrowserRouter>
-      <Header />
-      <Route exact path='/' render={()=> <Home sideBar={this.state.sideBar}/>} />
-      <Route path='/landing-page' render={()=> <LandingPage sideBar={this.state.sideBar}/>} />
-      <Footer />
-      </BrowserRouter>
-       
+        <BrowserRouter>
+          <Header />
+          <Route
+            exact
+            path='/'
+            render={() => <Home sideBar={this.state.sideBar} />}
+          />
+          <Route
+            path='/landing-page'
+            render={() => <LandingPage sideBar={this.state.sideBar} />}
+          />
+          <Footer />
+        </BrowserRouter>
       </div>
     );
   }

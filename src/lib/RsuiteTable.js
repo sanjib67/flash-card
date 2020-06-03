@@ -69,6 +69,8 @@ export default class RsuiteTable extends Component {
     switch (eachColumn) {
       case 'R':
         return <i style={{ color: '#2ecc72' }} className='fas fa-check'></i>;
+      case 'Yes':
+          return <i style={{ color: '#2ecc72' }} className='fas fa-check'></i>;
       case 'S':
         return <i style={{ color: 'tomato' }} className='fas fa-times'></i>;
       default:

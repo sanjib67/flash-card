@@ -1,0 +1,76 @@
+[
+    {
+        "Metrics": "Internation Unit (IU)",
+        "Description": "Conversion of volumes of diabetes injectable products in a common unit (International Unit = IU) in order to compare basal, rapid & premix products head to head.",
+        "Calculation": "We convert SU in IU for \"Basal\", \"Premix\" and \"Rapid\" categories."
+    },
+    {
+        "Calculation": "We read the pack that we have and we use different information:"
+    },
+    {
+        "Calculation": "- Number of mL"
+    },
+    {
+        "Calculation": "- Number of IU/mL"
+    },
+    {
+        "Calculation": "When number of IU/mL isnot provided, you should consider by default 100IU/ML and multiply by number of ML. When number of mL isnot provided, you should consider by default 3ML."
+    },
+    {
+        "Calculation": "We identified 3 rules depending on number of IU in IU/ML"
+    },
+    {
+        "Calculation": "Rule 1: In pack recode: IU<300 or 300IU or 300IU/ML If IU<300: the result is a multiplication of the number of mL by the number of IU/mL. Consider that number of IU corresponds to IU/ML."
+    },
+    {
+        "Calculation": "Rule 2: In pack recode: IU>300 or 300IU or 300IU/ML If IU>300: the result is the number of IU identified in the pack recode."
+    },
+    {
+        "Calculation": "Rule 3: In pack recode: IU = 300 or 300IU or 300IU/ML Applicate Rule 2 Except for Insulin Glargine and pack recode contains 1,5ML"
+    },
+    {
+        "Metrics": "Internation Unit (IUt)",
+        "Description": "Metric to monitor GLP1 and FRC (fix ratio combination) to compare them to other injectable diabetes products",
+        "Calculation": "IUt = IU+ IUe(*)"
+    },
+    {
+        "Calculation": "For GLP1 : IUt = IUe"
+    },
+    {
+        "Calculation": "For FRC (Basal + GLP1) : IUt = IU (basal) + IU (GLP1)"
+    },
+    {
+        "Calculation": "Note: * IUe is a fix equivalent determinate for each country. Please contact to Flashcard Support Team for more information."
+    },
+    {
+        "Metrics": "Patient Equivalent (PEQ)",
+        "Description": "To compare products within the same market independently of indication, dosage, treatment regimen, compliance (Kevzara market)",
+        "Calculation": "PEQ = Volume Sales in STANDARD UNIT per SKU in RA therapy / (average daily dose x compliance)"
+    },
+    {
+        "Calculation": "Example : SIMPONI 100mg 1000 SU / year with a RA factor of 40%"
+    },
+    {
+        "Calculation": "Average daily dose (AVDD) = 12 (/SU / YEAR)"
+    },
+    {
+        "Calculation": "Compliance = 85% (based on mode of delivery : oral, sub-cutaneous or intra-venous)"
+    },
+    {
+        "Calculation": "- The volume sales in SU per SKU in RA therapy = SIMPONI 100 mg 400 SU"
+    },
+    {
+        "Calculation": "- The PEQ = 400 / (12* 0,85) = 39,2 patients"
+    },
+    {
+        "Metrics": "Treatment Day (TD)",
+        "Description": "Number of Days of Treatment to compare products within the same market independently of dosage and treatment regimen (APA wo ASA market, LLT market, Prostate cancer)",
+        "Calculation": "TD = Standard units x (1 / posology)"
+    },
+    {
+        "Calculation": "For example : Ticagrelor or Cilostazol : 1 standart unit = 0, 5 TD (posology equal twice a day)"
+    },
+    {
+        "Calculation": "Other products of Plavix Family : 1 standart unit = 1 TS (posology equal one by day)"
+    }
+]
