@@ -184,7 +184,7 @@
         "TD": "R",
         "TC": "S",
         "Rx": "S",
-        "LC": "S"
+        "LC": "R"
     },
     {
         "Category 5": "DCV",
@@ -414,6 +414,14 @@
         "Category 2": "Other CV",
         "Category 1": "Other CV",
         "Category 0": "Multaq Mkt.",
-        "Molecules/ATC codes": "C01B0 (Molecules Amiodarone; DOFETILIDE; FLECAINIDE; DRONEDARONE; PROPAFENONE );C07A0 (molecule SOTALOL) -USA"
+        "Molecules/ATC codes": "C01B0 (Molecules Amiodarone; DOFETILIDE; FLECAINIDE; DRONEDARONE; PROPAFENONE );C07A0 (molecule SOTALOL) -USA",
+        "Euro": "R",
+        "SU": "R",
+        "IU": "S",
+        "IUt": "S",
+        "TD": "R",
+        "TC": "S",
+        "Rx": "R",
+        "LC": "R"
     }
 ]

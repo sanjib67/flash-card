@@ -1,4 +1,38 @@
-[{
-    "Question":"How will I get access to the Flashcard?",
-    "Answer":"Request through ServiceNow. Once the manager approves it will automatically get installed on to your system. Then by clicking on the shortcut key for Flashcard present on the desktop or going to start menu click on Programs and then click on the Flashcard icon"
-}]
+[
+    {
+        "Question": "1. How will I get access to the Flashcard?",
+        "Answer": "# Send your request to flashcard@sanofi.com with the below information\r\n\r\nNetwork ID (ex10213174) Function (marketer, performance manager...)\r\nDomain name(ex: PHARMA\\IO213174): \r\nFunction (marketer, performance manager…):\r\nGeo scope (country/Turkey, region/Europe.global...)\r\nProduct scope (Lantus, Oncology, Cross-BU, CHC...)\r\nOS you work on Windows/MAC (Windows,1-, Mac...)"
+    },
+    {
+        "Question": "2. I am not able to see all the countries or market in the Flashcard",
+        "Answer": "# The reason could be that the data has been restricted to particularly those countries or market based on your business unit \r\n# Or one of your selection is wrong. \r\n- Please reset the selection or reopen the Flashcard \r\n# If still you are unable to see all countries, please contact Flashcard Support Team at flashcard@sanofi.com"
+    },
+    {
+        "Question": "3. I am able to open the dashboard, but still cannot access the latest data that has been uploaded or shared with Sinergi team",
+        "Answer": "# The possible reason can be that data is not yet processed. New data will be updated in Flashcard within 2 working days once data shared with Sinergi team \r\n# Incase of any further problem regarding access to the latest report, please contact Flashcard Support Team at flashcard@sanofi.com"
+    },
+    {
+        "Question": "4. How do I navigate to the reports in the Flashcard?",
+        "Answer": "# You can change the selection parameters from right side menu called slicer \r\n# If you need a training, please write an email to Flashcard Support Team at flashcard@sanofi.com"
+    },
+    {
+        "Question": "5. If I am not connected to the SANOFI network and I want to see the reports how can I access it?",
+        "Answer": "# You will not be able to access Flashcard without connecting to SANOFI network"
+    },
+    {
+        "Question": "6. I am using Mac, can I access the Flashcard?",
+        "Answer": "# Yes, please use Safari or Google Chrome for mac. \r\n# If you need more information, please contact Flashcard Support Team "
+    },
+    {
+        "Question": "7. Export to PowerPoint/ Excel is not working or I am not able to export to Powerpoint/ Excel ",
+        "Answer": "# Please contact Flashcard Support Team at flashcard@sanofi.com"
+    },
+    {
+        "Question": "8. Whenever I am accessing Flashcard, I am getting the error message 'Access Denied'",
+        "Answer": "# For such an error please contact Flashcard Support Team at flashcard@sanofi.com"
+    },
+    {
+        "Question": "9. I need a Flashcard training",
+        "Answer": "# Please send a request to Flashcard Support Team at flashcard@sanofi.com\r\n# You can request for training from the Flashcard tool by clicking on the question (?) mark"
+    }
+]

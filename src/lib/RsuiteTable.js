@@ -73,6 +73,8 @@ export default class RsuiteTable extends Component {
           return <i style={{ color: '#2ecc72' }} className='fas fa-check'></i>;
       case 'S':
         return <i style={{ color: 'tomato' }} className='fas fa-times'></i>;
+        case 'No':
+          return <i style={{ color: 'tomato' }} className='fas fa-times'></i>;
       default:
         return eachColumn;
     }

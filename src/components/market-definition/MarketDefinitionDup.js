@@ -31,7 +31,7 @@ export default class MarketDefinitionDup extends Component {
         width: 100
       },
       {
-        name: 'VL',
+        name: 'SU',
         width: 100
       },
       {

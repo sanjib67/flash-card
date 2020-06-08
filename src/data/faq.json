@@ -1,4 +1,14 @@
-[{
-    "Question":"How will I get access to the Flashcard?",
-    "Answer":"Request through ServiceNow. Once the manager approves it will automatically get installed on to your system. Then by clicking on the shortcut key for Flashcard present on the desktop or going to start menu click on Programs and then click on the Flashcard icon"
-}]
+[
+    {
+        "Question": "1. Is it possible to refresh the same report each month, without recreating the report?",
+        "Answer": "# Yes; click on \"Save current analysis by default\" option available in Flashcard \r\n# You can also share the current selection to other users by saving the current analysis"
+    },
+    {
+        "Question": "2. What is the frequency of market data refresh in Flashcard?",
+        "Answer": "# Once affiliate provides the data, Flashcard will be updated in 2 working days "
+    },
+    {
+        "Question": "3. What kind of data is collected for Flashcard?",
+        "Answer": "# Monthly/Quarterly Market sales data provided by country \r\n# Finance data provided by Finance team "
+    }
+]
