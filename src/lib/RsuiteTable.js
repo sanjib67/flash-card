@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Table, Input, InputGroup, Col, Grid, Row, Icon } from 'rsuite';
+import { Table, Input, InputGroup, Col, Grid, Row, Icon,Button } from 'rsuite';
+import XLSX from 'xlsx'
 const { Column, HeaderCell, Cell, Pagination } = Table;
+
 
 export default class RsuiteTable extends Component {
   state = {
@@ -65,6 +67,18 @@ export default class RsuiteTable extends Component {
     return { sortedData, filteredData };
   };
 
+  downloadXLSX = (data)  => {
+    const filename = `flashcardhelp.xlsx`
+    const sheetName =  "Table"
+    /* generate worksheet */
+    const ws = XLSX.utils.json_to_sheet(data)
+    /* generate workbook and add worksheet */
+    const  wb = XLSX.utils.book_new();
+
+    XLSX.utils.book_append_sheet(wb, ws,sheetName);
+    XLSX.writeFile(wb, filename)
+  }
+
   iconRenderer = (eachColumn) => {
     switch (eachColumn) {
       case 'R':
@@ -88,8 +102,11 @@ export default class RsuiteTable extends Component {
       <div className='table-responsive'>
         <Grid fluid>
           <Row>
-            <Col xs={24} sm={12} md={8}></Col>
-            <Col xs={24} sm={12} md={8}></Col>
+            <Col xs={24} sm={12} md={8}>
+            <Button onClick={()=>{this.downloadXLSX(this.props.data)}} size="sm">Export <i className="fas fa-download"></i></Button>
+            </Col>
+            <Col xs={24} sm={12} md={8}>
+            </Col>
             <Col xs={24} sm={12} md={8}>
               <InputGroup size='sm' inside style={{ marginBottom: 10 }}>
                 <Input

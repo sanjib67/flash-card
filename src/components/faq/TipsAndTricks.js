@@ -15,24 +15,24 @@ export default class TipsAndTricks extends Component {
             <h2>Tip 1</h2>
             <img alt='' src={tip1} />
           </li>
-          <div class='dropdown-divider'></div>
+          <div className='dropdown-divider'></div>
           <li>
             <h2>Tip 2</h2>
             <img alt='' src={tip2} />
           </li>
-          <div class='dropdown-divider'></div>
+          <div className='dropdown-divider'></div>
           <li>
             <h2>Tip3</h2>
 
             <img alt='' src={tip3} />
           </li>
-          <div class='dropdown-divider'></div>
+          <div className='dropdown-divider'></div>
           <li>
             <h2>Tip 4</h2>
 
             <img alt='' src={tip4} />
           </li>
-          <div class='dropdown-divider'></div>
+          <div className='dropdown-divider'></div>
           <li>
             <h2>Tip 5</h2>
 

@@ -44,7 +44,7 @@ export default class MarketDefinitionDup extends Component {
   render() {
     return (
       <div className='content'>
-        <h1>Market Definition : Dupixent</h1>
+        <h1> Dupixent</h1>
         <RsuiteTable
           data={this.state.data}
           tableColumns={this.state.tableColumns}

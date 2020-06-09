@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
 import { Redirect, Route, Switch, Link } from 'react-router-dom';
 import classNames from 'classnames';
+import { Table, Input, InputGroup, Col, Grid, Row, Icon, Button } from 'rsuite';
 import HelpfulButtons from './HelpfulButtons';
 
-
-
 export default class LandingPage extends Component {
-
   state = {
-    sideBar:this.props.sideBar
-  }
+    sideBar: this.props.sideBar
+  };
 
-  componentDidMount(){
-    console.log(this.props);
-    console.log(window.location.pathname)
-    
+  componentDidMount() {
     const sideBar = this.state.sideBar;
     sideBar.forEach((eachParent) => {
       eachParent.active = false;
@@ -35,15 +30,13 @@ export default class LandingPage extends Component {
           };
         });
       })
-      .flat().find((eachChild) => {
+      .flat()
+      .find((eachChild) => {
         return eachChild.path === window.location.pathname;
       });
     sideBar[x.parentIndex].children[x.childIndex].active = true;
-    sideBar[x.parentIndex].active = true
-    console.log(x);
-    
+    sideBar[x.parentIndex].active = true;
     this.setState({ sideBar: [...sideBar] });
-    
   }
   breadCrumbs = () => {
     let allChildren = this.state.sideBar
@@ -117,8 +110,6 @@ export default class LandingPage extends Component {
     this.setState({ sideBar: [...sideBar] });
   }
 
-  
-
   render() {
     return (
       <div>
@@ -178,7 +169,6 @@ export default class LandingPage extends Component {
                 </div>
               </div>
               <Switch>
-               
                 <Route exact path='/landing-page'>
                   <Redirect to='/landing-page/overview' />
                 </Route>
@@ -190,30 +180,41 @@ export default class LandingPage extends Component {
                         render={() => {
                           return (
                             <div className='col-main-content'>
+                              <Row>
+                                <Col xs={24} sm={12} md={8}></Col>
+                                <Col xs={24} sm={12} md={8}>
+                                  <div className='mr-auto'>
+                                    {/* <HelpfulButtons /> */}
+                                  </div>
+                                </Col>
+                                <Col xs={24} sm={12} md={8}>
+                                  <Row>
+                                    <Col xs={24} sm={12} md={12}>
+                                      <span className='next-page-title'>
+                                        {this.next(children.name).nextName}
+                                      </span>
+                                    </Col>
+                                    <Col xs={24} sm={12} md={12}>
+                                      <Link
+                                        to={this.next(children.name).nextPath}
+                                        onClick={() => {
+                                          this.onChildClick(
+                                            this.next(children.name)
+                                              .parentIndex,
+                                            this.next(children.name).childIndex
+                                          );
+                                        }}
+                                        className='btn btn-outline-primary btn-arrow'>
+                                        Next
+                                      </Link>
+                                    </Col>
+                                  </Row>
+                                  <div className='next-page'>
+                                    <p> </p>
+                                  </div>
+                                </Col>
+                              </Row>
                               <children.component />
-                              <div className='content-footer'>
-                                <div className='mr-auto'>
-                                  <HelpfulButtons />
-                                </div>
-                                <div className='next-page'>
-                                  <p>
-                                    <span className='next-page-title'>
-                                      {this.next(children.name).nextName}
-                                    </span>{' '}
-                                    <Link
-                                      to={this.next(children.name).nextPath}
-                                      onClick={() => {
-                                        this.onChildClick(
-                                          this.next(children.name).parentIndex,
-                                          this.next(children.name).childIndex
-                                        );
-                                      }}
-                                      className='btn btn-outline-primary btn-arrow'>
-                                      Next
-                                    </Link>
-                                  </p>
-                                </div>
-                              </div>
                             </div>
                           );
                         }}

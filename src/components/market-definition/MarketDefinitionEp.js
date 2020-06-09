@@ -73,7 +73,7 @@ export default class MarketDefinitionEp extends Component {
       render() {
         return (
             <div className='content'>
-              <h1>Market Definition : EP</h1>
+              <h1> EP</h1>
               <RsuiteTable data={this.state.data} tableColumns={this.state.tableColumns} />
             </div>
         );

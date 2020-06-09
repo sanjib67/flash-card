@@ -64,7 +64,7 @@ export default class MarketDefinitionGz extends Component {
   render() {
     return (
       <div className='content'>
-        <h1>Market Definition : Gz</h1>
+        <h1> Gz</h1>
         <RsuiteTable
           data={this.state.data}
           tableColumns={this.state.tableColumns}

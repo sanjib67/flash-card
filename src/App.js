@@ -105,37 +105,37 @@ class App extends React.Component {
         active: false,
         children: [
           {
-            name: 'Market Definition: DCV',
+            name: 'DCV',
             path: '/landing-page/market-definition-dcv',
             component: MarketDefinitionDcv,
             active: false
           },
           {
-            name: 'Market Definition: EP',
+            name: 'EP',
             path: '/landing-page/market-definition-ep',
             component: MarketDefinitionEp,
             active: false
           },
           {
-            name: 'Market Definition: Pasteur',
+            name: 'Pasteur',
             path: '/landing-page/market-definition-pasteur',
             component: MarketDefinitionPast,
             active: false
           },
           {
-            name: 'Market Definition: Gz',
+            name: 'Gz',
             path: '/landing-page/market-definition-gz',
             component: MarketDefinitionGz,
             active: false
           },
           {
-            name: 'Market Definition: CHC',
+            name: 'CHC',
             path: '/landing-page/market-definition-chc',
             component: MarketDefinitionChc,
             active: false
           },
           {
-            name: 'Market Definition: Dupixent',
+            name: 'Dupixent',
             path: '/landing-page/market-definition-dupixent',
             component: MarketDefinitionDup,
             active: false

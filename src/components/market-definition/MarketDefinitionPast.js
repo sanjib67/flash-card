@@ -38,7 +38,7 @@ export default class MarketDefinitionPast extends Component {
   render() {
     return (
       <div className='content'>
-        <h1>Market Definition : Pasteur</h1>
+        <h1> Pasteur</h1>
         <RsuiteTable
           data={this.state.data}
           tableColumns={this.state.tableColumns}

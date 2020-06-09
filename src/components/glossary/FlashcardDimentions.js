@@ -32,7 +32,7 @@ export default class FlascardDimentions extends Component {
   render() {
     return (
       <div className='content'>
-        <h1>Flascard Dimentions</h1>
+        <h1>Flashcard Dimentions</h1>
         <RsuiteTable
           data={this.state.data}
           tableColumns={this.state.tableColumns}
