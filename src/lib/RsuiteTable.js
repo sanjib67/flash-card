@@ -3,7 +3,6 @@ import { Table, Input, InputGroup, Col, Grid, Row, Icon,Button } from 'rsuite';
 import XLSX from 'xlsx'
 const { Column, HeaderCell, Cell, Pagination } = Table;
 
-
 export default class RsuiteTable extends Component {
   state = {
     searchValue: '',
@@ -32,6 +31,7 @@ export default class RsuiteTable extends Component {
       sortColumn,
       sortType
     } = this.state;
+
     const { data } = this.props;
 
     // search sort pagination
@@ -68,7 +68,7 @@ export default class RsuiteTable extends Component {
   };
 
   downloadXLSX = (data)  => {
-    const filename = `flashcardhelp.xlsx`
+    const filename = `${window.location.pathname.split('/').pop()}.xlsx`
     const sheetName =  "Table"
     /* generate worksheet */
     const ws = XLSX.utils.json_to_sheet(data)

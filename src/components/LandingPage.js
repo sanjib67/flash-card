@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Redirect, Route, Switch, Link } from 'react-router-dom';
 import classNames from 'classnames';
-import { Table, Input, InputGroup, Col, Grid, Row, Icon, Button } from 'rsuite';
-import HelpfulButtons from './HelpfulButtons';
+import { Col, Row  } from 'rsuite';
+// import HelpfulButtons from './HelpfulButtons';
 
 export default class LandingPage extends Component {
   state = {
