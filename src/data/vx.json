@@ -3,64 +3,64 @@
         "Category 1": "Vx",
         "Category 0": "Flu",
         "Molecules/ATC codes": "J07E1",
-        "Euro": "R",
-        "SU": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 1": "Vx",
         "Category 0": "Meningo",
         "Molecules/ATC codes": "J07D2",
-        "Euro": "R",
-        "SU": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 1": "Vx",
         "Category 0": "Other Vaccines",
         "Molecules/ATC codes": "J07A1; J07A4; J07A5; J07A8; J07A9; J07B2; J07B3; J07D3; J07D4; J07D5; J07D6; J07D7; J07D9; J07E2; J07E3; J07E4; J07E5; J07E9; J07X0",
-        "Euro": "R",
-        "SU": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 1": "Vx",
         "Category 0": "Pneumo",
         "Molecules/ATC codes": "J07D1",
-        "Euro": "R",
-        "SU": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 1": "Vx",
         "Category 0": "Tetanus Combo",
         "Molecules/ATC codes": "J07B1",
-        "Euro": "R",
-        "SU": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 1": "Other Vx",
         "Category 0": "Tubertest Mkt",
         "Molecules/ATC codes": "T02X9",
-        "Euro": "R",
-        "SU": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 1": "Other Vx",
         "Category 0": "Rabies Immunoglobulin",
         "Molecules/ATC codes": "J06H5",
-        "Euro": "R",
-        "SU": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 1": "Other Vx",
         "Category 0": "BCG Mkt",
         "Molecules/ATC codes": "L03A9: Molecules BCG;IMMUCYST;B C G;CALMETTE",
-        "Euro": "R",
-        "SU": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "LC": "Yes"
     }
 ]

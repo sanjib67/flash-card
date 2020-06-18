@@ -7,12 +7,12 @@
         "Category 1": "IL6i",
         "Category 0": "IL6i",
         "Molecules/ATC codes": "Molecules Sarilumab,Tocilizumab (Netherlands,Germany,UK,Belgium,Finland,Denmark,Sweden,Spain,France,Italy,Switzerland,Japan,Russia,Estonia,Canada,Hungary,Czech Republic,Slovakia,Croatia,Slovenia,Hong Kong,USA,Argentina,Norway);\r\nProducts:  'KEVZARA' and 'ACTEMRA' (Saudi Arabia)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -22,12 +22,12 @@
         "Category 1": "Other Non-TNFi",
         "Category 0": "IL1i",
         "Molecules/ATC codes": "Molecule Anakinra (Netherlands,Germany,UK,Belgium,Finland,Denmark,Sweden,Spain,France,Italy,Switzerland,Japan,Russia,Estonia,Canada,Hungary,Czech Republic,Slovakia,Croatia,Slovenia,Hong Kong,USA,Argentina,Norway); \r\nProduct KINERET (Saudi Arabia)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -37,12 +37,12 @@
         "Category 1": "Other Non-TNFi",
         "Category 0": "T-cell blocker",
         "Molecules/ATC codes": "Molecule Abatacept (Netherlands,Germany,UK,Belgium,Finland,Denmark,Sweden,Spain,France,Italy,Switzerland,Japan,Russia,Estonia,Canada,Hungary,Czech Republic,Slovakia,Croatia,Slovenia,Hong Kong,Argentina,Norway); Product Orencia (Czech Republic, Saudi Arabia)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -52,12 +52,12 @@
         "Category 1": "Other Non-TNFi",
         "Category 0": "B-cell blocker",
         "Molecules/ATC codes": "Molecule Rituximab (Netherlands,Germany,UK,Belgium,Finland,Denmark,Sweden,Spain,France,Italy,Japan,Russia,Estonia,Canada,Hungary,Czech Republic,Slovakia,Croatia,Slovenia,Hong Kong,USA,Argentina,Norway); Product MABTHERA (Czech Republic, Saudi Arabia); Product RIXATHON, TRUXIMA(Saudi Arabia)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -67,12 +67,12 @@
         "Category 1": "Other Non-TNFi",
         "Category 0": "JAKi",
         "Molecules/ATC codes": "Moledules Tofacitinib, Baricitinib, Upadacitinib (Netherlands,Germany,UK,Belgium,Finland,Denmark,Sweden,Spain,France,Italy,Japan,Russia,Estonia,Canada,Hungary,Czech Republic,Slovakia,Croatia,Slovenia,Hong Kong,USA,Argentina,Norway); Product 'OLUMIANT' (Czech Republic, Saudi Arabia); Product 'XELJANZ', 'RINVOQ' (Saudi Arabia)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -82,12 +82,12 @@
         "Category 1": "TNFi",
         "Category 0": "TNFi",
         "Molecules/ATC codes": "Molecules Certolizumab;TSERTOLIZUMAB;infliximab;infliksimab,etanercept; Product SIMPONI and golimumab (Netherlands,Germany,UK,Belgium,Finland,Denmark,Sweden,Spain,France,Italy,Switzerland,Japan,Russia,Estonia,Canada,Hungary,Czech Republic,Slovakia,Croatia,Slovenia,Hong Kong,USA,Norway); Products CIMZIA,ENBREL,HUMIRA,REMICADE,REMSIMA,HYRIMOZ,IMRALDI,AMGEVITA,BENEPALI,ERELZI,FLIXABI,INFLECTRA (Saudi Arabia)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -97,12 +97,12 @@
         "Category 1": "Prostate",
         "Category 0": "Cabazitaxel Mkt.",
         "Molecules/ATC codes": "Molecules Cabazitaxel; Product Jevtana excluded for Taiwan, Thailand, Malaysia, Singapore",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "R",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "Yes",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -112,12 +112,12 @@
         "Category 1": "Prostate",
         "Category 0": "ARTA",
         "Molecules/ATC codes": "Molecules Abiraterone;Enzalutamide; Product Zytiga;Xtandi excluded for Taiwan, Thailand, Malaysia, Singapore",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "R",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "Yes",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -127,12 +127,12 @@
         "Category 1": "Prostate",
         "Category 0": "Radium Mkt.",
         "Molecules/ATC codes": "Molecules Radium-223; Product Xofigo excluded for Taiwan, Thailand, Malaysia, Singapore",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "R",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "Yes",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -142,12 +142,12 @@
         "Category 1": "ACSCC",
         "Category 0": "ACSCC",
         "Molecules/ATC codes": "Molecule Cemiplimab (Germany,UK,Austria,Sweden,Denmark,Finland,Netherlands,France,Brazil,Colombia,Switzerland,Belgium)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -157,12 +157,12 @@
         "Category 1": "csCC proxy",
         "Category 0": "AMCC",
         "Molecules/ATC codes": "Molecule Avelumab (Germany,UK,Austria,Sweden,Denmark,Finland,Netherlands,Italy,Spain,Brazil,USA,Colombia,Switzerland,Belgium); Product BAVENCIO (France,Sweden)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -172,12 +172,12 @@
         "Category 1": "csCC proxy",
         "Category 0": "ABCC",
         "Molecules/ATC codes": "Molecules Vismodegib,Sonidegib (Germany,UK,Austria,Sweden,Denmark,Finland,Netherlands,France,Italy,Spain,Brazil,USA,Colombia,Switzerland,Belgium)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -187,12 +187,12 @@
         "Category 1": "Eloxatin",
         "Category 0": "Eloxatin Mkt.",
         "Molecules/ATC codes": "Molecules Oxaliplatin (Taiwan and Brazil); Irinotecan, Oxaliplatin, Capecitabine (Vietnam and China)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -202,12 +202,12 @@
         "Category 1": "Taxotere",
         "Category 0": "Taxotere Mkt.",
         "Molecules/ATC codes": "L01C2 and Molecule Docetaxel (Taiwan); Molecules Docetaxel,Paclitaxel,Pemetrexed,Gemcitabine,Vinorelbine (China, Vietnam)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "R",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "Yes",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -217,12 +217,12 @@
         "Category 1": "Colon",
         "Category 0": "Zaltrap Mkt.",
         "Molecules/ATC codes": "Molecules BEVACIZUMAB,AFLIBERCEPT,REGORAFENIB,PANITUMUMAB,CETUXIMAB,RAMUCIRUMAB\r\nProduct 'EYLEA' is excluded for Russia;Thailand;Malaysia;Singapore",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "R",
-        "PEq": "R",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "Yes",
+        "PEq": "Yes",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -232,12 +232,12 @@
         "Category 1": "Alphachoay Mkt.",
         "Category 0": "Alphachoay Mkt.",
         "Molecules/ATC codes": "V03H0: ALPHACHYMOTRYPSIN;ALPHA CHOAY;Other Anti-inflammatory prods (only Vietnam)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -247,12 +247,12 @@
         "Category 1": "Thymoglobuline",
         "Category 0": "Thymoglobuline Mkt.",
         "Molecules/ATC codes": "Molecules Basiliximab,Immunoglobulin Anti-Thymocyte (Brazil, China)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -262,12 +262,12 @@
         "Category 1": "Antibodies",
         "Category 0": "Anti CD38",
         "Molecules/ATC codes": "Molecules Daratumumab,Isatuximab (France,Spain,Germany,UK,Italy,Netherlands,Sweden,Finland,Denmark,Japan,Russia,USA,Austria,UAE,Kuwait,Switzerland,Belgium)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -277,12 +277,12 @@
         "Category 1": "Antibodies",
         "Category 0": "OTHER ANTIBODIES",
         "Molecules/ATC codes": "Molecules Elotuzumab (France,Spain,Germany,UK,Italy,Netherlands,Sweden,Finland,Denmark,Japan,Russia,USA,Austria,UAE,Kuwait,Switzerland,Belgium)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -292,12 +292,12 @@
         "Category 1": "Imids",
         "Category 0": "Imids",
         "Molecules/ATC codes": "Molecules Lenalidomide,Pomalidomide,Thalidomide (Japan,France,Spain,Germany,UK,Italy,Netherlands,Sweden,Finland,Denmark,Russia,USA,Austria,UAE,Kuwait,Belgium)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -307,12 +307,12 @@
         "Category 1": "Proteasome inhibitors",
         "Category 0": "Proteasome inhibitors",
         "Molecules/ATC codes": "Molecules Bortezomi,Carfilzomib,Ixazomib (France,Spain,Germany,UK,Italy,Netherlands,Sweden,Finland,Denmark,Japan,Russia,USA,Austria,UAE,Kuwait,Switzerland,Belgium)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -322,12 +322,12 @@
         "Category 1": "OTHER MM DRUGS",
         "Category 0": "OTHER MM DRUGS",
         "Molecules/ATC codes": "Molecule Panobinostat,Cyclophosphamid,Melphalan (RUSSIA,UAE,Kuwait); Panobinostat (France,Spain,Germany,UK;Italy,Netherlands,Sweden,Finland,Denmark,Japan,Austria,Switzerland,Belgium) Panobinostat,Selinexor (USA)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -345,12 +345,12 @@
         "Category 1": "HAEMOPHILIA",
         "Category 0": "FACTOR 2, 7 ,9 AND 10",
         "Molecules/ATC codes": "B02D2 (Taiwan,HONG KONG)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     },
     {
         "Category 5": "GZ",
@@ -360,11 +360,11 @@
         "Category 1": "HAEMOPHILIA",
         "Category 0": "FACTOR VIII",
         "Molecules/ATC codes": "B02D1(Taiwan,HONG KONG)",
-        "Euro": "R",
-        "SU": "R",
-        "TC": "S",
-        "TD": "S",
-        "PEq": "S",
-        "LC": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "No",
+        "LC": "Yes"
     }
 ]

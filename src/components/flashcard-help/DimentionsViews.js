@@ -8,7 +8,7 @@ export default class DimentionsViews extends Component {
         <h1>Dimensions & Views</h1>
         <img alt='' src={graphDimentions} />
         <p>
-          This part of Flashcard contains the Imes of selected Dimension (
+          This part of Flashcard contains the item of selected Dimension (
           Corporation, Countries, Market and etc. ) from Slicer board - Metrics
         </p>
         <ol>

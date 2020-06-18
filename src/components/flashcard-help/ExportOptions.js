@@ -8,8 +8,7 @@ export default class ExportOptions extends Component {
         <h1>Export Features</h1>
         <img alt='' src={graphExport2} />
         <p>
-          By using the export options, user can export the KPIs table and Chart
-          to different formats like MS-PowerPoint, Excel and Outlook as well:
+        By using the export options, user can export the KPIs table and Chart to different formats like MS-PowerPoint, Excel:
         </p>
         <ol>
           <li>By clicking here user can export the board table.</li>
