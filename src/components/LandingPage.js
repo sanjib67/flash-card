@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Redirect, Route, Switch, Link } from 'react-router-dom';
 import classNames from 'classnames';
 import { Col, Row  } from 'rsuite';
-// import HelpfulButtons from './HelpfulButtons';
 
 export default class LandingPage extends Component {
   state = {
@@ -38,6 +37,7 @@ export default class LandingPage extends Component {
     sideBar[x.parentIndex].active = true;
     this.setState({ sideBar: [...sideBar] });
   }
+  
   breadCrumbs = () => {
     let allChildren = this.state.sideBar
       .map((parent, parentIndex) => {
@@ -52,7 +52,6 @@ export default class LandingPage extends Component {
         });
       })
       .flat();
-
     const data = allChildren.find((eachChild) => {
       return eachChild.path === window.location.pathname;
     });
@@ -190,11 +189,6 @@ export default class LandingPage extends Component {
                                 <Col xs={24} sm={12} md={8}>
                                   <Row>
                                     <Col xs={24} sm={12} md={12}>
-                                      <span className='next-page-title'>
-                                        {this.next(children.name).nextName}
-                                      </span>
-                                    </Col>
-                                    <Col xs={24} sm={12} md={12}>
                                       <Link
                                         to={this.next(children.name).nextPath}
                                         onClick={() => {
@@ -207,6 +201,11 @@ export default class LandingPage extends Component {
                                         className='btn btn-outline-primary btn-arrow'>
                                         Next
                                       </Link>
+                                    </Col>
+                                    <Col xs={24} sm={12} md={12}>
+                                      <span className='next-page-title'>
+                                        {(this.next(children.name).parentIndex===1?'Market Definition ':'')+this.next(children.name).nextName}
+                                      </span>
                                     </Col>
                                   </Row>
                                   <div className='next-page'>

@@ -5,9 +5,9 @@
         "Category 1": "Asthma",
         "Category 0": "IL4I/IL13I",
         "Molecules/ATC codes": "Molecule-Dupilumab",
-        "Euro": "R",
-        "SU": "R",
-        "Peq": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "Peq": "Yes"
     },
     {
         "Category 3": "Dupixent Franchise",
@@ -15,9 +15,9 @@
         "Category 1": "Asthma",
         "Category 0": "IgEi",
         "Molecules/ATC codes": "Molecule-Omalizumab",
-        "Euro": "R",
-        "SU": "R",
-        "Peq": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "Peq": "Yes"
     },
     {
         "Category 3": "Dupixent Franchise",
@@ -25,9 +25,9 @@
         "Category 1": "Asthma",
         "Category 0": "IL5i",
         "Molecules/ATC codes": "Molecule-Benralizumab;Mepolizumab;Reslizumab",
-        "Euro": "R",
-        "SU": "R",
-        "Peq": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "Peq": "Yes"
     },
     {
         "Category 3": "Dermatology",
@@ -35,9 +35,9 @@
         "Category 1": "AD Adults",
         "Category 0": "AD Adults",
         "Molecules/ATC codes": "Molecule-Dupilumab",
-        "Euro": "R",
-        "SU": "R",
-        "Peq": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "Peq": "Yes"
     },
     {
         "Category 3": "Dupixent Franchise",
@@ -45,8 +45,8 @@
         "Category 1": "Nasal Polyps",
         "Category 0": "Nasal Polyps",
         "Molecules/ATC codes": "Molecule-Dupilumab",
-        "Euro": "R",
-        "SU": "R",
-        "Peq": "R"
+        "Euro": "Yes",
+        "SU": "Yes",
+        "Peq": "Yes"
     }
 ]

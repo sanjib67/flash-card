@@ -1,33 +1,17 @@
 import React, { Component } from 'react';
-import { Table, Input, InputGroup, Col, Grid, Row, Icon,Button } from 'rsuite';
-import XLSX from 'xlsx'
+import { Table, Input, InputGroup, Col, Grid, Row, Icon, Button } from 'rsuite';
+import XLSX from 'xlsx';
 const { Column, HeaderCell, Cell, Pagination } = Table;
 
 export default class RsuiteTable extends Component {
   state = {
     searchValue: '',
-    displayLength: 10,
-    loading: false,
-    page: 1
-  };
-
-  handleChangePage = (dataKey) => {
-    this.setState({
-      page: dataKey
-    });
-  };
-  handleChangeLength = (dataKey) => {
-    this.setState({
-      page: 1,
-      displayLength: dataKey
-    });
+    loading: false
   };
 
   getData = () => {
     const {
       searchValue,
-      displayLength,
-      page,
       sortColumn,
       sortType
     } = this.state;
@@ -58,37 +42,28 @@ export default class RsuiteTable extends Component {
           return y - x;
         }
       })
-      .filter((v, i) => {
-        const start = displayLength * (page - 1);
-        const end = start + displayLength;
-        return i >= start && i < end;
-      });
 
     return { sortedData, filteredData };
   };
 
-  downloadXLSX = (data)  => {
-    const filename = `${window.location.pathname.split('/').pop()}.xlsx`
-    const sheetName =  "Table"
+  downloadXLSX = (data) => {
+    const filename = `${window.location.pathname.split('/').pop()}.xlsx`;
+    const sheetName = 'Table';
     /* generate worksheet */
-    const ws = XLSX.utils.json_to_sheet(data)
+    const ws = XLSX.utils.json_to_sheet(data);
     /* generate workbook and add worksheet */
-    const  wb = XLSX.utils.book_new();
+    const wb = XLSX.utils.book_new();
 
-    XLSX.utils.book_append_sheet(wb, ws,sheetName);
-    XLSX.writeFile(wb, filename)
-  }
+    XLSX.utils.book_append_sheet(wb, ws, sheetName);
+    XLSX.writeFile(wb, filename);
+  };
 
   iconRenderer = (eachColumn) => {
     switch (eachColumn) {
-      case 'R':
-        return <i style={{ color: '#2ecc72' }} className='fas fa-check'></i>;
       case 'Yes':
-          return <i style={{ color: '#2ecc72' }} className='fas fa-check'></i>;
-      case 'S':
+        return <i style={{ color: '#2ecc72' }} className='fas fa-check'></i>;
+      case 'No':
         return <i style={{ color: 'tomato' }} className='fas fa-times'></i>;
-        case 'No':
-          return <i style={{ color: 'tomato' }} className='fas fa-times'></i>;
       default:
         return eachColumn;
     }
@@ -96,17 +71,22 @@ export default class RsuiteTable extends Component {
 
   render() {
     const data = this.getData().sortedData;
-    const { loading, displayLength, page } = this.state;
+    const { loading } = this.state;
 
     return (
       <div className='table-responsive'>
         <Grid fluid>
           <Row>
             <Col xs={24} sm={12} md={8}>
-            <Button onClick={()=>{this.downloadXLSX(this.props.data)}} size="sm">Export <i className="fas fa-download"></i></Button>
+              <Button
+                onClick={() => {
+                  this.downloadXLSX(this.props.data);
+                }}
+                size='sm'>
+                Export <i className='fas fa-download'></i>
+              </Button>
             </Col>
-            <Col xs={24} sm={12} md={8}>
-            </Col>
+            <Col xs={24} sm={12} md={8}></Col>
             <Col xs={24} sm={12} md={8}>
               <InputGroup size='sm' inside style={{ marginBottom: 10 }}>
                 <Input
@@ -123,6 +103,7 @@ export default class RsuiteTable extends Component {
           </Row>
         </Grid>
         <Table
+          wordWrap={true}
           height={500}
           data={data}
           loading={loading}
@@ -149,23 +130,6 @@ export default class RsuiteTable extends Component {
             );
           })}
         </Table>
-        <Pagination
-          lengthMenu={[
-            {
-              value: 10,
-              label: 10
-            },
-            {
-              value: 20,
-              label: 20
-            }
-          ]}
-          activePage={page}
-          displayLength={displayLength}
-          total={this.getData().filteredData.length}
-          onChangePage={this.handleChangePage}
-          onChangeLength={this.handleChangeLength}
-        />
       </div>
     );
   }

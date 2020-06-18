@@ -71,7 +71,7 @@ export default class MarketDefinitionDcv extends Component {
   render() {
     return (
       <div className='content'>
-        <h1> DCV</h1>
+        <h1>DCV</h1>
         <RsuiteTable
           data={this.state.data}
           tableColumns={this.state.tableColumns}
