@@ -1,10 +1,12 @@
 import React from 'react';
-import Header from './components/Header';
+import XLSX from 'xlsx';
+import { BrowserRouter, Route } from 'react-router-dom';
 
+import './App.css';
+
+import Header from './components/Header';
 import Footer from './components/Footer';
 import LandingPage from './components/LandingPage';
-import './App.css';
-import { BrowserRouter, Route } from 'react-router-dom';
 
 import Home from './components/Home';
 import Overview from './components/flashcard-help/Overview';
@@ -36,10 +38,7 @@ import Faqs from './components/faq/Faqs';
 import TipsAndTricks from './components/faq/TipsAndTricks';
 import ContactUs from './components/faq/ContactUs';
 
-
-
 import Abbreviations from './components/abbreviations/Abbreviations';
-
 
 class App extends React.Component {
   state = {
@@ -258,6 +257,28 @@ class App extends React.Component {
       }
     ]
   };
+
+  componentDidMount() {
+    // TODO - Get data from excel workbook 
+    fetch('manifest.json').then((d) => {
+      console.log(d)
+    }
+    )
+    fetch('data.xlsx').then(function(res) {
+      /* get the data as a Blob */
+      if(!res.ok) throw new Error("fetch failed");
+      return res.arrayBuffer();
+    }).then(function(ab) {
+      /* parse the data when it is received */
+      var data = new Uint8Array(ab);
+      var workbook = XLSX.read(data, {type:"array"});
+    
+      /* DO SOMETHING WITH workbook HERE */
+      // sheet_to_json
+
+      // console.log(workbook)
+    });
+  }
 
   render() {
     return (
