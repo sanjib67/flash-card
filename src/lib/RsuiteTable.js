@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Table, Input, InputGroup, Col, Grid, Row, Icon, Button } from 'rsuite';
 import XLSX from 'xlsx';
-const { Column, HeaderCell, Cell, Pagination } = Table;
+const { Column, HeaderCell, Cell } = Table;
 
 export default class RsuiteTable extends Component {
   state = {
@@ -65,7 +65,11 @@ export default class RsuiteTable extends Component {
       case 'No':
         return <i style={{ color: 'tomato' }} className='fas fa-times'></i>;
       default:
-        return eachColumn;
+        return  <div
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(eachColumn).split("\\r\\n").join("<br/>")
+          }}
+        />;
     }
   };
 

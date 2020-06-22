@@ -260,24 +260,20 @@ class App extends React.Component {
 
   componentDidMount() {
     // TODO - Get data from excel workbook 
-    fetch('manifest.json').then((d) => {
-      console.log(d)
-    }
-    )
-    fetch('data.xlsx').then(function(res) {
-      /* get the data as a Blob */
-      if(!res.ok) throw new Error("fetch failed");
-      return res.arrayBuffer();
-    }).then(function(ab) {
-      /* parse the data when it is received */
-      var data = new Uint8Array(ab);
-      var workbook = XLSX.read(data, {type:"array"});
+    // fetch('data.xlsx').then(function(res) {
+    //  /* get the data as a Blob */
+    //   if(!res.ok) throw new Error("fetch failed");
+    //   return res.arrayBuffer();
+    // }).then(function(ab) {
+    //   /* parse the data when it is received */
+    //   let data = new Uint8Array(ab);
+    //   let workbook = XLSX.read(data, {type:"array"});
     
-      /* DO SOMETHING WITH workbook HERE */
-      // sheet_to_json
+    //   /* DO SOMETHING WITH workbook HERE */
+    //   sheet_to_json
 
-      // console.log(workbook)
-    });
+    //   console.log(workbook)
+    // });
   }
 
   render() {
