@@ -10626,7 +10626,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   justify-content: flex-start;
 }
 .col-main-content {
-  max-width: calc(100% - 380px);
+  max-width: calc(100% - 300px);
   width: 100%;
   box-shadow: 0px 10px 40px #0000000A;
   padding: 48px 62px 65px 62px;
@@ -10635,7 +10635,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .col-sidebar {
   max-width: 300px;
   width: 100%;
-  margin-right: 80px
+  margin-right: 0px
 }
 .breadcrumbs-section {
   padding: 0;
