@@ -26,7 +26,7 @@ export default class Footer extends Component {
           <div className='container'>
             <div className='powered-box text-center'>
               <img alt='' src={solutionecLogo} />
-              <p>Powered by Flashcard v4.4.28. Last updated 01/06/2020.</p>
+              <p>Powered by Flashcard v4.4.28. Last updated 23/06/2020.</p>
             </div>
           </div>
         </div>
