@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Table, Input, InputGroup, Col, Grid, Row, Icon, Button } from 'rsuite';
 import XLSX from 'xlsx';
 const { Column, HeaderCell, Cell } = Table;
-
 export default class RsuiteTable extends Component {
   state = {
     searchValue: '',
@@ -67,7 +66,7 @@ export default class RsuiteTable extends Component {
       default:
         return  <div
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(eachColumn).split("\\r\\n").join("<br/>")
+            __html: JSON.parse(JSON.stringify(eachColumn)?JSON.stringify(eachColumn).split("\\r\\n").join("<br/>"):null)
           }}
         />;
     }

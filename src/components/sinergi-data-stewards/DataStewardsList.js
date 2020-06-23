@@ -9,14 +9,14 @@ export default class DataStewardsList extends Component {
     page: 1,
     data: dataStewardsList,
     tableColumns: [
-      { name: 'Country', width: 100 },
-      {
-        name: 'Channel',
-        width: 100
-      },
+      { name: 'Country', width: 120 },
+      // {
+      //   name: 'Channel',
+      //   width: 100
+      // },
       {
         name: 'Panel',
-        width: 100
+        width: 120
       },
       {
         name: 'Data Type',
