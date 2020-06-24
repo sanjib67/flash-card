@@ -25,7 +25,7 @@ export default class Abbreviations extends Component {
   render() {
     return (
       <div className='content'>
-        <h1>DataPanel</h1>
+        <h1>Abbreviations</h1>
         <RsuiteTable
           data={this.state.data}
           tableColumns={this.state.tableColumns}
