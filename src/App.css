@@ -14,3 +14,8 @@
     line-height: 2.7 !important;
     margin-left: 10px;
 }
+
+
+.accordion button::before {
+    top: 30px !important;
+}

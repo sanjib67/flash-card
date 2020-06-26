@@ -16,7 +16,7 @@ export default class Troubleshoot extends Component {
                 <div className='card-header' id={'faq-' + index}>
                   <h2 className='mb-0'>
                     <button
-                      className='btn btn-link collapsed'
+                      className='btn btn-link collapsed '
                       type='button'
                       data-toggle='collapse'
                       data-target={'#answer-' + index}
