@@ -20,7 +20,7 @@ export default class FlascardDimentions extends Component {
       },
       {
         name: 'Description',
-        width: 300
+        width: 400
       },
       {
         name: 'Example',

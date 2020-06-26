@@ -21,7 +21,7 @@ export default class FlashcubeMetrics extends Component {
       },
       {
         name: 'Description',
-        width: 300
+        width: 420
       }
     ]
   };

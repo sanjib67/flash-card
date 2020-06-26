@@ -1,3 +1,15 @@
+.rs-table-word-wrap .rs-table-cell-content {
+    word-break: break-word !important;
+    line-height: 1.8;
+}
 
 
+.slicers-board-list {
+    margin-top: 10px;
+    margin-right: 0 !important;
+}
 
+
+.next-page-title {
+    line-height: 2.7 !important;
+}

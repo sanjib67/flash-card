@@ -9,6 +9,10 @@ export default class LandingPage extends Component {
   };
 
   componentDidMount() {
+
+    console.log("Sidebar", this.props.sideBar);
+
+
     const sideBar = this.state.sideBar;
     sideBar.forEach((eachParent) => {
       eachParent.active = false;
@@ -35,6 +39,10 @@ export default class LandingPage extends Component {
       });
     sideBar[x.parentIndex].children[x.childIndex].active = true;
     sideBar[x.parentIndex].active = true;
+
+      console.log("SIDE BAR >>>", sideBar);
+
+
     this.setState({ sideBar: [...sideBar] });
   }
   
@@ -94,17 +102,40 @@ export default class LandingPage extends Component {
 
   onParentClick = (parent, index) => {
     const sideBar = this.state.sideBar;
-    sideBar[index].active = !sideBar[index].active;
+    
+    sideBar.forEach((eachParent) => {
+      if(!parent.active) {
+        let isChildActive = eachParent.children.some((eachChild) => eachChild.active);
+        if(!isChildActive) {
+          eachParent.active = false;
+        }
+      }
+
+      eachParent.children.forEach((eachChild) => {
+        if(eachChild.active !== true) {
+          eachChild.active = false;
+        }
+      });
+    });
+
+    let isChildActive = parent.children.some((eachChild) => eachChild.active);
+    if(!isChildActive) {
+      sideBar[index].active = !sideBar[index].active;
+    } 
+    
     this.setState({ sideBar: [...sideBar] });
   };
 
   onChildClick(index, childIndex) {
     const sideBar = this.state.sideBar;
     sideBar.forEach((eachParent) => {
+      eachParent.active = false;
       eachParent.children.forEach((eachChild) => {
         eachChild.active = false;
       });
     });
+
+    sideBar[index].active = true;
     sideBar[index].children[childIndex].active = true;
     this.setState({ sideBar: [...sideBar] });
   }
@@ -180,15 +211,15 @@ export default class LandingPage extends Component {
                           return (
                             <div className='col-main-content'>
                               <Row>
-                                <Col xs={24} sm={12} md={8}></Col>
+                                <Col xs={22} sm={10} md={6}></Col>
                                 <Col xs={24} sm={12} md={8}>
                                   <div className='mr-auto'>
                                     {/* <HelpfulButtons /> */}
                                   </div>
                                 </Col>
-                                <Col xs={24} sm={12} md={8}>
+                                <Col xs={22} sm={10} md={10}>
                                   <Row>
-                                    <Col xs={24} sm={12} md={12}>
+                                    <Col xs={22} sm={10} md={8}>
                                       <Link
                                         to={this.next(children.name).nextPath}
                                         onClick={() => {
@@ -202,7 +233,7 @@ export default class LandingPage extends Component {
                                         Next
                                       </Link>
                                     </Col>
-                                    <Col xs={24} sm={12} md={12}>
+                                    <Col xs={20} sm={8} md={14}>
                                       <span className='next-page-title'>
                                         {(this.next(children.name).parentIndex===1?'Market Definition ':'')+this.next(children.name).nextName}
                                       </span>
