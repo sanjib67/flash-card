@@ -218,8 +218,8 @@ export default class LandingPage extends Component {
                                   </div>
                                 </Col>
                                 <Col xs={22} sm={10} md={10}>
-                                  <Row>
-                                    <Col xs={22} sm={10} md={8}>
+                                  <Row className="text-right">
+                                    <Col>
                                       <Link
                                         to={this.next(children.name).nextPath}
                                         onClick={() => {
@@ -232,12 +232,15 @@ export default class LandingPage extends Component {
                                         className='btn btn-outline-primary btn-arrow'>
                                         Next
                                       </Link>
-                                    </Col>
-                                    <Col xs={20} sm={8} md={14}>
                                       <span className='next-page-title'>
                                         {(this.next(children.name).parentIndex===1?'Market Definition ':'')+this.next(children.name).nextName}
                                       </span>
                                     </Col>
+                                    {/* <Col>
+                                      <span className='next-page-title'>
+                                        {(this.next(children.name).parentIndex===1?'Market Definition ':'')+this.next(children.name).nextName}
+                                      </span>
+                                    </Col> */}
                                   </Row>
                                   <div className='next-page'>
                                     <p> </p>
