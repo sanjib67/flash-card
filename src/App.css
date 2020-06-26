@@ -19,3 +19,7 @@
 .accordion button::before {
     top: 30px !important;
 }
+
+.cta-text {
+    font-size: 29px !important;
+}
