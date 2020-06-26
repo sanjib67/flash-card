@@ -17,7 +17,7 @@ export default class VolumeCalculations extends Component {
       },
       {
         name: 'Description',
-        width: 400
+        width: 380
       },
       {
         name: 'Calculation',
