@@ -13,7 +13,7 @@ export default class VolumeCalculations extends Component {
 
       {
         name: 'Metrics',
-        width: 150
+        width: 180
       },
       {
         name: 'Description',
@@ -21,7 +21,7 @@ export default class VolumeCalculations extends Component {
       },
       {
         name: 'Calculation',
-        width: 420
+        width: 400
       }
     ]
   };

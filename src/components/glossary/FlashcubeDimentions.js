@@ -12,7 +12,7 @@ export default class FlashcubeDimentions extends Component {
     tableColumns: [
       {
         name: 'Category',
-        width: 150
+        width: 200
       },
       {
         name: 'Group/ Item',
@@ -20,7 +20,7 @@ export default class FlashcubeDimentions extends Component {
       },
       {
         name: 'Description',
-        width: 600
+        width: 550
       }
     ]
   };
