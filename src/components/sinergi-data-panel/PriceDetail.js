@@ -46,10 +46,10 @@ export default class PriceDetail extends Component {
         name: 'B.20 Euro exchange rate',
         width: 200
       },
-      {
-        name: 'B.19 Euro exchange rate',
-        width: 200
-      },
+      // {
+      //   name: 'B.19 Euro exchange rate',
+      //   width: 200
+      // },
       {
         name: 'ALL',
         width: 100
