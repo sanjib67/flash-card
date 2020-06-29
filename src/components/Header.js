@@ -53,11 +53,8 @@ componentDidMount(){
                 </div>
             </nav>
             
-            <header className="masthead">  
-
-            <div>
-             <img alt='' src={headerBackground} />    
-             </div>          
+            <header className="masthead">              
+             <img alt='' src={headerBackground} />                      
                {/*<div className="container">
                     <form className="search-form" name="sentMessage">
                         <div className="search-w">
