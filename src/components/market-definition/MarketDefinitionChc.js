@@ -32,15 +32,15 @@ export default class MarketDefinitionChc extends Component {
       },
       {
         name: 'Mnf Price - Euro',
-        width: 100
+        width: 200
       },
       {
         name: 'Public Price - Euro',
-        width: 100
+        width: 200
       },
       {
         name: 'Units (Pack Sold)',
-        width: 100
+        width: 200
       },
       {
         name: 'LC',

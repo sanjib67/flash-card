@@ -32,7 +32,7 @@ export default class MarketDefinitionEp extends Component {
           },
           {
             name: "Molecules/ATC codes",
-            width: 250
+            width: 350
           },
           {
             name: "Euro",
