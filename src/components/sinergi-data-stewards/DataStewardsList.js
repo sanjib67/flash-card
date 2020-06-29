@@ -10,13 +10,9 @@ export default class DataStewardsList extends Component {
     data: dataStewardsList,
     tableColumns: [
       { name: 'Country', width: 120 },
-      // {
-      //   name: 'Channel',
-      //   width: 100
-      // },
       {
         name: 'Panel',
-        width: 120
+        width: 250
       },
       {
         name: 'Data Type',

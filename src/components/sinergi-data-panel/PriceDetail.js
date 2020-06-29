@@ -12,15 +12,15 @@ export default class PriceDetail extends Component {
     tableColumns: [
       {
         name: 'Country',
-        width: 100
+        width: 150
       },
       {
         name: 'Channel',
-        width: 100
+        width: 150
       },
       {
         name: 'Panel',
-        width: 100
+        width: 150
       },
       {
         name: 'Sell-In / Sell-Out',
@@ -28,7 +28,7 @@ export default class PriceDetail extends Component {
       },
       {
         name: 'Manufacturer rate X Local data',
-        width: 150
+        width: 350
       },
       {
         name: 'Trade rate X Local data',
@@ -36,19 +36,19 @@ export default class PriceDetail extends Component {
       },
       {
         name: 'Public Rate X Local data',
-        width: 100
+        width: 250
       },
       {
         name: 'Manufacturer Price in Local Data',
-        width: 100
+        width: 250
       },
       {
         name: 'B.20 Euro exchange rate',
-        width: 100
+        width: 200
       },
       {
         name: 'B.19 Euro exchange rate',
-        width: 100
+        width: 200
       },
       {
         name: 'ALL',

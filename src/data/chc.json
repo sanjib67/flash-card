@@ -1024,7 +1024,7 @@
         "Category 2": "Nutritional Health",
         "Category 1": "Sleep aids",
         "Category 0": "Antianxiety",
-        "Molecules/ATC codes": "N05B1;N05B2;H04X0;N050C;N05C0: OTC for all countries\r\nN05B1: RX for RUSSIA\r\nN05B2: RX for ALGERIA;EGYPT;SAUDI ARABIA;TURKEY;LEBANON;UAE\r\nN05B2;H04X0: Benin,BURKINA FASO,Cameroun,CONGO,Gabon,Guinee,COTE D IVOIRE,Mali,Niger,Senegal,TCHAD,TOGO (RX+OTC)",
+        "Molecules/ATC codes": "N05B1;N05B2;H04X0;N05C0: OTC for all countries\r\nN05B1: RX for RUSSIA\r\nN05B2: RX for ALGERIA;EGYPT;SAUDI ARABIA;TURKEY;LEBANON;UAE\r\nN05B2;H04X0: Benin,BURKINA FASO,Cameroun,CONGO,Gabon,Guinee,COTE D IVOIRE,Mali,Niger,Senegal,TCHAD,TOGO (RX+OTC)",
         "Mnf Price - Euro": "Yes",
         "Public Price - Euro": "Yes",
         "Units (Pack Sold)": "Yes",

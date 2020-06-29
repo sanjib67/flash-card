@@ -104,7 +104,7 @@ class App extends React.Component {
         active: false,
         children: [
           {
-            name: 'DCV',
+            name: 'Diabetes',
             path: '/landing-page/market-definition-dcv',
             component: MarketDefinitionDcv,
             active: false

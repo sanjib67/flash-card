@@ -17,19 +17,19 @@ export default class DataPanel extends Component {
       },
       {
         name: 'Sinergi Panel Mapping',
-        width: 100
+        width: 200
       },
       {
         name: 'Country channel',
-        width: 100
+        width: 200
       },
       {
         name: 'Flashcard channel',
-        width: 150
+        width: 200
       },
       {
         name: 'Weight of channel within the total market (%)',
-        width: 150
+        width: 360
       },
       {
         name: 'Panel coverage of the channel (%)',
@@ -37,15 +37,15 @@ export default class DataPanel extends Component {
       },
       {
         name: 'Data Provider',
-        width: 100
+        width: 200
       },
       {
         name: 'Market Definiton-ATC4/OTC4',
-        width: 100
+        width: 300
       },
       {
         name: 'RX/OTC Split Availability',
-        width: 100
+        width: 300
       },
       {
         name: 'Frequency',
@@ -93,7 +93,7 @@ export default class DataPanel extends Component {
   render() {
     return (
       <div className='content'>
-        <h1>DataPanel</h1>
+        <h1>Data Panel</h1>
         <RsuiteTable
           data={this.state.data}
           tableColumns={this.state.tableColumns}
