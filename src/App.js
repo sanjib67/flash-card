@@ -41,6 +41,11 @@ import ContactUs from './components/faq/ContactUs';
 import Abbreviations from './components/abbreviations/Abbreviations';
 
 class App extends React.Component {
+
+
+  base = '/help'
+
+
   state = {
     sideBar: [
       {
@@ -50,49 +55,49 @@ class App extends React.Component {
         children: [
           {
             name: 'Overview',
-            path: '/landing-page/overview',
+            path: this.base +'/landing-page/overview',
             component: Overview,
             active: true
           },
           {
             name: 'Flashview: Key KPIs',
-            path: '/landing-page/flashview',
+            path: this.base +'/landing-page/flashview',
             component: Flashview,
             active: false
           },
           {
             name: 'Charts',
-            path: '/landing-page/charts',
+            path: this.base +'/landing-page/charts',
             component: Charts,
             active: false
           },
           {
             name: 'Slicers Board',
-            path: '/landing-page/slicers-board',
+            path: this.base +'/landing-page/slicers-board',
             component: SlicersBoard,
             active: false
           },
           {
             name: 'Dimensions & Views',
-            path: '/landing-page/dimensions-views',
+            path: this.base +'/landing-page/dimensions-views',
             component: DimentionsViews,
             active: false
           },
           {
             name: 'Bookmark Options',
-            path: '/landing-page/bookmark-options',
+            path: this.base +'/landing-page/bookmark-options',
             component: BookmarkOptions,
             active: false
           },
           {
             name: 'Export Features',
-            path: '/landing-page/export-options',
+            path: this.base +'/landing-page/export-options',
             component: ExportOptions,
             active: false
           },
           {
             name: 'Flashcube: Slice & Dice Data',
-            path: '/landing-page/flashcube-slice-dice',
+            path: this.base +'/landing-page/flashcube-slice-dice',
             component: FlashcubeSliceDice,
             active: false
           }
@@ -105,37 +110,37 @@ class App extends React.Component {
         children: [
           {
             name: 'DCV',
-            path: '/landing-page/market-definition-dcv',
+            path: this.base +'/landing-page/market-definition-dcv',
             component: MarketDefinitionDcv,
             active: false
           },
           {
             name: 'EP',
-            path: '/landing-page/market-definition-ep',
+            path: this.base +'/landing-page/market-definition-ep',
             component: MarketDefinitionEp,
             active: false
           },
           {
             name: 'Pasteur',
-            path: '/landing-page/market-definition-pasteur',
+            path: this.base +'/landing-page/market-definition-pasteur',
             component: MarketDefinitionPast,
             active: false
           },
           {
             name: 'Gz',
-            path: '/landing-page/market-definition-gz',
+            path: this.base +'/landing-page/market-definition-gz',
             component: MarketDefinitionGz,
             active: false
           },
           {
             name: 'CHC',
-            path: '/landing-page/market-definition-chc',
+            path: this.base +'/landing-page/market-definition-chc',
             component: MarketDefinitionChc,
             active: false
           },
           {
             name: 'Dupixent',
-            path: '/landing-page/market-definition-dupixent',
+            path: this.base +'/landing-page/market-definition-dupixent',
             component: MarketDefinitionDup,
             active: false
           }
@@ -148,7 +153,7 @@ class App extends React.Component {
         children: [
           {
             name: 'Data Stewards List',
-            path: '/landing-page/sinergi-data-stewards',
+            path: this.base +'/landing-page/sinergi-data-stewards',
             component: DataStewardsList,
             active: false
           }
@@ -161,13 +166,13 @@ class App extends React.Component {
         children: [
           {
             name: 'Data Panel',
-            path: '/landing-page/sinergi-data-panel',
+            path: this.base +'/landing-page/sinergi-data-panel',
             component: DataPanel,
             active: false
           },
           {
             name: 'Price Detail',
-            path: '/landing-page/sinergi-price-detail',
+            path: this.base +'/landing-page/sinergi-price-detail',
             component: PriceDetail,
             active: false
           }
@@ -180,32 +185,32 @@ class App extends React.Component {
         children: [
           {
             name: 'Flashcard Dimensions',
-            path: '/landing-page/flashcard-dimensions',
+            path: this.base +'/landing-page/flashcard-dimensions',
             component: FlashcardDimentions,
             active: false
           },
 
           {
             name: 'Flashcard Metrics',
-            path: '/landing-page/flashcard-metrics',
+            path: this.base +'/landing-page/flashcard-metrics',
             component: FlashcardMetrics,
             active: false
           },
           {
             name: 'Flashcube Dimensions',
-            path: '/landing-page/flashcube-dimensions',
+            path: this.base +'/landing-page/flashcube-dimensions',
             component: FlashcubeDimentions,
             active: false
           },
           {
             name: 'Flashcube Metrics',
-            path: '/landing-page/flashcube-metrics',
+            path: this.base +'/landing-page/flashcube-metrics',
             component: FlashcubeMetrics,
             active: false
           },
           {
             name: 'Volume Calculations',
-            path: '/landing-page/volume-calculations',
+            path: this.base +'/landing-page/volume-calculations',
             component: VolumeCalculations,
             active: false
           }
@@ -218,25 +223,25 @@ class App extends React.Component {
         children: [
           {
             name: 'Troubleshooting',
-            path: '/landing-page/troubleshooting',
+            path: this.base +'/landing-page/troubleshooting',
             component: Troubleshooting,
             active: false
           },
           {
             name: 'Frequently Asked Questions',
-            path: '/landing-page/faqs',
+            path: this.base +'/landing-page/faqs',
             component: Faqs,
             active: false
           },
           {
             name: 'Tips and Tricks',
-            path: '/landing-page/tips-and-tricks',
+            path: this.base +'/landing-page/tips-and-tricks',
             component: TipsAndTricks,
             active: false
           },
           {
             name: 'Contact Us',
-            path: '/landing-page/contact-us',
+            path: this.base +'/landing-page/contact-us',
             component: ContactUs,
             active: false
           }
@@ -249,7 +254,7 @@ class App extends React.Component {
         children: [
           {
             name: 'Abbreviations',
-            path: '/landing-page/abbreviations',
+            path: this.base +'/landing-page/abbreviations',
             component: Abbreviations,
             active: false
           }
@@ -283,11 +288,11 @@ class App extends React.Component {
           <Header />
           <Route
             exact
-            path='/'
+            path='/help'
             render={() => <Home sideBar={this.state.sideBar} />}
           />
           <Route
-            path='/landing-page'
+            path='help/landing-page'
             render={() => <LandingPage sideBar={this.state.sideBar} />}
           />
           <Footer />
