@@ -281,6 +281,7 @@ class App extends React.Component {
     // });
   }
 
+
   render() {
     return (
       <div>
@@ -291,10 +292,8 @@ class App extends React.Component {
             path='/help'
             render={() => <Home sideBar={this.state.sideBar} />}
           />
-          <Route
-            path='help/landing-page'
-            render={() => <LandingPage sideBar={this.state.sideBar} />}
-          />
+
+           <Route path='/help/landing-page' render={() => <LandingPage sideBar={this.state.sideBar} />} />
           <Footer />
         </BrowserRouter>
       </div>

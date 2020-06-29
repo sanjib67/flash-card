@@ -3,6 +3,7 @@ import sanofiLogo from "../images/logo-sanofi.png"
 import flashCardLogo from "../images/logo.png";
 import classNames from "classnames";
 import { Link } from 'react-router-dom';
+import headerBackground from "../images/bg-header.png";
 export default class Header extends Component {
 
     state = {
@@ -51,7 +52,12 @@ componentDidMount(){
                     </div>*/}
                 </div>
             </nav>
-            <header className="masthead">
+            
+            <header className="masthead">  
+
+            <div>
+             <img alt='' src={headerBackground} />    
+             </div>          
                {/*<div className="container">
                     <form className="search-form" name="sentMessage">
                         <div className="search-w">

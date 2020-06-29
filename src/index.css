@@ -10223,11 +10223,11 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 145px;
-  padding-bottom: 54px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
   text-align: center;
   color: #fff;
-  background-image: url("./images/bg-header.png");
+  /* background-image: url("/images/bg-header.png"); */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
