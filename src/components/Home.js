@@ -28,7 +28,7 @@ export default class Home extends Component {
 
                           <li>
                             <Link
-                              to='/landing-page/overview'
+                              to='/help/landing-page/overview'
                               className='highlight'>
                               See More
                             </Link>

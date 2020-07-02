@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import contactUs from '../../images/contact-us.png';
+import contactUs from './../../images/contact-us.png';
 
 export default class ContactUs extends Component {
   render() {

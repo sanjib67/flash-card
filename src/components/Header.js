@@ -33,7 +33,7 @@ componentDidMount(){
                 transition : 'background .25s ease-in-out'
             }} id="mainNav">
                 <div className="container">
-                    <Link className="navbar-brand mr-auto" to="/"><img alt="" src={flashCardLogo} /></Link>
+                    <Link className="navbar-brand mr-auto" to="/help"><img alt="" src={flashCardLogo} /></Link>
                   {/*<Link className="second-brand" to="/"><img alt="" src={sanofiLogo}  /></Link>*/}  
                     <Link className="nav-iteml-wrap ml-auto " to="/"><img alt="" src={sanofiLogo}  /></Link>
                   {/*  <div className="nav-iteml-wrap ml-auto" id="navbarResponsive">
