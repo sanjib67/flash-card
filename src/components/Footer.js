@@ -15,7 +15,7 @@ export default class Footer extends Component {
                 </p>
               </div>
               <div className='ml-auto'>
-                <Link to='/landing-page/contact-us' className='btn btn-outline-white'>
+                <Link to='/help/landing-page/contact-us' className='btn btn-outline-white'>
                   Contact Us
                 </Link>
               </div>

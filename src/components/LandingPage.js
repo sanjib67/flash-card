@@ -199,8 +199,8 @@ export default class LandingPage extends Component {
                 </div>
               </div>
               <Switch>
-                <Route exact path='/landing-page'>
-                  <Redirect to='/landing-page/overview' />
+                <Route exact path='/help/landing-page'>
+                  <Redirect to='/help/landing-page/overview' />
                 </Route>
                 {this.state.sideBar.map((parent) => {
                   return parent.children.map((children) => {
