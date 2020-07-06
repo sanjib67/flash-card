@@ -34,37 +34,12 @@ componentDidMount(){
             }} id="mainNav">
                 <div className="container">
                     <Link className="navbar-brand mr-auto" to="/help"><img alt="" src={flashCardLogo} /></Link>
-                  {/*<Link className="second-brand" to="/"><img alt="" src={sanofiLogo}  /></Link>*/}  
-                    <Link className="nav-iteml-wrap ml-auto " to="/"><img alt="" src={sanofiLogo}  /></Link>
-                  {/*  <div className="nav-iteml-wrap ml-auto" id="navbarResponsive">
-                       
-                    <ul className="navbar-nav ml-auto align-items-center">
-                            <li className="nav-item"><a className="nav-link notifications" href="#"><i className="zmdi zmdi-notifications-none"></i><span className="count-bubble">1</span></a></li>
-                            <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</a>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <a className="dropdown-item" href="#">Action</a>
-                                  <a className="dropdown-item" href="#">Another action</a>
-                                  <div className="dropdown-divider"></div>
-                                  <a className="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>*/}
+                    <Link className="nav-iteml-wrap ml-auto " to="/help"><img alt="" src={sanofiLogo}  /></Link>
                 </div>
             </nav>
             
             <header className="masthead">              
              <img alt='' src={headerBackground} />                      
-               {/*<div className="container">
-                    <form className="search-form" name="sentMessage">
-                        <div className="search-w">
-                            <div className="form-group mb-0">
-                                <button className="btn btn-empty btn-searh" type="submit"><i className="zmdi zmdi-search"></i></button>
-                                <input className="form-control search-input" name="search" type="search" placeholder="Looking for something specific? Search here…" /> 
-                            </div> 
-                         </div>
-                    </form>
-                </div> */}
             </header>
     </div>
         )
