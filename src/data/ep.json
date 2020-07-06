@@ -783,23 +783,6 @@
     },
     {
         "Category 5": "EP",
-        "Category 4": "Other EP",
-        "Category 3": "RESPIRATORY",
-        "Category 2": "RESPIRATORY",
-        "Category 1": "NASACORT",
-        "Category 0": "NASACORT MKT.",
-        "Molecules/ATC codes": "R01A1 (France)",
-        "Euro": "Yes",
-        "SU": "Yes",
-        "IU": "No",
-        "IUt": "No",
-        "TD": "No",
-        "TC": "No",
-        "Rx (Available only for US)": "No",
-        "LC": "Yes"
-    },
-    {
-        "Category 5": "EP",
         "Category 4": "CV",
         "Category 3": "Anti Arrhythmics",
         "Category 2": "Anti Arrhythmics",

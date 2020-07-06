@@ -1,53 +1,45 @@
-import React, { Component } from 'react';
-import { Table, Input, InputGroup, Col, Grid, Row, Icon, Button } from 'rsuite';
-import XLSX from 'xlsx';
+import React, { Component } from "react";
+import { Table, Input, InputGroup, Col, Grid, Row, Icon, Button } from "rsuite";
+import XLSX from "xlsx";
 const { Column, HeaderCell, Cell } = Table;
 export default class RsuiteTable extends Component {
   state = {
-    searchValue: '',
+    searchValue: "",
     loading: false
   };
 
   getData = () => {
-    const {
-      searchValue,
-      sortColumn,
-      sortType
-    } = this.state;
+    const { searchValue, sortColumn, sortType } = this.state;
 
     const { data } = this.props;
 
     // search sort pagination
     const filteredData = data.filter((eachRow) => {
-      return Object.values(eachRow)
-        .join()
-        .toLowerCase()
-        .includes(searchValue.toLowerCase());
+      return Object.values(eachRow).join().toLowerCase().includes(searchValue.toLowerCase());
     });
 
-    const sortedData = filteredData
-      .sort((a, b) => {
-        let x = a[sortColumn];
-        let y = b[sortColumn];
-        if (typeof x === 'string') {
-          x = x.charCodeAt();
-        }
-        if (typeof y === 'string') {
-          y = y.charCodeAt();
-        }
-        if (sortType === 'asc') {
-          return x - y;
-        } else {
-          return y - x;
-        }
-      })
+    const sortedData = filteredData.sort((a, b) => {
+      let x = a[sortColumn];
+      let y = b[sortColumn];
+      if (typeof x === "string") {
+        x = x.charCodeAt();
+      }
+      if (typeof y === "string") {
+        y = y.charCodeAt();
+      }
+      if (sortType === "asc") {
+        return x - y;
+      } else {
+        return y - x;
+      }
+    });
 
     return { sortedData, filteredData };
   };
 
   downloadXLSX = (data) => {
-    const filename = `${window.location.pathname.split('/').pop()}.xlsx`;
-    const sheetName = 'Table';
+    const filename = `${window.location.pathname.split("/").pop()}.xlsx`;
+    const sheetName = "Table";
     /* generate worksheet */
     const ws = XLSX.utils.json_to_sheet(data);
     /* generate workbook and add worksheet */
@@ -59,16 +51,29 @@ export default class RsuiteTable extends Component {
 
   iconRenderer = (eachColumn) => {
     switch (eachColumn) {
-      case 'Yes':
-        return <i style={{ color: '#2ecc72' }} className='fas fa-check'></i>;
-      case 'No':
-        return <i style={{ color: 'tomato' }} className='fas fa-times'></i>;
+      case "Yes":
+        return (
+          <div key={JSON.stringify(eachColumn) + Date.now() + "div"}>
+            <i key={JSON.stringify(eachColumn) + Date.now()} style={{ color: "#2ecc72" }} className='fas fa-check'></i>
+          </div>
+        );
+      case "No":
+        return (
+          <div key={JSON.stringify(eachColumn) + Date.now() + "div"}>
+            <i key={JSON.stringify(eachColumn) + Date.now()} style={{ color: "tomato" }} className='fas fa-times'></i>
+          </div>
+        );
       default:
-        return  <div
-          dangerouslySetInnerHTML={{
-            __html: JSON.parse(JSON.stringify(eachColumn)?JSON.stringify(eachColumn).split("\\r\\n").join("<br/>"):null)
-          }}
-        />;
+        return (
+          <div key={JSON.stringify(eachColumn) + Date.now() + "div"}>
+            <div
+              key={JSON.stringify(eachColumn) + Date.now()}
+              dangerouslySetInnerHTML={{
+                __html: JSON.parse(JSON.stringify(eachColumn) ? JSON.stringify(eachColumn).split("\\r\\n").join("<br/>") : null)
+              }}
+            />
+          </div>
+        );
     }
   };
 
@@ -120,15 +125,13 @@ export default class RsuiteTable extends Component {
               <Column key={eachColumn.name} width={eachColumn.width} sortable>
                 <HeaderCell
                   style={{
-                    color: '#535CA3',
-                    fontWeight: 'bold',
-                    fontSize: '15px'
+                    color: "#535CA3",
+                    fontWeight: "bold",
+                    fontSize: "15px"
                   }}>
                   {eachColumn.name}
                 </HeaderCell>
-                <Cell dataKey={eachColumn.name}>
-                  {(rowData) => this.iconRenderer(rowData[eachColumn.name])}
-                </Cell>
+                <Cell dataKey={eachColumn.name}>{(rowData) => this.iconRenderer(rowData[eachColumn.name])}</Cell>
               </Column>
             );
           })}
