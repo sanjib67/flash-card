@@ -191,7 +191,7 @@
         "SU": "Yes",
         "TC": "No",
         "TD": "No",
-        "PEq": "Yes",
+        "PEq": "No",
         "LC": "Yes"
     },
     {
@@ -200,13 +200,13 @@
         "Category 3": "MM",
         "Category 2": "MM",
         "Category 1": "Antibodies",
-        "Category 0": "Anti CD38",
+        "Category 0": "Anti CD38 ANTIBODIES",
         "Molecules/ATC codes": "Molecules Daratumumab,Isatuximab (France,Spain,Germany,UK,Italy,Netherlands,Sweden,Finland,Denmark,Japan,Russia,USA,Austria,UAE,Kuwait,Switzerland,Belgium)",
         "Euro": "Yes",
         "SU": "Yes",
         "TC": "No",
         "TD": "No",
-        "PEq": "Yes",
+        "PEq": "No",
         "LC": "Yes"
     },
     {
@@ -325,7 +325,22 @@
         "SU": "Yes",
         "TC": "No",
         "TD": "No",
-        "PEq": "No",
+        "PEq": "Yes",
+        "LC": "Yes"
+    },
+    {
+        "Category 5": "GZ",
+        "Category 4": "Immuno",
+        "Category 3": "Dupixent Franchise",
+        "Category 2": "Dermatology",
+        "Category 1": "ATOPIC DERMATITIS",
+        "Category 0": "ATOPIC DERMATITIS",
+        "Molecules/ATC codes": "Molecule-Dupilumab",
+        "Euro": "Yes",
+        "SU": "Yes",
+        "TC": "No",
+        "TD": "No",
+        "PEq": "Yes",
         "LC": "Yes"
     }
 ]
