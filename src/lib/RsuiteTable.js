@@ -44,7 +44,6 @@ export default class RsuiteTable extends Component {
     const ws = XLSX.utils.json_to_sheet(data);
     /* generate workbook and add worksheet */
     const wb = XLSX.utils.book_new();
-
     XLSX.utils.book_append_sheet(wb, ws, sheetName);
     XLSX.writeFile(wb, filename);
   };
