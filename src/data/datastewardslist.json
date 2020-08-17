@@ -22,7 +22,7 @@
     },
     {
         "Country": "Australia",
-        "Panel": "Basal (Tojeo)",
+        "Panel": "Basal (Toujeo)",
         "Data Type": "Patients",
         "Name": "Gayleen Loong",
         "Email": "Gayleen.Loong@sanofi.com"
@@ -133,6 +133,13 @@
         "Email": "David.St-John@sanofi.com"
     },
     {
+        "Country": "Canada",
+        "Panel": "GPM",
+        "Data Type": "Market Sales",
+        "Name": "David St-John",
+        "Email": "David.St-John@sanofi.com"
+    },
+    {
         "Country": "Genmed",
         "Panel": "SI/Basal/Praluent/Lovenox",
         "Data Type": "Finance",
@@ -175,18 +182,11 @@
         "Email": "Yunpeng.Ni@sanofi.com"
     },
     {
-        "Country": "China",
-        "Panel": "Subnational data",
-        "Data Type": "Market Sales",
-        "Name": "Sylina Cai",
-        "Email": "Sylina.Cai@iqvia.com"
-    },
-    {
         "Country": "Colombia",
         "Panel": "PMC/SISMED",
         "Data Type": "Market Sales",
-        "Name": "Carlos Ramirez",
-        "Email": "Carlos.Ramirez@sanofi.com"
+        "Name": "Camilo Montealegre",
+        "Email": "camilo.montealegre@sanofi.com"
     },
     {
         "Country": "Congo",
@@ -535,8 +535,8 @@
         "Country": "Kuwait",
         "Panel": "KLPO/KPI",
         "Data Type": "Market Sales",
-        "Name": "Dmitry Menshenin",
-        "Email": "Dmitry.Menshenin@sanofi.com"
+        "Name": "Shahrouri Nabeel",
+        "Email": "nabeel.shahrouri@sanofi.com"
     },
     {
         "Country": "Latvia",
@@ -596,167 +596,41 @@
     },
     {
         "Country": "Multiple",
-        "Panel": "Dupixent - Actuals",
+        "Panel": "Dupixent - Actuals/Budget/F1/F2",
         "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
+        "Name": "Indushree Suresh",
+        "Email": "Indushree.Suresh-ext@sanofi.com"
     },
     {
         "Country": "Multiple",
-        "Panel": "Dupixent - Budget",
+        "Panel": "Jevtana - Actuals/Budget/F1/F2",
         "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
+        "Name": "Indushree Suresh",
+        "Email": "Indushree.Suresh-ext@sanofi.com"
     },
     {
         "Country": "Multiple",
-        "Panel": "Dupixent - F1",
+        "Panel": "Libtayo  - Actuals/Budget/F1/F2",
         "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
+        "Name": "Indushree Suresh",
+        "Email": "Indushree.Suresh-ext@sanofi.com"
     },
     {
         "Country": "Multiple",
-        "Panel": "Dupixent - F2",
+        "Panel": "Sarclisa - Actuals/Budget/F1/F2",
         "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
+        "Name": "Indushree Suresh",
+        "Email": "Indushree.Suresh-ext@sanofi.com"
     },
     {
         "Country": "Multiple",
-        "Panel": "Jevtana - Actuals",
+        "Panel": "Kevzara - Actuals/Budget/F1/F2",
         "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
+        "Name": "Indushree Suresh",
+        "Email": "Indushree.Suresh-ext@sanofi.com"
     },
     {
-        "Country": "Multiple",
-        "Panel": "Jevtana - Budget",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Jevtana - F1",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Jevtana - F2",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Kevzara - Actual Patients",
-        "Data Type": "Patients",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Kevzara - Actuals",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Kevzara - Budget",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Kevzara - F1",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Kevzara - F2",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Libtayo  - Actual Patients",
-        "Data Type": "Patients",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Libtayo  - Actuals",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Libtayo  - Budget",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Libtayo  - F1",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Libtayo  - F2",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Other Kevzara - Actual Patients",
-        "Data Type": "Patients",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Other Kevzara - Actuals",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Other Kevzara - Budget",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Other Kevzara - F1",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Other Kevzara - F2",
-        "Data Type": "Finance",
-        "Name": "Anthony Chatelain",
-        "Email": "Anthony.Chatelain@sanofi.com"
-    },
-    {
-        "Country": "NETHERLANDS",
+        "Country": "Netherlands",
         "Panel": "NETHERLANDS PTR",
         "Data Type": "Market Sales",
         "Name": "Agathe Roupioz, Maria Ondriash",
@@ -801,8 +675,8 @@
         "Country": "Pakistan",
         "Panel": "PKPI",
         "Data Type": "Market Sales",
-        "Name": "Abdul Ahad",
-        "Email": "abdul.ahad@sanofi.com"
+        "Name": "Kaleemullah Khan",
+        "Email": "Kaleemullah.Khan@sanofi.com"
     },
     {
         "Country": "Panama",
@@ -878,8 +752,8 @@
         "Country": "Saudi Arabia",
         "Panel": "SALPO/SAPI",
         "Data Type": "Market Sales",
-        "Name": "Adel Zamarani",
-        "Email": "Adel.ZAMARANI@sanofi.com"
+        "Name": "Shahrouri Nabeel",
+        "Email": "nabeel.shahrouri@sanofi.com"
     },
     {
         "Country": "Senegal",
@@ -1039,12 +913,12 @@
         "Country": "UAE",
         "Panel": "UAEP",
         "Data Type": "Market Sales",
-        "Name": "Dmitry Menshenin",
-        "Email": "Dmitry.Menshenin@sanofi.com"
+        "Name": "Shahrouri Nabeel",
+        "Email": "nabeel.shahrouri@sanofi.com"
     },
     {
         "Country": "UK",
-        "Panel": "NIELSEN_UK",
+        "Panel": "IRI_UK",
         "Data Type": "Market Sales",
         "Name": "Pauline Bravet ",
         "Email": "Pauline.Bravet@sanofi.com"
@@ -1061,7 +935,7 @@
         "Panel": "HPAI/INTPHA/XBPI",
         "Data Type": "Market Sales",
         "Name": "Carmina Alvaro",
-        "Email": "Carmina.Alvaro@sanofi.com"
+        "Email": "carmina.alvaro@sanofi.com"
     },
     {
         "Country": "Ukraine",
@@ -1242,7 +1116,7 @@
         "Country": "Netherlands",
         "Panel": "Praluent",
         "Data Type": "Patients",
-        "Name": "Edouard Racine2",
+        "Name": "Edouard Racine",
         "Email": "Edouard.Racine2@sanofi.com"
     },
     {
@@ -1284,7 +1158,7 @@
         "Country": "Switzerland",
         "Panel": "Praluent",
         "Data Type": "Patients",
-        "Name": "carmen garcia-feurer",
+        "Name": "Carmen Garcia-Feurer",
         "Email": "carmen.garcia-feurer@sanofi.com"
     },
     {
@@ -1298,7 +1172,7 @@
         "Country": "UK",
         "Panel": "SI/Basal",
         "Data Type": "Patients",
-        "Name": "Alvaro, Carmina",
+        "Name": "Carmina Alvaro",
         "Email": "carmina.alvaro@sanofi.com"
     },
     {
@@ -1361,7 +1235,7 @@
         "Country": "UK",
         "Panel": "SI/Basal/Praluent",
         "Data Type": "Promo",
-        "Name": "Alvaro, Carmina",
+        "Name": "Carmina Alvaro",
         "Email": "carmina.alvaro@sanofi.com"
     },
     {
