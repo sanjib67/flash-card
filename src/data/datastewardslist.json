@@ -1,1290 +1,1290 @@
-﻿[
-    {
-        "Country": "Algeria",
-        "Panel": "LMNPA",
-        "Data Type": "Market Sales",
-        "Name": "Atef Mami",
-        "Email": "Atef.Mami@sanofi.com "
-    },
-    {
-        "Country": "Argentina",
-        "Panel": "PMA",
-        "Data Type": "Market Sales",
-        "Name": "Pablo Cordova",
-        "Email": "pablo.cordova@sanofi.com"
-    },
-    {
-        "Country": "Australia",
-        "Panel": "API/AHI",
-        "Data Type": "Market Sales",
-        "Name": "Gayleen Loong",
-        "Email": "Gayleen.Loong@sanofi.com"
-    },
-    {
-        "Country": "Australia",
-        "Panel": "Basal (Toujeo)",
-        "Data Type": "Patients",
-        "Name": "Gayleen Loong",
-        "Email": "Gayleen.Loong@sanofi.com"
-    },
-    {
-        "Country": "Australia",
-        "Panel": "IQVIA",
-        "Data Type": "Market Sales",
-        "Name": "Victor Ilievski",
-        "Email": "Victor.Ilievski@sanofi.com"
-    },
-    {
-        "Country": "Austria",
-        "Panel": "DPMO/DPMOK",
-        "Data Type": "Market Sales",
-        "Name": "Claudia Zimmer",
-        "Email": "Claudia.Zimmer@sanofi.com"
-    },
-    {
-        "Country": "Austria",
-        "Panel": "OTC Offtake",
-        "Data Type": "Market Sales",
-        "Name": "Benjamin Stacher",
-        "Email": "Benjamin.Stacher@sanofi.com"
-    },
-    {
-        "Country": "Azerbaijan",
-        "Panel": "AUDIT OF RETAIL DRUG SALES IN AZERBAIJAN",
-        "Data Type": "Market Sales",
-        "Name": "Evgeniya Li",
-        "Email": "evgeniya.li@sanofi.com"
-    },
-    {
-        "Country": "Belgium",
-        "Panel": "BELGIUM PTR (OTC)",
-        "Data Type": "Market Sales",
-        "Name": "Agathe Roupioz, Maria Ondriash",
-        "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
-    },
-    {
-        "Country": "Belgium",
-        "Panel": "BHA_DU",
-        "Data Type": "Market Sales",
-        "Name": "Dominique Mievis",
-        "Email": "Dominique.Mievis@sanofi.com"
-    },
-    {
-        "Country": "Belgium",
-        "Panel": "LMPB",
-        "Data Type": "Market Sales",
-        "Name": "Jean-Jacques Hertsens",
-        "Email": "Jean-Jacques.Hertsens@sanofi.com"
-    },
-    {
-        "Country": "Benin",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Bosnia",
-        "Panel": "BIHMIE",
-        "Data Type": "Market Sales",
-        "Name": "Ines Crnjak",
-        "Email": "Ines.Crnjak@sanofi.com"
-    },
-    {
-        "Country": "Brazil",
-        "Panel": "NRC/PMB/PPP",
-        "Data Type": "Market Sales",
-        "Name": "Helmut Madeiro",
-        "Email": "Helmut.Madeiro@sanofi.com"
-    },
-    {
-        "Country": "Bulgaria",
-        "Panel": "BGHI/BGPI/NHIF",
-        "Data Type": "Market Sales",
-        "Name": "Ines Rasokova",
-        "Email": "Ines.Rasokova@sanofi.com"
-    },
-    {
-        "Country": "Burkina Faso",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Cameroun",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Canada",
-        "Panel": "CDH",
-        "Data Type": "Market Sales",
-        "Name": "David St-John",
-        "Email": "David.St-John@sanofi.com"
-    },
-    {
-        "Country": "Canada",
-        "Panel": "Praluent",
-        "Data Type": "Promo",
-        "Name": "David St-John",
-        "Email": "David.St-John@sanofi.com"
-    },
-    {
-        "Country": "Canada",
-        "Panel": "GPM",
-        "Data Type": "Market Sales",
-        "Name": "David St-John",
-        "Email": "David.St-John@sanofi.com"
-    },
-    {
-        "Country": "Genmed",
-        "Panel": "SI/Basal/Praluent/Lovenox",
-        "Data Type": "Finance",
-        "Name": "Alisson Bidan",
-        "Email": "Alisson.Bidan@sanofi.com"
-    },
-    {
-        "Country": "Central America",
-        "Panel": "PMCA_CHC",
-        "Data Type": "Market Sales",
-        "Name": "Karem Garcia",
-        "Email": "Karem.Garcia@sanofi.com"
-    },
-    {
-        "Country": "Chile",
-        "Panel": "PMC",
-        "Data Type": "Market Sales",
-        "Name": "Ricardo Reyes",
-        "Email": "Ricardo.Reyes@sanofi.com"
-    },
-    {
-        "Country": "China",
-        "Panel": "CHPA",
-        "Data Type": "Market Sales",
-        "Name": "Kevin Hua ",
-        "Email": "Kevin.Hua@sanofi.com"
-    },
-    {
-        "Country": "China Domestic",
-        "Panel": "CMH (Total Market + Liver and Probiotics)/CHPA (Liver and Probiotics) /E-commerce(Liver)",
-        "Data Type": "Market Sales",
-        "Name": "Clenn Raschel",
-        "Email": "Clenn.Raschel@sanofi.com"
-    },
-    {
-        "Country": "Cross Border Ecom (CBEC)",
-        "Panel": "E-commerce(Nutirtional and Other OTCs)",
-        "Data Type": "Market Sales",
-        "Name": "Yunpeng Ni",
-        "Email": "Yunpeng.Ni@sanofi.com"
-    },
-    {
-        "Country": "Colombia",
-        "Panel": "PMC/SISMED",
-        "Data Type": "Market Sales",
-        "Name": "Camilo Montealegre",
-        "Email": "camilo.montealegre@sanofi.com"
-    },
-    {
-        "Country": "Congo",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Costa Rica",
-        "Panel": "CR",
-        "Data Type": "Market Sales",
-        "Name": "Edwin Cisneros",
-        "Email": "Edwin.Cisneros@sanofi.com"
-    },
-    {
-        "Country": "Cote D Ivoire",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Croatia",
-        "Panel": "HRHI/HRPI",
-        "Data Type": "Market Sales",
-        "Name": "Ines Crnjak",
-        "Email": "Ines.Crnjak@sanofi.com"
-    },
-    {
-        "Country": "Czech Republic",
-        "Panel": "CZECH PTR",
-        "Data Type": "Market Sales",
-        "Name": "Agathe Roupioz, Maria Ondriash",
-        "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
-    },
-    {
-        "Country": "Czech Republic",
-        "Panel": "Sell Out/SUKL/WHS/CRPI",
-        "Data Type": "Market Sales",
-        "Name": "Ondrej Cibera",
-        "Email": "Ondrej.Cibera@sanofi.com"
-    },
-    {
-        "Country": "Denmark",
-        "Panel": "DLI",
-        "Data Type": "Market Sales",
-        "Name": "Jorgen Olofsson",
-        "Email": "Jorgen.Olofsson@sanofi.com"
-    },
-    {
-        "Country": "Ecuador",
-        "Panel": "EC",
-        "Data Type": "Market Sales",
-        "Name": "Karem Garcia",
-        "Email": "Karem.Garcia@sanofi.com"
-    },
-    {
-        "Country": "Egypt",
-        "Panel": "PME/PMH_MTH",
-        "Data Type": "Market Sales",
-        "Name": "Nader Roger",
-        "Email": "Nader.Roger@sanofi.com"
-    },
-    {
-        "Country": "El Salvador",
-        "Panel": "ES",
-        "Data Type": "Market Sales",
-        "Name": "Edwin Cisneros",
-        "Email": "Edwin.Cisneros@sanofi.com"
-    },
-    {
-        "Country": "Estonia",
-        "Panel": "MEDICUBE",
-        "Data Type": "Market Sales",
-        "Name": "Jorgen Olofsson",
-        "Email": "Jorgen.Olofsson@sanofi.com"
-    },
-    {
-        "Country": "Europe",
-        "Panel": "SI/Basal",
-        "Data Type": "Forecast",
-        "Name": "Thibaud Guezenec/Constance Hirsch ",
-        "Email": "Thibaud.Guezenec@sanofi.com/constance.hirsch@sanofi.com"
-    },
-    {
-        "Country": "Finland",
-        "Panel": "FHI/PMF",
-        "Data Type": "Market Sales",
-        "Name": "Jorgen Olofsson",
-        "Email": "Jorgen.Olofsson@sanofi.com"
-    },
-    {
-        "Country": "Finland",
-        "Panel": "Finland PTR",
-        "Data Type": "Market Sales",
-        "Name": "Agathe Roupioz, Maria Ondriash",
-        "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
-    },
-    {
-        "Country": "France",
-        "Panel": "Exponent/GERS/Pharmatrend",
-        "Data Type": "Market Sales",
-        "Name": "Clothilde Adram",
-        "Email": "clothilde.adram@sanofi.com"
-    },
-    {
-        "Country": "Denmark ",
-        "Panel": "SI/Basal/Praluent",
-        "Data Type": "Weekly Sales",
-        "Name": "Guillaume Maire ",
-        "Email": "Guillaume.Maire@sanofi.com"
-    },
-    {
-        "Country": "Australia ",
-        "Panel": "Basal",
-        "Data Type": "Patients",
-        "Name": "Gayleen Long",
-        "Email": "Gayleen.Loong@sanofi.com"
-    },
-    {
-        "Country": "Belgium ",
-        "Panel": "Praluent",
-        "Data Type": "Promo",
-        "Name": "rene smeets",
-        "Email": "rene.smeets@sanofi.com"
-    },
-    {
-        "Country": "Gabon",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Georgia",
-        "Panel": "AUDIT OF RETAIL DRUG SALES IN GEORGIA",
-        "Data Type": "Market Sales",
-        "Name": "Evgeniya Li",
-        "Email": "evgeniya.li@sanofi.com"
-    },
-    {
-        "Country": "Germany",
-        "Panel": "DKM/Pharmascope/RETAIL VACCINE",
-        "Data Type": "Market Sales",
-        "Name": "Claudia Zimmer",
-        "Email": "Claudia.Zimmer@sanofi.com"
-    },
-    {
-        "Country": "Germany",
-        "Panel": "Germany PTRI",
-        "Data Type": "Market Sales",
-        "Name": "Agathe Roupioz, Maria Ondriash",
-        "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
-    },
-    {
-        "Country": "Finland ",
-        "Panel": "SI/Basal/Praluent",
-        "Data Type": "Weekly Sales",
-        "Name": "Guillaume Maire",
-        "Email": "Guillaume.Maire@sanofi.com"
-    },
-    {
-        "Country": "Austria",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Roman Resch",
-        "Email": "Roman.Resch@sanofi.com"
-    },
-    {
-        "Country": "France",
-        "Panel": "Lovenox",
-        "Data Type": "Weekly Sales",
-        "Name": "Clothilde Adram ",
-        "Email": "clothilde.adram@sanofi.com"
-    },
-    {
-        "Country": "Greece",
-        "Panel": "GPI",
-        "Data Type": "Market Sales",
-        "Name": "Niki Stenou",
-        "Email": "niki.stenou@sanofi.com"
-    },
-    {
-        "Country": "Greece",
-        "Panel": "GR_OTC",
-        "Data Type": "Market Sales",
-        "Name": "Maria Karavia",
-        "Email": "Maria.Karavia@sanofi.com"
-    },
-    {
-        "Country": "Guatemala",
-        "Panel": "GT",
-        "Data Type": "Market Sales",
-        "Name": "Edwin Cisneros",
-        "Email": "Edwin.Cisneros@sanofi.com"
-    },
-    {
-        "Country": "Guinee",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Honduras",
-        "Panel": "HD",
-        "Data Type": "Market Sales",
-        "Name": "Edwin Cisneros",
-        "Email": "Edwin.Cisneros@sanofi.com"
-    },
-    {
-        "Country": "Hong Kong",
-        "Panel": "HKPA",
-        "Data Type": "Market Sales",
-        "Name": "Grace Huang; Ben Leung",
-        "Email": "Grace.Huang@sanofi.com / Ben.Leung@sanofi.com"
-    },
-    {
-        "Country": "Hungary",
-        "Panel": "HPA/HHA",
-        "Data Type": "Market Sales",
-        "Name": "Judit Banyik",
-        "Email": "Judit.Banyik@sanofi.com"
-    },
-    {
-        "Country": "Hungary",
-        "Panel": "HUNGARY PTR",
-        "Data Type": "Market Sales",
-        "Name": "Agathe Roupioz, Maria Ondriash",
-        "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
-    },
-    {
-        "Country": "India",
-        "Panel": "TSA",
-        "Data Type": "Market Sales",
-        "Name": "Bavani Balakrishnan",
-        "Email": "Bavani.Balakrishnan@sanofi.com"
-    },
-    {
-        "Country": "Indonesia",
-        "Panel": "ITMA",
-        "Data Type": "Market Sales",
-        "Name": "Argentahardi Bina",
-        "Email": "Bina.Argentahardi@sanofi.com"
-    },
-    {
-        "Country": "Ireland",
-        "Panel": "IHI/IPI",
-        "Data Type": "Market Sales",
-        "Name": "Carmina Alvaro",
-        "Email": "Carmina.Alvaro@sanofi.com"
-    },
-    {
-        "Country": "Belgium",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "rene smeets",
-        "Email": "rene.smeets@sanofi.com"
-    },
-    {
-        "Country": "Italy",
-        "Panel": "IMF/IMFO+DPC",
-        "Data Type": "Market Sales",
-        "Name": "Enrico Paolo Torres",
-        "Email": "Enrico.Torres@sanofi.com"
-    },
-    {
-        "Country": "Italy",
-        "Panel": "ITALY PTR",
-        "Data Type": "Market Sales",
-        "Name": "Agathe Roupioz, Maria Ondriash",
-        "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
-    },
-    {
-        "Country": "Croatia",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Anita MilasAnzic",
-        "Email": "Anita.MilasAnzic@sanofi.com"
-    },
-    {
-        "Country": "Croatia",
-        "Panel": "Praluent",
-        "Data Type": "Promo",
-        "Name": "Anita MilasAnzic",
-        "Email": "Anita.MilasAnzic@sanofi.com"
-    },
-    {
-        "Country": "Czech Republic",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Edita Demcakova",
-        "Email": "Edita.Demcakova@sanofi.com"
-    },
-    {
-        "Country": "Japan",
-        "Panel": "JAPAN_SDI",
-        "Data Type": "Market Sales",
-        "Name": "Emi Yamaguch",
-        "Email": "Emi.Yamaguchi@ssp.co.jp"
-    },
-    {
-        "Country": "Japan",
-        "Panel": "JHPM/JPM",
-        "Data Type": "Market Sales",
-        "Name": "Shigeki Makita",
-        "Email": "Shigeki.Makita@sanofi.com"
-    },
-    {
-        "Country": "Czech Republic ",
-        "Panel": "SI/Praluent",
-        "Data Type": "Promo",
-        "Name": "Michal.Bodlak@sanofi.com",
-        "Email": "Michal.Bodlak@sanofi.com"
-    },
-    {
-        "Country": "Japan",
-        "Panel": "SI/Basal",
-        "Data Type": "Forecast",
-        "Name": "Thibaud Guezenec/Constance Hirsch ",
-        "Email": "Thibaud.Guezenec@sanofi.com/constance.hirsch@sanofi.com"
-    },
-    {
-        "Country": "Jordan",
-        "Panel": "JPI",
-        "Data Type": "Market Sales",
-        "Name": "Firas Frangie",
-        "Email": "Firas.Frangie2@sanofi.com"
-    },
-    {
-        "Country": "Kazakhstan",
-        "Panel": "AUDIT OF BUDGET DRUG PROCUREMENT IN KAZAKHSTAN/AUDIT OF RETAIL DRUG SALES IN KAZAKHSTAN (SEGMENT)",
-        "Data Type": "Market Sales",
-        "Name": "Evgeniya Li",
-        "Email": "evgeniya.li@sanofi.com"
-    },
-    {
-        "Country": "Kenya",
-        "Panel": "KE_PMSA_Q",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Kuwait",
-        "Panel": "KLPO/KPI",
-        "Data Type": "Market Sales",
-        "Name": "Shahrouri Nabeel",
-        "Email": "nabeel.shahrouri@sanofi.com"
-    },
-    {
-        "Country": "Latvia",
-        "Panel": "Softdent",
-        "Data Type": "Market Sales",
-        "Name": "Jorgen Olofsson",
-        "Email": "Jorgen.Olofsson@sanofi.com"
-    },
-    {
-        "Country": "Lebanon",
-        "Panel": "LPI",
-        "Data Type": "Market Sales",
-        "Name": "Firas Frangie",
-        "Email": "Firas.Frangie2@sanofi.com"
-    },
-    {
-        "Country": "Lithuania",
-        "Panel": "Pharmacept/Softdent",
-        "Data Type": "Market Sales",
-        "Name": "Jorgen Olofsson",
-        "Email": "Jorgen.Olofsson@sanofi.com"
-    },
-    {
-        "Country": "Luxembourg",
-        "Panel": "LMPL",
-        "Data Type": "Market Sales",
-        "Name": "Jean-Jacques Hertsens",
-        "Email": "Jean-Jacques.Hertsens@sanofi.com"
-    },
-    {
-        "Country": "Malaysia",
-        "Panel": "MGR/MPA",
-        "Data Type": "Market Sales",
-        "Name": "Sujiwan",
-        "Email": "Sujiwan.Janyasupab@sanofi.com"
-    },
-    {
-        "Country": "Mali",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Mexico",
-        "Panel": "IQVIA",
-        "Data Type": "Market Sales",
-        "Name": "Luis Villegas",
-        "Email": "Luis.Villegas@sanofi.com"
-    },
-    {
-        "Country": "Morocco",
-        "Panel": "LMPM",
-        "Data Type": "Market Sales",
-        "Name": "Zohra Mohsine",
-        "Email": "Zohra.Mohsine@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Dupixent - Actuals/Budget/F1/F2",
-        "Data Type": "Finance",
-        "Name": "Indushree Suresh",
-        "Email": "Indushree.Suresh-ext@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Jevtana - Actuals/Budget/F1/F2",
-        "Data Type": "Finance",
-        "Name": "Indushree Suresh",
-        "Email": "Indushree.Suresh-ext@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Libtayo  - Actuals/Budget/F1/F2",
-        "Data Type": "Finance",
-        "Name": "Indushree Suresh",
-        "Email": "Indushree.Suresh-ext@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Sarclisa - Actuals/Budget/F1/F2",
-        "Data Type": "Finance",
-        "Name": "Indushree Suresh",
-        "Email": "Indushree.Suresh-ext@sanofi.com"
-    },
-    {
-        "Country": "Multiple",
-        "Panel": "Kevzara - Actuals/Budget/F1/F2",
-        "Data Type": "Finance",
-        "Name": "Indushree Suresh",
-        "Email": "Indushree.Suresh-ext@sanofi.com"
-    },
-    {
-        "Country": "Netherlands",
-        "Panel": "NETHERLANDS PTR",
-        "Data Type": "Market Sales",
-        "Name": "Agathe Roupioz, Maria Ondriash",
-        "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
-    },
-    {
-        "Country": "Netherlands",
-        "Panel": "PharminForm",
-        "Data Type": "Market Sales",
-        "Name": "Edouard Racine ",
-        "Email": "edouard.racine2@sanofi.com"
-    },
-    {
-        "Country": "New Zealand",
-        "Panel": "NZHI/NZPI/NZHIP",
-        "Data Type": "Market Sales",
-        "Name": "Swee-Sing SONG",
-        "Email": "Swee-Sing.Song@sanofi.com"
-    },
-    {
-        "Country": "Nicaragua",
-        "Panel": "NC",
-        "Data Type": "Market Sales",
-        "Name": "Edwin Cisneros",
-        "Email": "Edwin.Cisneros@sanofi.com"
-    },
-    {
-        "Country": "Niger",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Norway",
-        "Panel": "NPH/NPP",
-        "Data Type": "Market Sales",
-        "Name": "Jorgen Olofsson",
-        "Email": "Jorgen.Olofsson@sanofi.com"
-    },
-    {
-        "Country": "Pakistan",
-        "Panel": "PKPI",
-        "Data Type": "Market Sales",
-        "Name": "Kaleemullah Khan",
-        "Email": "Kaleemullah.Khan@sanofi.com"
-    },
-    {
-        "Country": "Panama",
-        "Panel": "PN",
-        "Data Type": "Market Sales",
-        "Name": "Edwin Cisneros",
-        "Email": "Edwin.Cisneros@sanofi.com"
-    },
-    {
-        "Country": "Paraguay",
-        "Panel": "PRG",
-        "Data Type": "Market Sales",
-        "Name": "Pablo Cordova",
-        "Email": "pablo.cordova@sanofi.com"
-    },
-    {
-        "Country": "Peru",
-        "Panel": "PER",
-        "Data Type": "Market Sales",
-        "Name": "Joe Pinares",
-        "Email": "Joe.Pinares@sanofi.com"
-    },
-    {
-        "Country": "Philippines",
-        "Panel": "IMS Philippine Pharmacy",
-        "Data Type": "Market Sales",
-        "Name": "RodessaMae Cabrera",
-        "Email": "RodessaMae.Cabrera@sanofi.com"
-    },
-    {
-        "Country": "Poland",
-        "Panel": "Pharmascope IMS/PLHI/PLPI/Sell-Out",
-        "Data Type": "Market Sales",
-        "Name": "Piotr Swica",
-        "Email": "Piotr.Swica@sanofi.com"
-    },
-    {
-        "Country": "Portugal",
-        "Panel": "EHN/HMR",
-        "Data Type": "Market Sales",
-        "Name": "Miguel-Lucas Pinto",
-        "Email": "Miguel-Lucas.Pinto@sanofi.com"
-    },
-    {
-        "Country": "Portugal",
-        "Panel": "Portugal PTR",
-        "Data Type": "Market Sales",
-        "Name": "Agathe Roupioz, Maria Ondriash",
-        "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
-    },
-    {
-        "Country": "Romania",
-        "Panel": "ROMANIA_OTC",
-        "Data Type": "Market Sales",
-        "Name": "Mihaela Zamatrache",
-        "Email": "Mihaela.Zamatrache@sanofi.com"
-    },
-    {
-        "Country": "Romania",
-        "Panel": "ROHI/ROPI",
-        "Data Type": "Market Sales",
-        "Name": "Mihaela Zamatrache",
-        "Email": "Mihaela.Zamatrache@sanofi.com"
-    },
-    {
-        "Country": "Russia",
-        "Panel": "AMT/PUBLIC/RFPI/RLO/DLO/RLO/DLO_ONLS/RLO/DLO_VZN",
-        "Data Type": "Market Sales",
-        "Name": "Elena Topekha",
-        "Email": "Elena.Topekha.EXT@sanofi.com"
-    },
-    {
-        "Country": "Saudi Arabia",
-        "Panel": "SALPO/SAPI",
-        "Data Type": "Market Sales",
-        "Name": "Shahrouri Nabeel",
-        "Email": "nabeel.shahrouri@sanofi.com"
-    },
-    {
-        "Country": "Senegal",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Serbia",
-        "Panel": "SRB",
-        "Data Type": "Market Sales",
-        "Name": "Ines Crnjak",
-        "Email": "Ines.Crnjak@sanofi.com"
-    },
-    {
-        "Country": "Singapore",
-        "Panel": "SOR/SPA",
-        "Data Type": "Market Sales",
-        "Name": "Sujiwan",
-        "Email": "Sujiwan.Janyasupab@sanofi.com"
-    },
-    {
-        "Country": "Slovakia",
-        "Panel": "Sell Out/SRHI/SRPI",
-        "Data Type": "Market Sales",
-        "Name": "Ondrej Cibera",
-        "Email": "Ondrej.Cibera@sanofi.com"
-    },
-    {
-        "Country": "Slovenia",
-        "Panel": "SLPI",
-        "Data Type": "Market Sales",
-        "Name": "Ines Crnjak",
-        "Email": "Ines.Crnjak@sanofi.com"
-    },
-    {
-        "Country": "South Africa",
-        "Panel": "TPM",
-        "Data Type": "Market Sales",
-        "Name": "Zelna Symms",
-        "Email": "Zelna.Symms@sanofi.com"
-    },
-    {
-        "Country": "South Korea",
-        "Panel": "KCPA/KHPA/KPAQ",
-        "Data Type": "Market Sales",
-        "Name": "Soo Han Kim",
-        "Email": "SooHan.Kim@sanofi.com"
-    },
-    {
-        "Country": "South Korea",
-        "Panel": "KPA/UBIST",
-        "Data Type": "Market Sales",
-        "Name": "Jung Woo Lee",
-        "Email": "JungWoo.Lee@sanofi.com"
-    },
-    {
-        "Country": "Denmark",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Guillaume Maire",
-        "Email": "Guillaume.Maire@sanofi.com"
-    },
-    {
-        "Country": "Spain",
-        "Panel": "EMH/NPA/IMS OTC",
-        "Data Type": "Market Sales",
-        "Name": "Andreu Robuste",
-        "Email": "Andreu.Robuste@sanofi.com"
-    },
-    {
-        "Country": "France",
-        "Panel": "SI/Basal/Praluent",
-        "Data Type": "Promo",
-        "Name": "Clothilde Adram ",
-        "Email": "clothilde.adram@sanofi.com"
-    },
-    {
-        "Country": "Germany",
-        "Panel": "SI/Basal",
-        "Data Type": "Promo",
-        "Name": "Thomas Schramm",
-        "Email": "Thomas.Schramm@sanofi.com"
-    },
-    {
-        "Country": "Sri Lanka",
-        "Panel": "SLPA",
-        "Data Type": "Market Sales",
-        "Name": "Nilanga Perera",
-        "Email": "Nilanga.Perera@sanofi.com"
-    },
-    {
-        "Country": "Sweden",
-        "Panel": "IQVIA",
-        "Data Type": "Market Sales",
-        "Name": "Jorgen Olofsson",
-        "Email": "Jorgen.Olofsson@sanofi.com"
-    },
-    {
-        "Country": "Switzerland",
-        "Panel": "SWITZERLAND DRUGSTORE/SWITZERLAND PHARMACY",
-        "Data Type": "Market Sales",
-        "Name": "Agathe Roupioz",
-        "Email": "Agathe.Roupioz-ext@sanofi.com"
-    },
-    {
-        "Country": "Switzerland",
-        "Panel": "WHS",
-        "Data Type": "Market Sales",
-        "Name": "Claudia Zimmer",
-        "Email": "Claudia.Zimmer@sanofi.com"
-    },
-    {
-        "Country": "Taiwan",
-        "Panel": "TWHA/ TWPA",
-        "Data Type": "Market Sales",
-        "Name": "Erik Chang",
-        "Email": "Erik.Chang@sanofi.com"
-    },
-    {
-        "Country": "Tchad",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Thailand",
-        "Panel": "TLHI/TLPI",
-        "Data Type": "Market Sales",
-        "Name": "Sujiwan Janyasupab",
-        "Email": "Sujiwan.Janyasupab@sanofi.com"
-    },
-    {
-        "Country": "Togo",
-        "Panel": "DB_FWA.PRM",
-        "Data Type": "Market Sales",
-        "Name": "Louis Harold Ngamo",
-        "Email": "Harold.NGAMO@sanofi.com"
-    },
-    {
-        "Country": "Tunisia",
-        "Panel": "LMPT",
-        "Data Type": "Market Sales",
-        "Name": "Mohamed Haithem Makni",
-        "Email": "MohamedHaithem.Makni@sanofi.com"
-    },
-    {
-        "Country": "Turkey",
-        "Panel": "THI/NEC/TPI",
-        "Data Type": "Market Sales",
-        "Name": "Erkan Duran",
-        "Email": "Erkan.Duran@sanofi.com"
-    },
-    {
-        "Country": "UAE",
-        "Panel": "UAEP",
-        "Data Type": "Market Sales",
-        "Name": "Shahrouri Nabeel",
-        "Email": "nabeel.shahrouri@sanofi.com"
-    },
-    {
-        "Country": "UK",
-        "Panel": "IRI_UK",
-        "Data Type": "Market Sales",
-        "Name": "Pauline Bravet ",
-        "Email": "Pauline.Bravet@sanofi.com"
-    },
-    {
-        "Country": "France",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Pierre Hanniet ",
-        "Email": "Pierre.Hanniet@sanofi.com"
-    },
-    {
-        "Country": "UK",
-        "Panel": "HPAI/INTPHA/XBPI",
-        "Data Type": "Market Sales",
-        "Name": "Carmina Alvaro",
-        "Email": "carmina.alvaro@sanofi.com"
-    },
-    {
-        "Country": "Ukraine",
-        "Panel": "Proxima Research",
-        "Data Type": "Market Sales",
-        "Name": "Anton Polyuga",
-        "Email": "Anton.Polyuga@sanofi.com"
-    },
-    {
-        "Country": "Uruguay",
-        "Panel": "PMU/Mutuales",
-        "Data Type": "Market Sales",
-        "Name": "Pablo Cordova",
-        "Email": "pablo.cordova@sanofi.com"
-    },
-    {
-        "Country": "Germany",
-        "Panel": "SI/Basal",
-        "Data Type": "Patients",
-        "Name": "Thomas Schramm",
-        "Email": "Thomas.Schramm@sanofi.com"
-    },
-    {
-        "Country": "USA",
-        "Panel": "IMS Visco Patient Claims",
-        "Data Type": "Market Sales",
-        "Name": "Donna L. White",
-        "Email": "Donna.White@sanofi.com"
-    },
-    {
-        "Country": "Germany",
-        "Panel": "SI/Basal/Lovenox",
-        "Data Type": "Weekly Sales",
-        "Name": "Thomas Schramm",
-        "Email": "Thomas.Schramm@sanofi.com"
-    },
-    {
-        "Country": "USA",
-        "Panel": "NPA/NSP",
-        "Data Type": "Market Sales",
-        "Name": "Clothilde Adram",
-        "Email": "clothilde.adram@sanofi.com"
-    },
-    {
-        "Country": "Japan",
-        "Panel": "Basal/Praluent",
-        "Data Type": "Weekly Sales",
-        "Name": "Sadayuki Yamada/Keisuke Takada ",
-        "Email": "Sadayuki.Yamada@sanofi.com / Keisuke.Takada@sanofi.com"
-    },
-    {
-        "Country": "Netherlands ",
-        "Panel": "Basal",
-        "Data Type": "Weekly Sales",
-        "Name": "Edouard Racine",
-        "Email": "Edouard.Racine2@sanofi.com"
-    },
-    {
-        "Country": "Hungary ",
-        "Panel": "SI/Basal",
-        "Data Type": "Promo",
-        "Name": "Judit Banyik ",
-        "Email": "Judit.Banyik@sanofi.com"
-    },
-    {
-        "Country": "USA",
-        "Panel": "SI/Basal",
-        "Data Type": "Forecast",
-        "Name": "Thibaud Guezenec/Constance Hirsch ",
-        "Email": "Thibaud.Guezenec@sanofi.com/constance.hirsch@sanofi.com"
-    },
-    {
-        "Country": "USA",
-        "Panel": "USA NIELSEN",
-        "Data Type": "Market Sales",
-        "Name": "Eric Sheffield",
-        "Email": "eric.sheffield@nielsen.com"
-    },
-    {
-        "Country": "Uzbekistan",
-        "Panel": "AUDIT OF DRUGSTORE/HOSPITAL DRUG PROCUREMENT IN UZBEKISTAN (NEW)",
-        "Data Type": "Market Sales",
-        "Name": "Evgeniya Li",
-        "Email": "evgeniya.li@sanofi.com"
-    },
-    {
-        "Country": "Vietnam",
-        "Panel": "VIETNAM HOSPITAL/VIETNAM RETAIL",
-        "Data Type": "Market Sales",
-        "Name": "Thi Minh Quyet Nguyen",
-        "Email": "ThiMinhQuyet.Nguyen@sanofi.com"
-    },
-    {
-        "Country": "Iraq",
-        "Panel": "AMS",
-        "Data Type": "Market Sales",
-        "Name": "Firas Frangie",
-        "Email": "Firas.Frangie2@sanofi.com"
-    },
-    {
-        "Country": "Norway",
-        "Panel": "Basal/Praluent",
-        "Data Type": "Weekly Sales",
-        "Name": "Guillaume Maire",
-        "Email": "Guillaume.Maire@sanofi.com"
-    },
-    {
-        "Country": "Poland ",
-        "Panel": "Basal/Lovenox",
-        "Data Type": "Weekly Sales",
-        "Name": "Jakub  Tyminski",
-        "Email": "Jakub.Tyminski@sanofi.com"
-    },
-    {
-        "Country": "Slovenia ",
-        "Panel": "Basal/Lovenox/Praluent",
-        "Data Type": "Weekly Sales",
-        "Name": "Ines Crnjak",
-        "Email": "Ines.Crnjak@sanofi.com"
-    },
-    {
-        "Country": "USA",
-        "Panel": "SI/Basal/Lovenox/Praluent",
-        "Data Type": "Weekly Sales",
-        "Name": "Clothilde Adram ",
-        "Email": "clothilde.adram@sanofi.com"
-    },
-    {
-        "Country": "Italy",
-        "Panel": "SI/Basal",
-        "Data Type": "Promo",
-        "Name": "Roberto Derosa",
-        "Email": "roberto.derosa@sanofi.com"
-    },
-    {
-        "Country": "Italy",
-        "Panel": "Praluent",
-        "Data Type": "Promo",
-        "Name": "Enrico Torres",
-        "Email": "Enrico.Torres@sanofi.com"
-    },
-    {
-        "Country": "Japan",
-        "Panel": "SI/Basal/Praluent",
-        "Data Type": "Promo",
-        "Name": "Sadayuki Yamada/Keisuke Takada ",
-        "Email": "Sadayuki.Yamada@sanofi.com / Keisuke.Takada@sanofi.com"
-    },
-    {
-        "Country": "Hungary ",
-        "Panel": "SI",
-        "Data Type": "Patients",
-        "Name": "Judit Banyik ",
-        "Email": "Judit.Banyik@sanofi.com"
-    },
-    {
-        "Country": "Italy",
-        "Panel": "Basal",
-        "Data Type": "Patients",
-        "Name": "Roberto Derosa",
-        "Email": "roberto.derosa@sanofi.com"
-    },
-    {
-        "Country": "Italy",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Enrico Torres",
-        "Email": "Enrico.Torres@sanofi.com"
-    },
-    {
-        "Country": "Japan",
-        "Panel": "Basal/Praluent",
-        "Data Type": "Patients",
-        "Name": "Sadayuki Yamada/Keisuke Takada ",
-        "Email": "Sadayuki.Yamada@sanofi.com / Keisuke.Takada@sanofi.com"
-    },
-    {
-        "Country": "Netherlands",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Edouard Racine",
-        "Email": "Edouard.Racine2@sanofi.com"
-    },
-    {
-        "Country": "Netherlands ",
-        "Panel": "SI",
-        "Data Type": "Patients",
-        "Name": "Edouard Racine ",
-        "Email": "Edouard.Racine2@sanofi.com"
-    },
-    {
-        "Country": "Slovakia",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Edita Demcakova",
-        "Email": "Edita.Demcakova@sanofi.com"
-    },
-    {
-        "Country": "Slovenia",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Anita MilasAnzic",
-        "Email": "Anita.MilasAnzic@sanofi.com"
-    },
-    {
-        "Country": "Spain",
-        "Panel": "Basal/Praluent",
-        "Data Type": "Patients",
-        "Name": "Andreu Robuste",
-        "Email": "andreu.robuste@sanofi.com"
-    },
-    {
-        "Country": "Sweden ",
-        "Panel": "Praluent ",
-        "Data Type": "Patients",
-        "Name": "Guillaume Maire ",
-        "Email": "Guillaume.Maire@sanofi.com"
-    },
-    {
-        "Country": "Switzerland",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Carmen Garcia-Feurer",
-        "Email": "carmen.garcia-feurer@sanofi.com"
-    },
-    {
-        "Country": "UK",
-        "Panel": "Praluent",
-        "Data Type": "Patients",
-        "Name": "Idliko Jones",
-        "Email": "Ildiko.Jones@sanofi.com"
-    },
-    {
-        "Country": "UK",
-        "Panel": "SI/Basal",
-        "Data Type": "Patients",
-        "Name": "Carmina Alvaro",
-        "Email": "carmina.alvaro@sanofi.com"
-    },
-    {
-        "Country": "USA",
-        "Panel": "Basal",
-        "Data Type": "Patients",
-        "Name": "Amulya Gupta",
-        "Email": "Amulya.Gupta@sanofi.com"
-    },
-    {
-        "Country": "Netherlands ",
-        "Panel": "SI/Basal/Praluent",
-        "Data Type": "Promo",
-        "Name": "Edouard Racine",
-        "Email": "Edouard.Racine2@sanofi.com"
-    },
-    {
-        "Country": "Poland ",
-        "Panel": "SI/Basal",
-        "Data Type": "Promo",
-        "Name": "Tyminski, Jakub ",
-        "Email": "Jakub.Tyminski@sanofi.com"
-    },
-    {
-        "Country": "Romania ",
-        "Panel": "SI/Basal",
-        "Data Type": "Promo",
-        "Name": "Agata Stan",
-        "Email": "Agata.Stan@sanofi.com"
-    },
-    {
-        "Country": "Slovakia ",
-        "Panel": "SI/Basal",
-        "Data Type": "Promo",
-        "Name": "Michal.Bodlak@sanofi.com",
-        "Email": "Michal.Bodlak@sanofi.com"
-    },
-    {
-        "Country": "Slovenia",
-        "Panel": "Praluent",
-        "Data Type": "Promo",
-        "Name": "Anita MilasAnzic",
-        "Email": "Anita.MilasAnzic@sanofi.com"
-    },
-    {
-        "Country": "South Korea ",
-        "Panel": "SI/Praluent",
-        "Data Type": "Promo",
-        "Name": "Jung-woo Lee (Business Intelligence)",
-        "Email": "JungWoo.Lee@sanofi.com"
-    },
-    {
-        "Country": "Spain",
-        "Panel": "SI/Basal/Praluent",
-        "Data Type": "Promo",
-        "Name": "Andreu Robuste",
-        "Email": "andreu.robuste@sanofi.com"
-    },
-    {
-        "Country": "UK",
-        "Panel": "SI/Basal/Praluent",
-        "Data Type": "Promo",
-        "Name": "Carmina Alvaro",
-        "Email": "carmina.alvaro@sanofi.com"
-    },
-    {
-        "Country": "USA",
-        "Panel": "SI/Basal/Praluent",
-        "Data Type": "Promo",
-        "Name": "Amulya Gupta",
-        "Email": "Amulya.Gupta@sanofi.com"
-    },
-    {
-        "Country": "Europe",
-        "Panel": "Praluent",
-        "Data Type": "Forecast",
-        "Name": "Zeynep Matar ",
-        "Email": "Zeynep.Matar@sanofi.com"
-    },
-    {
-        "Country": "Japan",
-        "Panel": "Praluent",
-        "Data Type": "Forecast",
-        "Name": "Zeynep Matar ",
-        "Email": "Zeynep.Matar@sanofi.com"
-    },
-    {
-        "Country": "USA",
-        "Panel": "Praluent",
-        "Data Type": "Forecast",
-        "Name": "Zeynep Matar ",
-        "Email": "Zeynep.Matar@sanofi.com"
-    },
-    {
-        "Country": "Europe",
-        "Panel": "Lovenox ",
-        "Data Type": "Forecast",
-        "Name": "Maria Piedad Cortes/Zeynep Matar",
-        "Email": "MariaPiedad.Cortes@sanofi.com/Zeynep.Matar@sanofi.com"
-    },
-    {
-        "Country": "Japan",
-        "Panel": "Lovenox ",
-        "Data Type": "Forecast",
-        "Name": "Maria Piedad Cortes/Zeynep Matar",
-        "Email": "MariaPiedad.Cortes@sanofi.com/Zeynep.Matar@sanofi.com"
-    },
-    {
-        "Country": "USA",
-        "Panel": "Lovenox ",
-        "Data Type": "Forecast",
-        "Name": "Maria Piedad Cortes/Zeynep Matar",
-        "Email": "MariaPiedad.Cortes@sanofi.com/Zeynep.Matar@sanofi.com"
-    }
-]
+﻿ [
+        {
+            "Country": "Algeria",
+            "Panel": "LMNPA",
+            "Data Type": "Market Sales",
+            "Name": "Atef Mami",
+            "Email": "Atef.Mami@sanofi.com "
+        },
+        {
+            "Country": "Argentina",
+            "Panel": "PMA",
+            "Data Type": "Market Sales",
+            "Name": "Pablo Cordova",
+            "Email": "pablo.cordova@sanofi.com"
+        },
+        {
+            "Country": "Australia",
+            "Panel": "API/AHI",
+            "Data Type": "Market Sales",
+            "Name": "Gayleen Loong",
+            "Email": "Gayleen.Loong@sanofi.com"
+        },
+        {
+            "Country": "Australia",
+            "Panel": "Basal (Toujeo)",
+            "Data Type": "Patients",
+            "Name": "Gayleen Loong",
+            "Email": "Gayleen.Loong@sanofi.com"
+        },
+        {
+            "Country": "Australia",
+            "Panel": "IQVIA",
+            "Data Type": "Market Sales",
+            "Name": "Victor Ilievski",
+            "Email": "Victor.Ilievski@sanofi.com"
+        },
+        {
+            "Country": "Austria",
+            "Panel": "DPMO/DPMOK",
+            "Data Type": "Market Sales",
+            "Name": "Claudia Zimmer",
+            "Email": "Claudia.Zimmer@sanofi.com"
+        },
+        {
+            "Country": "Austria",
+            "Panel": "OTC Offtake",
+            "Data Type": "Market Sales",
+            "Name": "Benjamin Stacher",
+            "Email": "Benjamin.Stacher@sanofi.com"
+        },
+        {
+            "Country": "Azerbaijan",
+            "Panel": "AUDIT OF RETAIL DRUG SALES IN AZERBAIJAN",
+            "Data Type": "Market Sales",
+            "Name": "Evgeniya Li",
+            "Email": "evgeniya.li@sanofi.com"
+        },
+        {
+            "Country": "Belgium",
+            "Panel": "BELGIUM PTR (OTC)",
+            "Data Type": "Market Sales",
+            "Name": "Agathe Roupioz, Maria Ondriash",
+            "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
+        },
+        {
+            "Country": "Belgium",
+            "Panel": "BHA_DU",
+            "Data Type": "Market Sales",
+            "Name": "Dominique Mievis",
+            "Email": "Dominique.Mievis@sanofi.com"
+        },
+        {
+            "Country": "Belgium",
+            "Panel": "LMPB",
+            "Data Type": "Market Sales",
+            "Name": "Jean-Jacques Hertsens",
+            "Email": "Jean-Jacques.Hertsens@sanofi.com"
+        },
+        {
+            "Country": "Benin",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Bosnia",
+            "Panel": "BIHMIE",
+            "Data Type": "Market Sales",
+            "Name": "Ines Crnjak",
+            "Email": "Ines.Crnjak@sanofi.com"
+        },
+        {
+            "Country": "Brazil",
+            "Panel": "NRC/PMB/PPP",
+            "Data Type": "Market Sales",
+            "Name": "Helmut Madeiro",
+            "Email": "Helmut.Madeiro@sanofi.com"
+        },
+        {
+            "Country": "Bulgaria",
+            "Panel": "BGHI/BGPI/NHIF",
+            "Data Type": "Market Sales",
+            "Name": "Ines Rasokova",
+            "Email": "Ines.Rasokova@sanofi.com"
+        },
+        {
+            "Country": "Burkina Faso",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Cameroun",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Canada",
+            "Panel": "CDH",
+            "Data Type": "Market Sales",
+            "Name": "David St-John",
+            "Email": "David.St-John@sanofi.com"
+        },
+        {
+            "Country": "Canada",
+            "Panel": "Praluent",
+            "Data Type": "Promo",
+            "Name": "David St-John",
+            "Email": "David.St-John@sanofi.com"
+        },
+        {
+            "Country": "Canada",
+            "Panel": "GPM",
+            "Data Type": "Market Sales",
+            "Name": "David St-John",
+            "Email": "David.St-John@sanofi.com"
+        },
+        {
+            "Country": "Genmed",
+            "Panel": "SI/Basal/Praluent/Lovenox",
+            "Data Type": "Finance",
+            "Name": "Alisson Bidan",
+            "Email": "Alisson.Bidan@sanofi.com"
+        },
+        {
+            "Country": "Central America",
+            "Panel": "PMCA_CHC",
+            "Data Type": "Market Sales",
+            "Name": "Karem Garcia",
+            "Email": "Karem.Garcia@sanofi.com"
+        },
+        {
+            "Country": "Chile",
+            "Panel": "PMC",
+            "Data Type": "Market Sales",
+            "Name": "Ricardo Reyes",
+            "Email": "Ricardo.Reyes@sanofi.com"
+        },
+        {
+            "Country": "China",
+            "Panel": "CHPA",
+            "Data Type": "Market Sales",
+            "Name": "Kevin Hua ",
+            "Email": "Kevin.Hua@sanofi.com"
+        },
+        {
+            "Country": "China Domestic",
+            "Panel": "CMH (Total Market + Liver and Probiotics)/CHPA (Liver and Probiotics) /E-commerce(Liver)",
+            "Data Type": "Market Sales",
+            "Name": "Clenn Raschel",
+            "Email": "Clenn.Raschel@sanofi.com"
+        },
+        {
+            "Country": "Cross Border Ecom (CBEC)",
+            "Panel": "E-commerce(Nutirtional and Other OTCs)",
+            "Data Type": "Market Sales",
+            "Name": "Yunpeng Ni",
+            "Email": "Yunpeng.Ni@sanofi.com"
+        },
+        {
+            "Country": "Colombia",
+            "Panel": "PMC/SISMED",
+            "Data Type": "Market Sales",
+            "Name": "Camilo Montealegre",
+            "Email": "camilo.montealegre@sanofi.com"
+        },
+        {
+            "Country": "Congo",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Costa Rica",
+            "Panel": "CR",
+            "Data Type": "Market Sales",
+            "Name": "Nicole Roberts",
+            "Email": "Nicole.Roberts@sanofi.com"
+        },
+        {
+            "Country": "Cote D Ivoire",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Croatia",
+            "Panel": "HRHI/HRPI",
+            "Data Type": "Market Sales",
+            "Name": "Ines Crnjak",
+            "Email": "Ines.Crnjak@sanofi.com"
+        },
+        {
+            "Country": "Czech Republic",
+            "Panel": "CZECH PTR",
+            "Data Type": "Market Sales",
+            "Name": "Agathe Roupioz, Maria Ondriash",
+            "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
+        },
+        {
+            "Country": "Czech Republic",
+            "Panel": "Sell Out/SUKL/WHS/CRPI",
+            "Data Type": "Market Sales",
+            "Name": "Ondrej Cibera",
+            "Email": "Ondrej.Cibera@sanofi.com"
+        },
+        {
+            "Country": "Denmark",
+            "Panel": "DLI",
+            "Data Type": "Market Sales",
+            "Name": "Jorgen Olofsson",
+            "Email": "Jorgen.Olofsson@sanofi.com"
+        },
+        {
+            "Country": "Ecuador",
+            "Panel": "EC",
+            "Data Type": "Market Sales",
+            "Name": "Karem Garcia",
+            "Email": "Karem.Garcia@sanofi.com"
+        },
+        {
+            "Country": "Egypt",
+            "Panel": "PME/PMH_MTH",
+            "Data Type": "Market Sales",
+            "Name": "Nader Roger",
+            "Email": "Nader.Roger@sanofi.com"
+        },
+        {
+            "Country": "El Salvador",
+            "Panel": "ES",
+            "Data Type": "Market Sales",
+            "Name": "Nicole Roberts",
+            "Email": "Nicole.Roberts@sanofi.com"
+        },
+        {
+            "Country": "Estonia",
+            "Panel": "MEDICUBE",
+            "Data Type": "Market Sales",
+            "Name": "Jorgen Olofsson",
+            "Email": "Jorgen.Olofsson@sanofi.com"
+        },
+        {
+            "Country": "Europe",
+            "Panel": "SI/Basal",
+            "Data Type": "Forecast",
+            "Name": "Thibaud Guezenec/Constance Hirsch ",
+            "Email": "Thibaud.Guezenec@sanofi.com/constance.hirsch@sanofi.com"
+        },
+        {
+            "Country": "Finland",
+            "Panel": "FHI/PMF",
+            "Data Type": "Market Sales",
+            "Name": "Jorgen Olofsson",
+            "Email": "Jorgen.Olofsson@sanofi.com"
+        },
+        {
+            "Country": "Finland",
+            "Panel": "Finland PTR",
+            "Data Type": "Market Sales",
+            "Name": "Agathe Roupioz, Maria Ondriash",
+            "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
+        },
+        {
+            "Country": "France",
+            "Panel": "Exponent/GERS/Pharmatrend",
+            "Data Type": "Market Sales",
+            "Name": "Clothilde Adram",
+            "Email": "clothilde.adram@sanofi.com"
+        },
+        {
+            "Country": "Denmark ",
+            "Panel": "SI/Basal/Praluent",
+            "Data Type": "Weekly Sales",
+            "Name": "Guillaume Maire ",
+            "Email": "Guillaume.Maire@sanofi.com"
+        },
+        {
+            "Country": "Australia ",
+            "Panel": "Basal",
+            "Data Type": "Patients",
+            "Name": "Gayleen Long",
+            "Email": "Gayleen.Loong@sanofi.com"
+        },
+        {
+            "Country": "Belgium ",
+            "Panel": "Praluent",
+            "Data Type": "Promo",
+            "Name": "rene smeets",
+            "Email": "rene.smeets@sanofi.com"
+        },
+        {
+            "Country": "Gabon",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Georgia",
+            "Panel": "AUDIT OF RETAIL DRUG SALES IN GEORGIA",
+            "Data Type": "Market Sales",
+            "Name": "Evgeniya Li",
+            "Email": "evgeniya.li@sanofi.com"
+        },
+        {
+            "Country": "Germany",
+            "Panel": "DKM/Pharmascope/RETAIL VACCINE",
+            "Data Type": "Market Sales",
+            "Name": "Claudia Zimmer",
+            "Email": "Claudia.Zimmer@sanofi.com"
+        },
+        {
+            "Country": "Germany",
+            "Panel": "Germany PTRI",
+            "Data Type": "Market Sales",
+            "Name": "Agathe Roupioz, Maria Ondriash",
+            "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
+        },
+        {
+            "Country": "Finland ",
+            "Panel": "SI/Basal/Praluent",
+            "Data Type": "Weekly Sales",
+            "Name": "Guillaume Maire",
+            "Email": "Guillaume.Maire@sanofi.com"
+        },
+        {
+            "Country": "Austria",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Carmen Garcia-Feurer",
+            "Email": "carmen.garcia-feurer@sanofi.com"
+        },
+        {
+            "Country": "France",
+            "Panel": "Lovenox",
+            "Data Type": "Weekly Sales",
+            "Name": "Clothilde Adram ",
+            "Email": "clothilde.adram@sanofi.com"
+        },
+        {
+            "Country": "Greece",
+            "Panel": "GPI",
+            "Data Type": "Market Sales",
+            "Name": "Niki Stenou",
+            "Email": "niki.stenou@sanofi.com"
+        },
+        {
+            "Country": "Greece",
+            "Panel": "GR_OTC",
+            "Data Type": "Market Sales",
+            "Name": "Maria Karavia",
+            "Email": "Maria.Karavia@sanofi.com"
+        },
+        {
+            "Country": "Guatemala",
+            "Panel": "GT",
+            "Data Type": "Market Sales",
+            "Name": "Nicole Roberts",
+            "Email": "Nicole.Roberts@sanofi.com"
+        },
+        {
+            "Country": "Guinee",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Honduras",
+            "Panel": "HD",
+            "Data Type": "Market Sales",
+            "Name": "Nicole Roberts",
+            "Email": "Nicole.Roberts@sanofi.com"
+        },
+        {
+            "Country": "Hong Kong",
+            "Panel": "HKPA",
+            "Data Type": "Market Sales",
+            "Name": "Grace Huang; Ben Leung",
+            "Email": "Grace.Huang@sanofi.com / Ben.Leung@sanofi.com"
+        },
+        {
+            "Country": "Hungary",
+            "Panel": "HPA/HHA",
+            "Data Type": "Market Sales",
+            "Name": "Judit Banyik",
+            "Email": "Judit.Banyik@sanofi.com"
+        },
+        {
+            "Country": "Hungary",
+            "Panel": "HUNGARY PTR",
+            "Data Type": "Market Sales",
+            "Name": "Agathe Roupioz, Maria Ondriash",
+            "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
+        },
+        {
+            "Country": "India",
+            "Panel": "TSA",
+            "Data Type": "Market Sales",
+            "Name": "Bavani Balakrishnan",
+            "Email": "Bavani.Balakrishnan@sanofi.com"
+        },
+        {
+            "Country": "Indonesia",
+            "Panel": "ITMA",
+            "Data Type": "Market Sales",
+            "Name": "Argentahardi Bina",
+            "Email": "Bina.Argentahardi@sanofi.com"
+        },
+        {
+            "Country": "Ireland",
+            "Panel": "IHI/IPI",
+            "Data Type": "Market Sales",
+            "Name": "Carmina Alvaro",
+            "Email": "Carmina.Alvaro@sanofi.com"
+        },
+        {
+            "Country": "Belgium",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "rene smeets",
+            "Email": "rene.smeets@sanofi.com"
+        },
+        {
+            "Country": "Italy",
+            "Panel": "IMF/IMFO+DPC",
+            "Data Type": "Market Sales",
+            "Name": "Enrico Paolo Torres",
+            "Email": "Enrico.Torres@sanofi.com"
+        },
+        {
+            "Country": "Italy",
+            "Panel": "ITALY PTR",
+            "Data Type": "Market Sales",
+            "Name": "Agathe Roupioz, Maria Ondriash",
+            "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
+        },
+        {
+            "Country": "Croatia",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Anita MilasAnzic",
+            "Email": "Anita.MilasAnzic@sanofi.com"
+        },
+        {
+            "Country": "Croatia",
+            "Panel": "Praluent",
+            "Data Type": "Promo",
+            "Name": "Anita MilasAnzic",
+            "Email": "Anita.MilasAnzic@sanofi.com"
+        },
+        {
+            "Country": "Czech Republic",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Edita Demcakova",
+            "Email": "Edita.Demcakova@sanofi.com"
+        },
+        {
+            "Country": "Japan",
+            "Panel": "JAPAN_SDI",
+            "Data Type": "Market Sales",
+            "Name": "Arai Junko",
+            "Email": "Junko.Arai@ssp.co.jp"
+        },
+        {
+            "Country": "Japan",
+            "Panel": "JHPM/JPM",
+            "Data Type": "Market Sales",
+            "Name": "Shigeki Makita",
+            "Email": "Shigeki.Makita@sanofi.com"
+        },
+        {
+            "Country": "Czech Republic ",
+            "Panel": "SI/Praluent",
+            "Data Type": "Promo",
+            "Name": "Michal.Bodlak@sanofi.com",
+            "Email": "Michal.Bodlak@sanofi.com"
+        },
+        {
+            "Country": "Japan",
+            "Panel": "SI/Basal",
+            "Data Type": "Forecast",
+            "Name": "Thibaud Guezenec/Constance Hirsch ",
+            "Email": "Thibaud.Guezenec@sanofi.com/constance.hirsch@sanofi.com"
+        },
+        {
+            "Country": "Jordan",
+            "Panel": "JPI",
+            "Data Type": "Market Sales",
+            "Name": "Firas Frangie",
+            "Email": "Firas.Frangie2@sanofi.com"
+        },
+        {
+            "Country": "Kazakhstan",
+            "Panel": "AUDIT OF BUDGET DRUG PROCUREMENT IN KAZAKHSTAN/AUDIT OF RETAIL DRUG SALES IN KAZAKHSTAN (SEGMENT)",
+            "Data Type": "Market Sales",
+            "Name": "Evgeniya Li",
+            "Email": "evgeniya.li@sanofi.com"
+        },
+        {
+            "Country": "Kenya",
+            "Panel": "KE_PMSA_Q",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Kuwait",
+            "Panel": "KLPO/KPI",
+            "Data Type": "Market Sales",
+            "Name": "Shahrouri Nabeel",
+            "Email": "nabeel.shahrouri@sanofi.com"
+        },
+        {
+            "Country": "Latvia",
+            "Panel": "Softdent",
+            "Data Type": "Market Sales",
+            "Name": "Jorgen Olofsson",
+            "Email": "Jorgen.Olofsson@sanofi.com"
+        },
+        {
+            "Country": "Lebanon",
+            "Panel": "LPI",
+            "Data Type": "Market Sales",
+            "Name": "Firas Frangie",
+            "Email": "Firas.Frangie2@sanofi.com"
+        },
+        {
+            "Country": "Lithuania",
+            "Panel": "Pharmacept/Softdent",
+            "Data Type": "Market Sales",
+            "Name": "Jorgen Olofsson",
+            "Email": "Jorgen.Olofsson@sanofi.com"
+        },
+        {
+            "Country": "Luxembourg",
+            "Panel": "LMPL",
+            "Data Type": "Market Sales",
+            "Name": "Jean-Jacques Hertsens",
+            "Email": "Jean-Jacques.Hertsens@sanofi.com"
+        },
+        {
+            "Country": "Malaysia",
+            "Panel": "MGR/MPA",
+            "Data Type": "Market Sales",
+            "Name": "Sujiwan",
+            "Email": "Sujiwan.Janyasupab@sanofi.com"
+        },
+        {
+            "Country": "Mali",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Mexico",
+            "Panel": "IQVIA",
+            "Data Type": "Market Sales",
+            "Name": "Luis Villegas",
+            "Email": "Luis.Villegas@sanofi.com"
+        },
+        {
+            "Country": "Morocco",
+            "Panel": "LMPM",
+            "Data Type": "Market Sales",
+            "Name": "Zohra Mohsine",
+            "Email": "Zohra.Mohsine@sanofi.com"
+        },
+        {
+            "Country": "Multiple",
+            "Panel": "Dupixent - Actuals/Budget/F1/F2",
+            "Data Type": "Finance",
+            "Name": "Indushree Suresh",
+            "Email": "Indushree.Suresh-ext@sanofi.com"
+        },
+        {
+            "Country": "Multiple",
+            "Panel": "Jevtana - Actuals/Budget/F1/F2",
+            "Data Type": "Finance",
+            "Name": "Indushree Suresh",
+            "Email": "Indushree.Suresh-ext@sanofi.com"
+        },
+        {
+            "Country": "Multiple",
+            "Panel": "Libtayo  - Actuals/Budget/F1/F2",
+            "Data Type": "Finance",
+            "Name": "Indushree Suresh",
+            "Email": "Indushree.Suresh-ext@sanofi.com"
+        },
+        {
+            "Country": "Multiple",
+            "Panel": "Sarclisa - Actuals/Budget/F1/F2",
+            "Data Type": "Finance",
+            "Name": "Indushree Suresh",
+            "Email": "Indushree.Suresh-ext@sanofi.com"
+        },
+        {
+            "Country": "Multiple",
+            "Panel": "Kevzara - Actuals/Budget/F1/F2",
+            "Data Type": "Finance",
+            "Name": "Indushree Suresh",
+            "Email": "Indushree.Suresh-ext@sanofi.com"
+        },
+        {
+            "Country": "Netherlands",
+            "Panel": "NETHERLANDS PTR",
+            "Data Type": "Market Sales",
+            "Name": "Agathe Roupioz, Maria Ondriash",
+            "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
+        },
+        {
+            "Country": "Netherlands",
+            "Panel": "PharminForm",
+            "Data Type": "Market Sales",
+            "Name": "Edouard Racine ",
+            "Email": "edouard.racine2@sanofi.com"
+        },
+        {
+            "Country": "New Zealand",
+            "Panel": "NZHI/NZPI/NZHIP",
+            "Data Type": "Market Sales",
+            "Name": "Swee-Sing SONG",
+            "Email": "Swee-Sing.Song@sanofi.com"
+        },
+        {
+            "Country": "Nicaragua",
+            "Panel": "NC",
+            "Data Type": "Market Sales",
+            "Name": "Nicole Roberts",
+            "Email": "Nicole.Roberts@sanofi.com"
+        },
+        {
+            "Country": "Niger",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Norway",
+            "Panel": "NPH/NPP",
+            "Data Type": "Market Sales",
+            "Name": "Jorgen Olofsson",
+            "Email": "Jorgen.Olofsson@sanofi.com"
+        },
+        {
+            "Country": "Pakistan",
+            "Panel": "PKPI",
+            "Data Type": "Market Sales",
+            "Name": "Kaleemullah Khan",
+            "Email": "Kaleemullah.Khan@sanofi.com"
+        },
+        {
+            "Country": "Panama",
+            "Panel": "PN",
+            "Data Type": "Market Sales",
+            "Name": "Nicole Roberts",
+            "Email": "Nicole.Roberts@sanofi.com"
+        },
+        {
+            "Country": "Paraguay",
+            "Panel": "PRG",
+            "Data Type": "Market Sales",
+            "Name": "Pablo Cordova",
+            "Email": "pablo.cordova@sanofi.com"
+        },
+        {
+            "Country": "Peru",
+            "Panel": "PER",
+            "Data Type": "Market Sales",
+            "Name": "Joe Pinares",
+            "Email": "Joe.Pinares@sanofi.com"
+        },
+        {
+            "Country": "Philippines",
+            "Panel": "IMS Philippine Pharmacy",
+            "Data Type": "Market Sales",
+            "Name": "RodessaMae Cabrera",
+            "Email": "RodessaMae.Cabrera@sanofi.com"
+        },
+        {
+            "Country": "Poland",
+            "Panel": "Pharmascope IMS/PLHI/PLPI/Sell-Out",
+            "Data Type": "Market Sales",
+            "Name": "Piotr Swica",
+            "Email": "Piotr.Swica@sanofi.com"
+        },
+        {
+            "Country": "Portugal",
+            "Panel": "EHN/HMR",
+            "Data Type": "Market Sales",
+            "Name": "Miguel-Lucas Pinto",
+            "Email": "Miguel-Lucas.Pinto@sanofi.com"
+        },
+        {
+            "Country": "Portugal",
+            "Panel": "Portugal PTR",
+            "Data Type": "Market Sales",
+            "Name": "Agathe Roupioz, Maria Ondriash",
+            "Email": "Maria.Ondriash@sanofi.com / Agathe.Roupioz-ext@sanofi.com"
+        },
+        {
+            "Country": "Romania",
+            "Panel": "ROMANIA_OTC",
+            "Data Type": "Market Sales",
+            "Name": "Mihaela Zamatrache",
+            "Email": "Mihaela.Zamatrache@sanofi.com"
+        },
+        {
+            "Country": "Romania",
+            "Panel": "ROHI/ROPI",
+            "Data Type": "Market Sales",
+            "Name": "Mihaela Zamatrache",
+            "Email": "Mihaela.Zamatrache@sanofi.com"
+        },
+        {
+            "Country": "Russia",
+            "Panel": "AMT/PUBLIC/RFPI/RLO/DLO/RLO/DLO_ONLS/RLO/DLO_VZN",
+            "Data Type": "Market Sales",
+            "Name": "Elena Topekha",
+            "Email": "Elena.Topekha.EXT@sanofi.com"
+        },
+        {
+            "Country": "Saudi Arabia",
+            "Panel": "SALPO/SAPI",
+            "Data Type": "Market Sales",
+            "Name": "Shahrouri Nabeel",
+            "Email": "nabeel.shahrouri@sanofi.com"
+        },
+        {
+            "Country": "Senegal",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Serbia",
+            "Panel": "SRB",
+            "Data Type": "Market Sales",
+            "Name": "Ines Crnjak",
+            "Email": "Ines.Crnjak@sanofi.com"
+        },
+        {
+            "Country": "Singapore",
+            "Panel": "SOR/SPA",
+            "Data Type": "Market Sales",
+            "Name": "Sujiwan",
+            "Email": "Sujiwan.Janyasupab@sanofi.com"
+        },
+        {
+            "Country": "Slovakia",
+            "Panel": "Sell Out/SRHI/SRPI",
+            "Data Type": "Market Sales",
+            "Name": "Ondrej Cibera",
+            "Email": "Ondrej.Cibera@sanofi.com"
+        },
+        {
+            "Country": "Slovenia",
+            "Panel": "SLPI",
+            "Data Type": "Market Sales",
+            "Name": "Ines Crnjak",
+            "Email": "Ines.Crnjak@sanofi.com"
+        },
+        {
+            "Country": "South Africa",
+            "Panel": "TPM",
+            "Data Type": "Market Sales",
+            "Name": "Zelna Symms",
+            "Email": "Zelna.Symms@sanofi.com"
+        },
+        {
+            "Country": "South Korea",
+            "Panel": "KCPA/KHPA/KPAQ",
+            "Data Type": "Market Sales",
+            "Name": "Soo Han Kim",
+            "Email": "SooHan.Kim@sanofi.com"
+        },
+        {
+            "Country": "South Korea",
+            "Panel": "KPA/UBIST",
+            "Data Type": "Market Sales",
+            "Name": "Jung Woo Lee",
+            "Email": "JungWoo.Lee@sanofi.com"
+        },
+        {
+            "Country": "Denmark",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Guillaume Maire",
+            "Email": "Guillaume.Maire@sanofi.com"
+        },
+        {
+            "Country": "Spain",
+            "Panel": "EMH/NPA/IMS OTC",
+            "Data Type": "Market Sales",
+            "Name": "Andreu Robuste",
+            "Email": "Andreu.Robuste@sanofi.com"
+        },
+        {
+            "Country": "France",
+            "Panel": "SI/Basal/Praluent",
+            "Data Type": "Promo",
+            "Name": "Clothilde Adram ",
+            "Email": "clothilde.adram@sanofi.com"
+        },
+        {
+            "Country": "Germany",
+            "Panel": "SI/Basal",
+            "Data Type": "Promo",
+            "Name": "Thomas Schramm",
+            "Email": "Thomas.Schramm@sanofi.com"
+        },
+        {
+            "Country": "Sri Lanka",
+            "Panel": "SLPA",
+            "Data Type": "Market Sales",
+            "Name": "Nilanga Perera",
+            "Email": "Nilanga.Perera@sanofi.com"
+        },
+        {
+            "Country": "Sweden",
+            "Panel": "IQVIA",
+            "Data Type": "Market Sales",
+            "Name": "Jorgen Olofsson",
+            "Email": "Jorgen.Olofsson@sanofi.com"
+        },
+        {
+            "Country": "Switzerland",
+            "Panel": "SWITZERLAND DRUGSTORE/SWITZERLAND PHARMACY",
+            "Data Type": "Market Sales",
+            "Name": "Agathe Roupioz",
+            "Email": "Agathe.Roupioz-ext@sanofi.com"
+        },
+        {
+            "Country": "Switzerland",
+            "Panel": "WHS",
+            "Data Type": "Market Sales",
+            "Name": "Claudia Zimmer",
+            "Email": "Claudia.Zimmer@sanofi.com"
+        },
+        {
+            "Country": "Taiwan",
+            "Panel": "TWHA/ TWPA",
+            "Data Type": "Market Sales",
+            "Name": "Erik Chang",
+            "Email": "Erik.Chang@sanofi.com"
+        },
+        {
+            "Country": "Tchad",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Thailand",
+            "Panel": "TLHI/TLPI",
+            "Data Type": "Market Sales",
+            "Name": "Sujiwan Janyasupab",
+            "Email": "Sujiwan.Janyasupab@sanofi.com"
+        },
+        {
+            "Country": "Togo",
+            "Panel": "DB_FWA.PRM",
+            "Data Type": "Market Sales",
+            "Name": "Louis Harold Ngamo",
+            "Email": "Harold.NGAMO@sanofi.com"
+        },
+        {
+            "Country": "Tunisia",
+            "Panel": "LMPT",
+            "Data Type": "Market Sales",
+            "Name": "Mohamed Haithem Makni",
+            "Email": "MohamedHaithem.Makni@sanofi.com"
+        },
+        {
+            "Country": "Turkey",
+            "Panel": "THI/NEC/TPI",
+            "Data Type": "Market Sales",
+            "Name": "Erkan Duran",
+            "Email": "Erkan.Duran@sanofi.com"
+        },
+        {
+            "Country": "UAE",
+            "Panel": "UAEP",
+            "Data Type": "Market Sales",
+            "Name": "Shahrouri Nabeel",
+            "Email": "nabeel.shahrouri@sanofi.com"
+        },
+        {
+            "Country": "UK",
+            "Panel": "IRI_UK",
+            "Data Type": "Market Sales",
+            "Name": "Pauline Bravet ",
+            "Email": "Pauline.Bravet@sanofi.com"
+        },
+        {
+            "Country": "France",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Pierre Hanniet ",
+            "Email": "Pierre.Hanniet@sanofi.com"
+        },
+        {
+            "Country": "UK",
+            "Panel": "HPAI/INTPHA/XBPI",
+            "Data Type": "Market Sales",
+            "Name": "Carmina Alvaro",
+            "Email": "carmina.alvaro@sanofi.com"
+        },
+        {
+            "Country": "Ukraine",
+            "Panel": "Proxima Research",
+            "Data Type": "Market Sales",
+            "Name": "Anton Polyuga",
+            "Email": "Anton.Polyuga@sanofi.com"
+        },
+        {
+            "Country": "Uruguay",
+            "Panel": "PMU/Mutuales",
+            "Data Type": "Market Sales",
+            "Name": "Pablo Cordova",
+            "Email": "pablo.cordova@sanofi.com"
+        },
+        {
+            "Country": "Germany",
+            "Panel": "SI/Basal",
+            "Data Type": "Patients",
+            "Name": "Thomas Schramm",
+            "Email": "Thomas.Schramm@sanofi.com"
+        },
+        {
+            "Country": "USA",
+            "Panel": "IMS Visco Patient Claims",
+            "Data Type": "Market Sales",
+            "Name": "Donna L. White",
+            "Email": "Donna.White@sanofi.com"
+        },
+        {
+            "Country": "Germany",
+            "Panel": "SI/Basal/Lovenox",
+            "Data Type": "Weekly Sales",
+            "Name": "Thomas Schramm",
+            "Email": "Thomas.Schramm@sanofi.com"
+        },
+        {
+            "Country": "USA",
+            "Panel": "NPA/NSP",
+            "Data Type": "Market Sales",
+            "Name": "Clothilde Adram",
+            "Email": "clothilde.adram@sanofi.com"
+        },
+        {
+            "Country": "Japan",
+            "Panel": "Basal/Praluent",
+            "Data Type": "Weekly Sales",
+            "Name": "Sadayuki Yamada/Keisuke Takada ",
+            "Email": "Sadayuki.Yamada@sanofi.com / Keisuke.Takada@sanofi.com"
+        },
+        {
+            "Country": "Netherlands ",
+            "Panel": "Basal",
+            "Data Type": "Weekly Sales",
+            "Name": "Edouard Racine",
+            "Email": "Edouard.Racine2@sanofi.com"
+        },
+        {
+            "Country": "Hungary ",
+            "Panel": "SI/Basal",
+            "Data Type": "Promo",
+            "Name": "Judit Banyik ",
+            "Email": "Judit.Banyik@sanofi.com"
+        },
+        {
+            "Country": "USA",
+            "Panel": "SI/Basal",
+            "Data Type": "Forecast",
+            "Name": "Thibaud Guezenec/Constance Hirsch ",
+            "Email": "Thibaud.Guezenec@sanofi.com/constance.hirsch@sanofi.com"
+        },
+        {
+            "Country": "USA",
+            "Panel": "USA NIELSEN",
+            "Data Type": "Market Sales",
+            "Name": "Eric Sheffield",
+            "Email": "eric.sheffield@nielsen.com"
+        },
+        {
+            "Country": "Uzbekistan",
+            "Panel": "AUDIT OF DRUGSTORE/HOSPITAL DRUG PROCUREMENT IN UZBEKISTAN (NEW)",
+            "Data Type": "Market Sales",
+            "Name": "Evgeniya Li",
+            "Email": "evgeniya.li@sanofi.com"
+        },
+        {
+            "Country": "Vietnam",
+            "Panel": "VIETNAM HOSPITAL/VIETNAM RETAIL",
+            "Data Type": "Market Sales",
+            "Name": "Thi Minh Quyet Nguyen",
+            "Email": "ThiMinhQuyet.Nguyen@sanofi.com"
+        },
+        {
+            "Country": "Iraq",
+            "Panel": "AMS",
+            "Data Type": "Market Sales",
+            "Name": "Firas Frangie",
+            "Email": "Firas.Frangie2@sanofi.com"
+        },
+        {
+            "Country": "Norway",
+            "Panel": "Basal/Praluent",
+            "Data Type": "Weekly Sales",
+            "Name": "Guillaume Maire",
+            "Email": "Guillaume.Maire@sanofi.com"
+        },
+        {
+            "Country": "Poland ",
+            "Panel": "Basal/Lovenox",
+            "Data Type": "Weekly Sales",
+            "Name": "Jakub  Tyminski",
+            "Email": "Jakub.Tyminski@sanofi.com"
+        },
+        {
+            "Country": "Slovenia ",
+            "Panel": "Basal/Lovenox/Praluent",
+            "Data Type": "Weekly Sales",
+            "Name": "Ines Crnjak",
+            "Email": "Ines.Crnjak@sanofi.com"
+        },
+        {
+            "Country": "USA",
+            "Panel": "SI/Basal/Lovenox/Praluent",
+            "Data Type": "Weekly Sales",
+            "Name": "Clothilde Adram ",
+            "Email": "clothilde.adram@sanofi.com"
+        },
+        {
+            "Country": "Italy",
+            "Panel": "SI/Basal",
+            "Data Type": "Promo",
+            "Name": "Roberto Derosa",
+            "Email": "roberto.derosa@sanofi.com"
+        },
+        {
+            "Country": "Italy",
+            "Panel": "Praluent",
+            "Data Type": "Promo",
+            "Name": "Enrico Torres",
+            "Email": "Enrico.Torres@sanofi.com"
+        },
+        {
+            "Country": "Japan",
+            "Panel": "SI/Basal/Praluent",
+            "Data Type": "Promo",
+            "Name": "Sadayuki Yamada/Keisuke Takada ",
+            "Email": "Sadayuki.Yamada@sanofi.com / Keisuke.Takada@sanofi.com"
+        },
+        {
+            "Country": "Hungary ",
+            "Panel": "SI",
+            "Data Type": "Patients",
+            "Name": "Judit Banyik ",
+            "Email": "Judit.Banyik@sanofi.com"
+        },
+        {
+            "Country": "Italy",
+            "Panel": "Basal",
+            "Data Type": "Patients",
+            "Name": "Roberto Derosa",
+            "Email": "roberto.derosa@sanofi.com"
+        },
+        {
+            "Country": "Italy",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Enrico Torres",
+            "Email": "Enrico.Torres@sanofi.com"
+        },
+        {
+            "Country": "Japan",
+            "Panel": "Basal/Praluent",
+            "Data Type": "Patients",
+            "Name": "Sadayuki Yamada/Keisuke Takada ",
+            "Email": "Sadayuki.Yamada@sanofi.com / Keisuke.Takada@sanofi.com"
+        },
+        {
+            "Country": "Netherlands",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Edouard Racine",
+            "Email": "Edouard.Racine2@sanofi.com"
+        },
+        {
+            "Country": "Netherlands ",
+            "Panel": "SI",
+            "Data Type": "Patients",
+            "Name": "Edouard Racine ",
+            "Email": "Edouard.Racine2@sanofi.com"
+        },
+        {
+            "Country": "Slovakia",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Edita Demcakova",
+            "Email": "Edita.Demcakova@sanofi.com"
+        },
+        {
+            "Country": "Slovenia",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Anita MilasAnzic",
+            "Email": "Anita.MilasAnzic@sanofi.com"
+        },
+        {
+            "Country": "Spain",
+            "Panel": "Basal/Praluent",
+            "Data Type": "Patients",
+            "Name": "Andreu Robuste",
+            "Email": "andreu.robuste@sanofi.com"
+        },
+        {
+            "Country": "Sweden ",
+            "Panel": "Praluent ",
+            "Data Type": "Patients",
+            "Name": "Guillaume Maire ",
+            "Email": "Guillaume.Maire@sanofi.com"
+        },
+        {
+            "Country": "Switzerland",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Carmen Garcia-Feurer",
+            "Email": "carmen.garcia-feurer@sanofi.com"
+        },
+        {
+            "Country": "UK",
+            "Panel": "Praluent",
+            "Data Type": "Patients",
+            "Name": "Idliko Jones",
+            "Email": "Ildiko.Jones@sanofi.com"
+        },
+        {
+            "Country": "UK",
+            "Panel": "SI/Basal",
+            "Data Type": "Patients",
+            "Name": "Carmina Alvaro",
+            "Email": "carmina.alvaro@sanofi.com"
+        },
+        {
+            "Country": "USA",
+            "Panel": "Basal",
+            "Data Type": "Patients",
+            "Name": "Amulya Gupta",
+            "Email": "Amulya.Gupta@sanofi.com"
+        },
+        {
+            "Country": "Netherlands ",
+            "Panel": "SI/Basal/Praluent",
+            "Data Type": "Promo",
+            "Name": "Edouard Racine",
+            "Email": "Edouard.Racine2@sanofi.com"
+        },
+        {
+            "Country": "Poland ",
+            "Panel": "SI/Basal",
+            "Data Type": "Promo",
+            "Name": "Tyminski, Jakub ",
+            "Email": "Jakub.Tyminski@sanofi.com"
+        },
+        {
+            "Country": "Romania ",
+            "Panel": "SI/Basal",
+            "Data Type": "Promo",
+            "Name": "Agata Stan",
+            "Email": "Agata.Stan@sanofi.com"
+        },
+        {
+            "Country": "Slovakia ",
+            "Panel": "SI/Basal",
+            "Data Type": "Promo",
+            "Name": "Michal.Bodlak@sanofi.com",
+            "Email": "Michal.Bodlak@sanofi.com"
+        },
+        {
+            "Country": "Slovenia",
+            "Panel": "Praluent",
+            "Data Type": "Promo",
+            "Name": "Anita MilasAnzic",
+            "Email": "Anita.MilasAnzic@sanofi.com"
+        },
+        {
+            "Country": "South Korea ",
+            "Panel": "SI/Praluent",
+            "Data Type": "Promo",
+            "Name": "Jung-woo Lee (Business Intelligence)",
+            "Email": "JungWoo.Lee@sanofi.com"
+        },
+        {
+            "Country": "Spain",
+            "Panel": "SI/Basal/Praluent",
+            "Data Type": "Promo",
+            "Name": "Andreu Robuste",
+            "Email": "andreu.robuste@sanofi.com"
+        },
+        {
+            "Country": "UK",
+            "Panel": "SI/Basal/Praluent",
+            "Data Type": "Promo",
+            "Name": "Carmina Alvaro",
+            "Email": "carmina.alvaro@sanofi.com"
+        },
+        {
+            "Country": "USA",
+            "Panel": "SI/Basal/Praluent",
+            "Data Type": "Promo",
+            "Name": "Amulya Gupta",
+            "Email": "Amulya.Gupta@sanofi.com"
+        },
+        {
+            "Country": "Europe",
+            "Panel": "Praluent",
+            "Data Type": "Forecast",
+            "Name": "Zeynep Matar ",
+            "Email": "Zeynep.Matar@sanofi.com"
+        },
+        {
+            "Country": "Japan",
+            "Panel": "Praluent",
+            "Data Type": "Forecast",
+            "Name": "Zeynep Matar ",
+            "Email": "Zeynep.Matar@sanofi.com"
+        },
+        {
+            "Country": "USA",
+            "Panel": "Praluent",
+            "Data Type": "Forecast",
+            "Name": "Zeynep Matar ",
+            "Email": "Zeynep.Matar@sanofi.com"
+        },
+        {
+            "Country": "Europe",
+            "Panel": "Lovenox ",
+            "Data Type": "Forecast",
+            "Name": "Maria Piedad Cortes/Zeynep Matar",
+            "Email": "MariaPiedad.Cortes@sanofi.com/Zeynep.Matar@sanofi.com"
+        },
+        {
+            "Country": "Japan",
+            "Panel": "Lovenox ",
+            "Data Type": "Forecast",
+            "Name": "Maria Piedad Cortes/Zeynep Matar",
+            "Email": "MariaPiedad.Cortes@sanofi.com/Zeynep.Matar@sanofi.com"
+        },
+        {
+            "Country": "USA",
+            "Panel": "Lovenox ",
+            "Data Type": "Forecast",
+            "Name": "Maria Piedad Cortes/Zeynep Matar",
+            "Email": "MariaPiedad.Cortes@sanofi.com/Zeynep.Matar@sanofi.com"
+        }
+    ]
