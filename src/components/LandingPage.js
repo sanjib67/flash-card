@@ -7,7 +7,7 @@ import Pdf from "../data/atc-guidelines-2020-final.pdf";
 export default class LandingPage extends Component {
     state = {
         sideBar: this.props.sideBar,
-        url:""
+        url: ""
     };
 
     componentDidMount() {
@@ -159,7 +159,9 @@ export default class LandingPage extends Component {
                                                     className={classNames({
                                                         active: parent.active
                                                     })}>
-                                                    <a href={this.state.url} onClick={() => this.onParentClick(parent, index)}>{parent.name}</a>
+                                                    <a href={this.state.url} onClick={() => this.onParentClick(parent, index)}>
+                                                        {parent.name}
+                                                    </a>
                                                     <ul>
                                                         {parent.children.map((children, childIndex) => {
                                                             return (
