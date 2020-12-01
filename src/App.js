@@ -22,6 +22,7 @@ import MarketDefinitionChc from "./components/market-definition/MarketDefinition
 import MarketDefinitionDup from "./components/market-definition/MarketDefinitionDup";
 import MarketDefinitionEp from "./components/market-definition/MarketDefinitionEp";
 import MarketDefinitionGz from "./components/market-definition/MarketDefinitionGz";
+import MarketDefinitionTgm from "./components/market-definition/MarketDefinitionTgm";
 import MarketDefinitionPast from "./components/market-definition/MarketDefinitionPast";
 import DataPanel from "./components/sinergi-data-panel/DataPanel";
 import PriceDetail from "./components/sinergi-data-panel/PriceDetail";
@@ -139,7 +140,13 @@ class App extends React.Component {
                         path: this.base + "/landing-page/market-definition-dupixent",
                         component: MarketDefinitionDup,
                         active: false
-                    }
+                    },
+                    {
+                        name: "Total Genmed",
+                        path: this.base + "/landing-page/market-definition-total-genmed",
+                        component: MarketDefinitionTgm,
+                        active: false
+                    },
                 ]
             },
             {
