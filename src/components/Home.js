@@ -16,9 +16,9 @@ export default class Home extends Component {
                       <div className='col'>
                         <h2>{parent.name}</h2>
                         <ul className='list-clean'>
-                          {parent.children.map((eachChild) => {
+                          {parent.children.map((eachChild, childIndex) => {
                             return (
-                              <li>
+                              <li key={childIndex}>
                                 <Link to={eachChild.path}>
                                   {eachChild.name}
                                 </Link>

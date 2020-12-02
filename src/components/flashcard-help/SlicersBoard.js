@@ -15,7 +15,7 @@ export default class SlicersBoard extends Component {
           understand what exactly is shown in the Flashcard. <br />
           It contains the following Slicers:
         </p>
-        <ul class="slicers-board-list">
+        <ul className="slicers-board-list">
           <li>
             <strong>Country</strong>
           </li>

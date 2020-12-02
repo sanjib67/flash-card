@@ -7,7 +7,6 @@ export default class ContactUs extends Component {
       <div className='content'>
         <h1>Contact Us</h1>
         <img alt='' src={contactUs} />
-        
       </div>
     );
   }
