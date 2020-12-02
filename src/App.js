@@ -19,7 +19,7 @@ import SlicersBoard from "./components/flashcard-help/SlicersBoard";
 import DataStewardsList from "./components/sinergi-data-stewards/DataStewardsList";
 import MarketDefinitionDcv from "./components/market-definition/MarketDefinitionDcv";
 import MarketDefinitionChc from "./components/market-definition/MarketDefinitionChc";
-import MarketDefinitionDup from "./components/market-definition/MarketDefinitionDup";
+// import MarketDefinitionDup from "./components/market-definition/MarketDefinitionDup";
 import MarketDefinitionEp from "./components/market-definition/MarketDefinitionEp";
 import MarketDefinitionGz from "./components/market-definition/MarketDefinitionGz";
 import MarketDefinitionPast from "./components/market-definition/MarketDefinitionPast";
@@ -132,12 +132,6 @@ class App extends React.Component {
                         name: "CHC",
                         path: this.base + "/landing-page/market-definition-chc",
                         component: MarketDefinitionChc,
-                        active: false
-                    },
-                    {
-                        name: "Dupixent",
-                        path: this.base + "/landing-page/market-definition-dupixent",
-                        component: MarketDefinitionDup,
                         active: false
                     }
                 ]

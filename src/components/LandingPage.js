@@ -6,8 +6,7 @@ import Pdf from "../data/atc-guidelines-2020-final.pdf";
 
 export default class LandingPage extends Component {
     state = {
-        sideBar: this.props.sideBar,
-        url: ""
+        sideBar: this.props.sideBar
     };
 
     componentDidMount() {
@@ -141,7 +140,7 @@ export default class LandingPage extends Component {
                     <div className='container'>
                         <div className='breadcrumbs'>
                             <p>
-                                <span>Support Landing</span> <span>{this.breadCrumbs()?.parent?.name}</span> <a href={this.state.url}>{this.breadCrumbs()?.name}</a>
+                                <span>Support Landing</span> <span>{this.breadCrumbs()?.parent?.name}</span> <a>{this.breadCrumbs()?.name}</a>
                             </p>
                         </div>
                     </div>
@@ -159,9 +158,7 @@ export default class LandingPage extends Component {
                                                     className={classNames({
                                                         active: parent.active
                                                     })}>
-                                                    <a href={this.state.url} onClick={() => this.onParentClick(parent, index)}>
-                                                        {parent.name}
-                                                    </a>
+                                                    <a onClick={() => this.onParentClick(parent, index)}>{parent.name}</a>
                                                     <ul>
                                                         {parent.children.map((children, childIndex) => {
                                                             return (
@@ -176,7 +173,7 @@ export default class LandingPage extends Component {
                                                         })}
                                                         {"Flashcard Help" === parent.name ? (
                                                             <li key={"emrap"}>
-                                                                <a href={Pdf}>ATC codes</a>
+                                                                <a href={Pdf} target="_blank">ATC guidelines</a>
                                                             </li>
                                                         ) : null}
                                                     </ul>
