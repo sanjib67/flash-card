@@ -58,8 +58,8 @@ export default class MarketDefinitionDcv extends Component {
                 width: 100
             },
             {
-                name: "Rx",
-                width: 100
+                name: "Rx (Available for US and Canada)",
+                width: 250
             },
             {
                 name: "LC",
