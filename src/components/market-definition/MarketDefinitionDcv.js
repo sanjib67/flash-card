@@ -34,7 +34,7 @@ export default class MarketDefinitionDcv extends Component {
                 width: 250
             },
             {
-                name: "Euro",
+                name: "EU (MNF)",
                 width: 100
             },
             {
