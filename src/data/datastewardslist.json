@@ -183,10 +183,17 @@
     },
     {
         "Country": "Colombia",
-        "Panel": "PMC/SISMED",
+        "Panel": "PMC",
         "Data Type": "Market Sales",
         "Name": "Karem Garcia",
         "Email": "Karem.Garcia@sanofi.com"
+    },
+    {
+        "Country": "Colombia",
+        "Panel": "SISMED",
+        "Data Type": "Market Sales",
+        "Name": "Camilo Montealegre",
+        "Email": "camilo.montealegre@sanofi.com"
     },
     {
         "Country": "Congo",
@@ -290,8 +297,8 @@
         "Country": "France",
         "Panel": "Exponent/GERS/Pharmatrend",
         "Data Type": "Market Sales",
-        "Name": "Clothilde Adram",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Denmark ",
@@ -360,8 +367,8 @@
         "Country": "France",
         "Panel": "Lovenox",
         "Data Type": "Weekly Sales",
-        "Name": "Clothilde Adram ",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Greece",
@@ -829,8 +836,8 @@
         "Country": "France",
         "Panel": "SI/Basal/Praluent",
         "Data Type": "Promo",
-        "Name": "Clothilde Adram ",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Germany",
@@ -843,8 +850,8 @@
         "Country": "Sri Lanka",
         "Panel": "SLPA",
         "Data Type": "Market Sales",
-        "Name": "Nilanga Perera",
-        "Email": "Nilanga.Perera@sanofi.com"
+        "Name": "Saurabh Srivastava",
+        "Email": "Saurabh.Srivastava@sanofi.com"
     },
     {
         "Country": "Sweden",
@@ -976,8 +983,8 @@
         "Country": "USA",
         "Panel": "NPA/NSP",
         "Data Type": "Market Sales",
-        "Name": "Clothilde Adram",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Japan",
@@ -1060,8 +1067,8 @@
         "Country": "USA",
         "Panel": "SI/Basal/Lovenox/Praluent",
         "Data Type": "Weekly Sales",
-        "Name": "Clothilde Adram ",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Italy",
