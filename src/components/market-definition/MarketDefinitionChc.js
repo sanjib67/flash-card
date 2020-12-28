@@ -6,6 +6,7 @@ export default class MarketDefinitionChc extends Component {
     state = {
         data: chc,
         tableColumns: [
+            
             {
                 name: "Category 3",
                 width: 150
@@ -31,11 +32,11 @@ export default class MarketDefinitionChc extends Component {
                 width: 250
             },
             {
-                name: "Mnf Price - Euro",
+                name: "EU (MNF)",
                 width: 200
             },
             {
-                name: "Public Price - Euro",
+                name: "EU (PUB)",
                 width: 200
             },
             {

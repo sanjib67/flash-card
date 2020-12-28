@@ -1,552 +1,334 @@
 [
     {
-        "Category": "1.Metrics",
-        "Group/ Item": "Metric",
-        "Description": "Value and volume metrics list: EU (MNF)/ EU (PUB)/ Price (MNF)/ Price (PUB)/ RX/ TD/ IU/ Iut/ LC/ SU/ Pack / UN/ Peq"
-    },
-    {
-        "Category": "1.Metrics",
-        "Group/ Item": "Description",
-        "Description": "Value and volume metrics description: Average price (Manufacturer)/ Average price (Public)/ International Units/ Local currency/ Pack Units/ Patient equivalent/ Prescription/ Standart Units/ Treatments days/ Turnover (Manufacturer)/ Turnover (Public price)/ Units"
-    },
-    {
-        "Category": "2. Period",
+        "Category": "Period",
         "Group/ Item": "Year - Quarter - Month",
         "Description": "To work specifically on a specific period (a year, a quarter or a month)"
     },
     {
-        "Category": "2. Period",
-        "Group/ Item": "Selection (month)",
-        "Description": "To select specifically a number of months"
+        "Group/ Item": "Selection (Month)",
+        "Description": "To select specifically a number of months",
+        "Note": "Present in monthly cubes only"
     },
     {
-        "Category": "2. Period",
+        "Group/ Item": "Selection (Quarter)",
+        "Description": "To select specifically a number of quarter"
+    },
+    {
         "Group/ Item": "More fields",
         "Description": "To select specifically a month, a quarter or a year"
     },
     {
-        "Category": "3. Period (calculation)",
+        "Category": "Period (Calculation)",
         "Group/ Item": "Aggregation",
         "Sub-Group/ Item": "MTH",
         "Description": "Month : latest month of data received by the country (for the selected metric)",
-        "Note": "Level of aggregation on a period"
+        "Note": "Level of aggregation on a period. Present in monthly cube only"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Aggregation",
         "Sub-Group/ Item": "RQTR",
         "Description": "Rolling quarter : last 3 months of data (for the selected metric)"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Aggregation",
         "Sub-Group/ Item": "R6M",
         "Description": "Rolling 6 months : last 6 months of data (for the selected metric)"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Aggregation",
         "Sub-Group/ Item": "MAT",
         "Description": "Moving annual total : last 12 months data for the selected metric"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Aggregation",
         "Sub-Group/ Item": "YTD",
         "Description": "Year to date : Period beginning the first month of the current calendar up to the latest month data"
     },
     {
-        "Category": "3. Period (calculation)",
         "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Month",
         "Description": "Data on a specific month (January 2018, February 2018)",
         "Note": "To compare a period to another"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Month Y-1",
         "Description": "Data on the month of the past year (IF Month IS January 2018, Month Y-1 IS January 2017)"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Delta Y-1",
         "Description": "Delta between data of the month and data of the month of the past year Calculation = (Month) - (Month Y-1)"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Growth Y-1",
         "Description": "Evolution vs past year Calculation = (Month) / (Month Y-1) - 1"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Market",
         "Description": "Value of the market (selection based on filtered applied on the \"Market\" dimension)"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Market Y-1",
         "Description": "Value of the market of last year (selection based on filtered applied on the \"Market\" dimension)"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Market delta Y-1",
         "Description": "Market Delta between data of the month and data of the month of the past year Calculation = (Month) - (Month Y-1)"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Market Growth Y-1",
         "Description": "Market Evolution vs past year Calculation = (Month) / (Month Y-1) - 1"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Market share",
         "Description": "A percentage of total sales in a market captured by a brand, product, or company for the selected metric"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Delta growth Y-1 vs market",
         "Description": "Calculation = (Growth Y-1) - (Market Growth Y-1)"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Comparison",
         "Sub-Group/ Item": "Delta market share vs Y-1",
         "Description": "Calculation = (MS) - (MS Y-1)"
     },
     {
-        "Category": "3. Period (calculation)",
         "Group/ Item": "History",
         "Description": "To select to work on a specific period (last month, last 13 months, last 25 months ,etc.)"
     },
     {
-        "Category": "3. Period (calculation)",
         "Group/ Item": "Selection",
         "Sub-Group/ Item": "Aligned",
         "Description": "Data on last period in commun that we received from countries in the scope",
         "Note": "To work on aligned period or latest period"
     },
     {
-        "Category": "3. Period (calculation)",
-        "Group/ Item": "Selection",
         "Sub-Group/ Item": "Latest",
         "Description": "Data on last period of each country received"
     },
     {
-        "Category": "4. Geography",
+        "Category": "Geography",
         "Group/ Item": "Geography",
         "Sub-Group/ Item": "Area/ BU/ Cluster/ Country/ Region/ Zone",
         "Description": "To select to work on specific area (emerging or mature), BU, cluster, country, region or zone"
     },
     {
-        "Category": "4. Geography",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "EUR rate",
-        "Description": "Conversion rate to Euro"
-    },
-    {
-        "Category": "4. Geography",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Geo category list"
-    },
-    {
-        "Category": "4. Geography",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Is Flashcard",
-        "Description": "Availability in Flashcard"
-    },
-    {
-        "Category": "5. Network",
+        "Category": "Network",
         "Group/ Item": "Channel",
         "Description": "Last intermediary between Manufacturer and the final user: where the patient get the product, e.g.; Retail, Hospital"
     },
     {
-        "Category": "5. Network",
         "Group/ Item": "Channel group",
         "Description": "Grouping of the channels into Mix, Retail and Non-retail group"
     },
     {
-        "Category": "5. Network",
+        "Group/ Item": "Latest month",
+        "Description": "Data on last period of each country received"
+    },
+    {
         "Group/ Item": "Panel",
         "Description": "Data sources containing different markets in the same country (For example, Germany sends 4 panels such as hospital, retail, pharma scope and CHC panel)"
     },
     {
-        "Category": "5. Network",
         "Group/ Item": "Panel group",
         "Description": "Contains the names of different panels"
     },
     {
-        "Category": "5. Network",
         "Group/ Item": "Unit type",
         "Description": "Type of volume unit : CU, CUST, EXTU, PACK, SU, ZE"
     },
     {
-        "Category": "5. Network",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Latest period",
-        "Description": "Data on last period of each country received"
-    },
-    {
-        "Category": "5. Network",
         "Group/ Item": "Other",
         "Sub-Group/ Item": "Class type",
         "Description": "To select to split by OTC or ATC"
     },
     {
-        "Category": "5. Network",
-        "Group/ Item": "Other",
         "Sub-Group/ Item": "Delivery schedule",
         "Description": "Monthly or Quarterly or Weekly data"
     },
     {
-        "Category": "6. Market",
+        "Category": "Market",
         "Group/ Item": "Categories",
         "Sub-Group/ Item": "Category 5 to 0",
-        "Description": "Sanofi Market description: 6 levels of categories (Category 0 is the more granular) , detailed in 'Market Definition' of the question marks"
+        "Description": "Sanofi Market description: 6 levels of categories (Category 0 is the more granular) , detailed in 'Market Definition' section"
     },
     {
-        "Category": "6. Market",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Geo category",
-        "Description": "Sanofi Market description: 6 levels of categories (Category 0 is the more granular) , detailed in 'Market Definition' of the question marks"
-    },
-    {
-        "Category": "6. Market",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Is Flashcard",
-        "Description": "Data available (or not) in Flashcard"
-    },
-    {
-        "Category": "6. Market",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Is Flashcube",
-        "Description": "Data available (or not) in Flashcube"
-    },
-    {
-        "Category": "6. Market",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Is transcode",
-        "Description": "Data available (or not) in transcode"
-    },
-    {
-        "Category": "6. Market",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Master category",
-        "Description": "Sanofi Market description: 6 levels of categories (Category 0 is the more granular) , detailed in 'Market Definition' of the question marks"
-    },
-    {
-        "Category": "6. Market",
         "Group/ Item": "More fields",
-        "Sub-Group/ Item": "Master category",
-        "Description": "Sanofi Market description: 6 levels of categories (Category 0 is the more granular) , detailed in 'Market Definition' of the question marks"
+        "Description": "To select a specific category"
     },
     {
-        "Category": "6. Market",
-        "Group/ Item": "More fields",
+        "Sub-Group/ Item": "Mode of delivery (MOD)",
+        "Description": "MOD is to observe sales distribution by product (and even by pack, to have the dosage mesh), and by market. Today in Sinergi, we monitor MOD based on dosage form such as catridges, vials, disposables etc. for Diabtetes market such as Basal, Premix, Rapid, FRC and GLP-1 (European scope)"
+    },
+    {
         "Sub-Group/ Item": "Segment",
         "Description": "Level of granularity specific to a category according to business needs"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "ID transcode"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "ISFlashcard"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Isgeoregion"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Isnewlaunch"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "ISPACK"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "ISTranscode"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Network Id"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Advanced",
-        "Sub-Group/ Item": "Product Id"
-    },
-    {
-        "Category": "7. Product",
+        "Category": "Product",
         "Group/ Item": "Classification",
         "Sub-Group/ Item": "ATC4",
         "Description": "Recoded ATC4 data to have the correct 4 digit values or codes"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Classification",
         "Sub-Group/ Item": "ATC4 (local)",
         "Description": "The raw data for ATC4 we receive from DS without any modification"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Classification",
-        "Sub-Group/ Item": "CHC Class"
+        "Sub-Group/ Item": "CHC Class",
+        "Description": "CHC classes like PAC,OTC, NTR, PEC etc"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Classification",
-        "Sub-Group/ Item": "CHC Form"
+        "Sub-Group/ Item": "CHC Form",
+        "Description": "G, R, S, BRANDED GX,PURE GX and etc"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Classification",
         "Sub-Group/ Item": "NFC 123 (local)",
         "Description": "Industry standard code (New Form Code) for administration of the drug and to calculate the standard units"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Classification",
         "Sub-Group/ Item": "Product form (NFC 123)",
         "Description": "The raw data for NFC123 we receive from DS without any modification"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Classification",
-        "Sub-Group/ Item": "Segment",
-        "Description": "Level of granularity specific to a category according to business needs"
-    },
-    {
-        "Category": "7. Product",
         "Group/ Item": "Corporation",
         "Sub-Group/ Item": "Corporation",
         "Description": "International corporations cleaned, mapped and regrouped"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Corporation",
         "Sub-Group/ Item": "Corporation (local)",
         "Description": "The corporation raw data that we receive from DS without any modification"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Corporation",
-        "Sub-Group/ Item": "Corporation 1",
-        "Description": "International corporations cleaned, mapped and regrouped"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Corporation",
-        "Sub-Group/ Item": "Corporation 2",
-        "Description": "Split on specific Multinational Corporations (MNC) or others Multinational Corporations (Others MNCs) For example, at a global level, the list of MNCs includes mainly Astrazeneca, Bristol-Myers SQB, Glaxosmithkline, Johnson & Johnson, Lilly, Merck & Co, Merck KGAA, Novartis, Pfizer, Sanofi At a global level, the list of Others MNCs includes mainly Aspen, Bayer, Mylan, Takeda, etc."
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Corporation",
-        "Sub-Group/ Item": "Corporation 3",
-        "Description": "Not used"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Corporation",
         "Sub-Group/ Item": "Manufacturer",
         "Description": "Manufacturer names"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Other",
-        "Sub-Group/ Item": "Category CPM"
-    },
-    {
-        "Category": "7. Product",
         "Group/ Item": "Other",
         "Sub-Group/ Item": "Launch date",
         "Description": "Date of launch of the product (based on the first period of sales in Sinergi if not defined by DS)"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Other",
-        "Sub-Group/ Item": "Patient eq",
-        "Description": "Patient equivalent : To compare products within the same market independently of indication, dosage, treatment regimen, compliance (Kevzara market)"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Other",
         "Sub-Group/ Item": "PI status",
         "Description": "Classification according to the IMS definition of a parallel Import/non parallel import (PI or no PI status) products. For example, Germany imports drugs from others countries, then this products will be marked as PI"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Other",
-        "Sub-Group/ Item": "RA factor",
-        "Description": "Rhumatoid arthritis factor : Split by indication. When a product has several indications / claims, we apply a coefficient in order to estimate the % of sales specific to the indications monitored"
-    },
-    {
-        "Category": "7. Product",
         "Group/ Item": "Pack",
         "Sub-Group/ Item": "IU",
         "Description": "International Unit : Conversion of volumes of diabetes injectables products in a common unit in order to compare basal, rapid & premix products head to head."
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "Iue",
         "Description": "International Unit Equivalent : Metric to monitor GLP1 and FRC (fix ratio combination) to compare them to other injectable diabetes products"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "MG",
         "Description": "Milligram of product"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "ML",
         "Description": "Milliliter of product"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "PACK",
         "Description": "Pack Units - Similar to the number of pads in one box For example, '30 pills 20 Mg' contains one 30 pill pack whereas '30 pills 2 20 Mg' means 2 pads of 30 pills each in the same box"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "Pack (local)",
         "Description": "The raw data for Pack Units that we receive from DS without any modification"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "Reference",
         "Description": "Product_recode + Pack_recode"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "Reference (local)",
         "Description": "Product + Pack (raw data)"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "SU",
-        "Description": "Standard Units (volume unit): The number of standard �dose� units sold. It is determined by taking the number of counting units sold divided by the standard unit factor which is the smallest common dose of a product form as defined by IMS HEALTH"
+        "Description": "Standard Units (volume unit): The number of standard dose units sold. It is determined by taking the number of counting units sold divided by the standard unit factor which is the smallest common dose of a product form as defined by IMS HEALTH"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "TD",
         "Description": "Treatment days : Number of Days of Treatment to compare products within the same market independently of dosage and treatment regimen (APA wo ASA market, LLT market, Prostate cancer)"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Pack",
         "Sub-Group/ Item": "UNIT",
         "Description": "Unit type depending on the data provider in countries"
     },
     {
-        "Category": "7. Product",
         "Group/ Item": "Price Rate",
         "Sub-Group/ Item": "MNF rate",
         "Description": "Manufacturer price rate : conversion from local price level to Manufacturer Selling Price or Wholesaler Purchasing Price or Price to Wholesaler (PTW)"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Price Rate",
         "Sub-Group/ Item": "PADDS rate",
         "Description": "PADDS price rate"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Price Rate",
         "Sub-Group/ Item": "PUB rate",
         "Description": "Public price rate : conversion from local price level to Pharmacy Selling Price or Consumer Purchase Price or Price to the Public (PTP)"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Price Rate",
         "Sub-Group/ Item": "TRD rate",
         "Description": "Trade price rate : conversion from local price level to Wholesaler Selling Price or Pharmacy Purchase Price or Price to Chemist (PTC)"
     },
     {
-        "Category": "7. Product",
         "Group/ Item": "Product",
         "Sub-Group/ Item": "Molecule",
         "Description": "Molecule of the product, harmonized after reception of raw data"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Product",
         "Sub-Group/ Item": "Molecule (local)",
         "Description": "The raw data for molecule we receive from DS without any modification"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Product",
         "Sub-Group/ Item": "Product",
         "Description": "Name of product, harmonized after reception of local data"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Product",
         "Sub-Group/ Item": "Product (local)",
         "Description": "The raw data for product we receive from DS without any modification"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Product",
         "Sub-Group/ Item": "Product Brand",
         "Description": "Product brand"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "Product",
-        "Sub-Group/ Item": "Product Group 1",
-        "Description": "Product grouping defined by the name of the product or the generic. This dimension can be used if products have different names in the countries or if several products exist"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Product",
-        "Sub-Group/ Item": "Product Group 2",
-        "Description": "Product grouping defined by the name of the family brand or the name of the product or the generic"
-    },
-    {
-        "Category": "7. Product",
-        "Group/ Item": "Product",
-        "Sub-Group/ Item": "Product Group 3",
-        "Description": "Product grouping defined by the name of the molecule"
-    },
-    {
-        "Category": "7. Product",
         "Group/ Item": "RX status",
         "Sub-Group/ Item": "RX status",
         "Description": "RX or Non-RX after recoding"
     },
     {
-        "Category": "7. Product",
-        "Group/ Item": "RX status",
         "Sub-Group/ Item": "RX status (local)",
         "Description": "RX or Non-RX or Others (raw data)"
+    },
+    {
+        "Category": "Grouping",
+        "Group/ Item": "Coeff",
+        "Description": "Coefficient used to Split the sales by indication"
+    },
+    {
+        "Group/ Item": "Corporation 1",
+        "Description": "International corporations cleaned, mapped and regrouped"
+    },
+    {
+        "Group/ Item": "Corporation 2",
+        "Description": "Split on specific Multinational Corporations (MNC) or others Multinational Corporations (Others MNCs) For example, at a global level, the list of MNCs includes mainly Astrazeneca, Bristol-Myers SQB, Glaxosmithkline, Johnson & Johnson, Lilly, Merck & Co, Merck KGAA, Novartis, Pfizer, Sanofi At a global level, the list of Others MNCs includes mainly Aspen, Bayer, Mylan, Takeda, etc."
+    },
+    {
+        "Group/ Item": "Corporation 3",
+        "Description": "N/A"
+    },
+    {
+        "Group/ Item": "Product Group 1",
+        "Description": "Product grouping defined by the name of the product or the generic. This dimension can be used if products have different names in the countries or if several products exist"
+    },
+    {
+        "Group/ Item": "Product Group 2",
+        "Description": "Product grouping defined by the name of the family brand or the name of the product or the generic"
+    },
+    {
+        "Group/ Item": "Product Group 3",
+        "Description": "Product grouping defined by the name of the molecule"
+    },
+    {
+        "Group/ Item": "Promotion status",
+        "Description": "Shows whether the product is promoted or not"
     }
 ]

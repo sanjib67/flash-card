@@ -35,7 +35,7 @@ export default class MarketDefinitionEp extends Component {
                 width: 350
             },
             {
-                name: "Euro",
+                name: "EU (MNF)",
                 width: 100
             },
             {

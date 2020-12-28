@@ -183,10 +183,17 @@
     },
     {
         "Country": "Colombia",
-        "Panel": "PMC/SISMED",
+        "Panel": "PMC",
         "Data Type": "Market Sales",
-        "Name": "Dayana Leon",
-        "Email": "Dayana.Leon@sanofi.com"
+        "Name": "Karem Garcia",
+        "Email": "Karem.Garcia@sanofi.com"
+    },
+    {
+        "Country": "Colombia",
+        "Panel": "SISMED",
+        "Data Type": "Market Sales",
+        "Name": "Camilo Montealegre",
+        "Email": "camilo.montealegre@sanofi.com"
     },
     {
         "Country": "Congo",
@@ -290,8 +297,8 @@
         "Country": "France",
         "Panel": "Exponent/GERS/Pharmatrend",
         "Data Type": "Market Sales",
-        "Name": "Clothilde Adram",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Denmark ",
@@ -360,8 +367,8 @@
         "Country": "France",
         "Panel": "Lovenox",
         "Data Type": "Weekly Sales",
-        "Name": "Clothilde Adram ",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Greece",
@@ -514,8 +521,8 @@
         "Country": "Jordan",
         "Panel": "JPI",
         "Data Type": "Market Sales",
-        "Name": "Firas Frangie",
-        "Email": "Firas.Frangie2@sanofi.com"
+        "Name": "Mansour Mansour",
+        "Email": "mansour.mansour@sanofi.com"
     },
     {
         "Country": "Kazakhstan",
@@ -549,8 +556,8 @@
         "Country": "Lebanon",
         "Panel": "LPI",
         "Data Type": "Market Sales",
-        "Name": "Firas Frangie",
-        "Email": "Firas.Frangie2@sanofi.com"
+        "Name": "Mansour Mansour",
+        "Email": "mansour.mansour@sanofi.com"
     },
     {
         "Country": "Lithuania",
@@ -696,8 +703,8 @@
         "Country": "Peru",
         "Panel": "PER",
         "Data Type": "Market Sales",
-        "Name": "Joe Pinares",
-        "Email": "Joe.Pinares@sanofi.com"
+        "Name": "Karem Garcia",
+        "Email": "Karem.Garcia@sanofi.com"
     },
     {
         "Country": "Philippines",
@@ -731,15 +738,15 @@
         "Country": "Romania",
         "Panel": "ROMANIA_OTC",
         "Data Type": "Market Sales",
-        "Name": "Mihaela Zamatrache",
-        "Email": "Mihaela.Zamatrache@sanofi.com"
+        "Name": "Teodora Merezeanu",
+        "Email": "Teodora.Merezeanu@sanofi.com"
     },
     {
         "Country": "Romania",
         "Panel": "ROHI/ROPI",
         "Data Type": "Market Sales",
-        "Name": "Mihaela Zamatrache",
-        "Email": "Mihaela.Zamatrache@sanofi.com"
+        "Name": "Ines Crnjak",
+        "Email": "Ines.Crnjak@sanofi.com"
     },
     {
         "Country": "Russia",
@@ -829,8 +836,8 @@
         "Country": "France",
         "Panel": "SI/Basal/Praluent",
         "Data Type": "Promo",
-        "Name": "Clothilde Adram ",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Germany",
@@ -843,8 +850,8 @@
         "Country": "Sri Lanka",
         "Panel": "SLPA",
         "Data Type": "Market Sales",
-        "Name": "Nilanga Perera",
-        "Email": "Nilanga.Perera@sanofi.com"
+        "Name": "Saurabh Srivastava",
+        "Email": "Saurabh.Srivastava@sanofi.com"
     },
     {
         "Country": "Sweden",
@@ -976,8 +983,8 @@
         "Country": "USA",
         "Panel": "NPA/NSP",
         "Data Type": "Market Sales",
-        "Name": "Clothilde Adram",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Japan",
@@ -1032,8 +1039,8 @@
         "Country": "Iraq",
         "Panel": "AMS",
         "Data Type": "Market Sales",
-        "Name": "Firas Frangie",
-        "Email": "Firas.Frangie2@sanofi.com"
+        "Name": "Mansour Mansour",
+        "Email": "mansour.mansour@sanofi.com"
     },
     {
         "Country": "Norway",
@@ -1060,8 +1067,8 @@
         "Country": "USA",
         "Panel": "SI/Basal/Lovenox/Praluent",
         "Data Type": "Weekly Sales",
-        "Name": "Clothilde Adram ",
-        "Email": "clothilde.adram@sanofi.com"
+        "Name": "Divyanshi Rastogi/Pascale Leonetti",
+        "Email": "Divyanshi.RASTOGI@sanofi.com/Pascale.Leonetti@sanofi.com"
     },
     {
         "Country": "Italy",
