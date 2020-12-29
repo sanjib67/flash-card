@@ -40,6 +40,19 @@ import ContactUs from "./components/faq/ContactUs";
 
 import Abbreviations from "./components/abbreviations/Abbreviations";
 
+
+
+import Genmed from "./components/BUSpecificSection/Genmed";
+import SpecialityCare from "./components/BUSpecificSection/SpecialityCare";
+import BUSpecificSectionChc from "./components/BUSpecificSection/BuChc";
+import Vaccine from "./components/BUSpecificSection/BuVaccine";
+
+
+
+
+
+
+
 class App extends React.Component {
     base = "/help";
 
@@ -255,6 +268,40 @@ class App extends React.Component {
                         component: Abbreviations,
                         active: false
                     }
+                ]
+            },
+            {
+                name: "BU Specific Section",
+                path: "",
+                active: true,
+                children: [
+                    {
+                        name: "Genmed",
+                        path: this.base + "/landing-page/Genmed",
+                        component: Genmed,
+                        active: true
+                    },
+                    {
+                        name: "Speciality Care",
+                        path: this.base + "/landing-page/Seciality-Care",
+                        component: SpecialityCare,
+                        active: false
+                    },
+                    {
+                        name: "CHC",
+                        path: this.base + "/landing-page/Bu-Chc",
+                        component: BUSpecificSectionChc,
+                        active: false
+                    },
+                    {
+                        name: "Vaccine",
+                        path: this.base + "/landing-page/Bu-Vaccine",
+                        component: Vaccine,
+                        active: false
+                    }
+                   
+                   
+                   
                 ]
             }
         ]
