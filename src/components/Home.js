@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default class Home extends Component {
   render() {
     return (
-      <section className='page-section pt-63' id='services'>
+      <section className='page-section pt-63 col' id='services'>
         <div className='container'>
           <div className='page-content'>
             <div className='col-main-content-full'>

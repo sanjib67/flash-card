@@ -59,8 +59,8 @@ export default class MarketDefinitionEp extends Component {
                 width: 100
             },
             {
-                name: "Rx (Available only for US)",
-                width: 210
+                name: "Rx (Available for US and Canada)",
+                width: 250
             },
             {
                 name: "LC",
