@@ -20,7 +20,7 @@ export default class LibtayoScorecard extends Component {
       },
       {
         name: "Finance: Internal sales",
-        width: 150,
+        width:200,
       },
       {
         name: "Epi: Epidemiology",
@@ -28,7 +28,7 @@ export default class LibtayoScorecard extends Component {
       },
       {
         name: "ATU: Awareness, usage and trial",
-        width: 150,
+        width: 300,
       },
       {
         name: "Account",
@@ -36,7 +36,7 @@ export default class LibtayoScorecard extends Component {
       },
       {
         name: "SFE (Sales force effectiveness)",
-        width: 200,
+        width: 300,
       },
       {
         name: "Market access",
