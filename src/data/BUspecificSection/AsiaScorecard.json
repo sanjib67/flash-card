@@ -1,0 +1,44 @@
+[
+    {
+        "Country": "Indonesia",
+        "Market sales": "Yes",
+        "Finance: Internal Sales": "Yes",
+        "Panels": "ITMA"
+    },
+    {
+        "Country": "Malaysia",
+        "Market sales": "Yes",
+        "Finance: Internal Sales": "Yes",
+        "Panels": "MGR, ,MPA"
+    },
+    {
+        "Country": "Pakistan",
+        "Market sales": "Yes",
+        "Finance: Internal Sales": "Yes",
+        "Panels": "PKPI"
+    },
+    {
+        "Country": "Philippines",
+        "Market sales": "Yes",
+        "Finance: Internal Sales": "Yes",
+        "Panels": "IMS Philippine Pharmacy"
+    },
+    {
+        "Country": "Singapore",
+        "Market sales": "Yes",
+        "Finance: Internal Sales": "Yes",
+        "Panels": "SOR, SPA"
+    },
+    {
+        "Country": "Thailand",
+        "Market sales": "Yes",
+        "Finance: Internal Sales": "Yes",
+        "Panels": "TLHI, TLPI"
+    },
+    {
+        "Country": "Vietnam",
+        "Market sales": "Yes",
+        "Finance: Internal Sales": "Yes",
+        "Panels": "VIETNAM HOSPITAL, VIETNAM RETAIL"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "Category": "Total Genmed definition",
+        "Definition": "Total GenMed = Total Pharma – Non Rx* – Vaccines* – Specialty Care*\r\n*inclusions & exclusions are defined"
+    },
+    {
+        "Category": "Weekly",
+        "Definition": "Weekly market sales"
+    },
+    {
+        "Category": "Promo/Share of voice",
+        "Definition": "Number of contacts made to promote a product"
+    },
+    {
+        "Category": "Patients",
+        "Sub-Category": "New Patients",
+        "Definition": "Number of patients new to brand"
+    },
+    {
+        "Sub-Category": "Switch Patients",
+        "Definition": "Number of switch patients"
+    },
+    {
+        "Sub-Category": "Total Patients",
+        "Definition": "1. Total number of patients (On-therapy Patients) excluding drop-outs\r\n2. New + Switch Patients + Repeat Refills"
+    },
+    {
+        "Category": "SIT (Stock in trade)",
+        "Definition": "To track stock level within the wholesalers warehouses"
+    },
+    {
+        "Category": "Promotion status",
+        "Definition": "Defines how the product is promoted in that country"
+    },
+    {
+        "Sub-Category": "Hybrid",
+        "Definition": "Physical sales force is complemented by implementation of MCE drivers"
+    },
+    {
+        "Sub-Category": "Real remote",
+        "Definition": "e-Reps engage through remote channels and digital media"
+    },
+    {
+        "Sub-Category": "Pure play",
+        "Definition": "Engagement is solely conducted via full digital media"
+    },
+    {
+        "Definition": "- Outsourced: promotion is Outsourced to non Sanofi teams\r\n- Medical: promotion is done in hospitals\r\n- PoS: point of sales, promotion is done in pharmacies\r\n- Medical/PoS: the promotion is done in both"
+    },
+    {
+        "Category": "Reference market",
+        "Definition": "Performance of sanofi products in that market"
+    },
+    {
+        "Category": "Present status",
+        "Definition": "Presence of sanofi products in that category"
+    },
+    {
+        "Category": "PI Status",
+        "Definition": "Parellel import status of products"
+    }
+]

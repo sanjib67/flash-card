@@ -1,0 +1,365 @@
+[
+    {
+        "Country": "Algeria",
+        "Market sales": "Yes",
+        "Panels": "LMNPA",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Argentina",
+        "Market sales": "Yes",
+        "Panels": "PMA",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Australia",
+        "Market sales": "Yes",
+        "Panels": "IQVIA",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Austria",
+        "Market sales": "Yes",
+        "Panels": "OTC Offtake",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Belgium",
+        "Market sales": "Yes",
+        "Panels": "BELGIUM PTR",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Benin",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Brazil",
+        "Market sales": "Yes",
+        "Panels": "FMB",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Burkina Faso",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Cameroun",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Central America",
+        "Market sales": "Yes",
+        "Panels": "PMCA_CHC",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Chile",
+        "Market sales": "Yes",
+        "Panels": "PMC",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "China Domestic",
+        "Market sales": "Yes",
+        "Panels": "CHPA, CMH, CMH_Tot",
+        "SISO": "Yes",
+        "undefined": "CHPA: CHC monthly, V03B2 only 1 ATC"
+    },
+    {
+        "Country": "Colombia",
+        "Market sales": "Yes",
+        "Panels": "PMC",
+        "SISO": "Yes",
+        "undefined": "CMH: Pharmacy, monthly"
+    },
+    {
+        "Country": "Congo",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No",
+        "undefined": "CMH_Tot: Pharmacy, quarterly"
+    },
+    {
+        "Country": "Cote d Ivoire",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Czech Republic",
+        "Market sales": "Yes",
+        "Panels": "Sell Out",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Ecuador",
+        "Market sales": "Yes",
+        "Panels": "EC",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Egypt",
+        "Market sales": "Yes",
+        "Panels": "PMH_MTH, PME",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Finland",
+        "Market sales": "Yes",
+        "Panels": "FINLAND PTR",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "France",
+        "Market sales": "Yes",
+        "Panels": "Pharmatrend",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Gabon",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Germany",
+        "Market sales": "Yes",
+        "Panels": "GERMANY PTRI",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Greece",
+        "Market sales": "Yes",
+        "Panels": "GR_OTC",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Guinee",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Hungary",
+        "Market sales": "Yes",
+        "Panels": "HUNGARY PTR",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "India",
+        "Market sales": "Yes",
+        "Panels": "TSA",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Italy",
+        "Market sales": "Yes",
+        "Panels": "ITALY PTR",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Japan",
+        "Market sales": "Yes",
+        "Panels": "JAPAN_SDI, JAPAN_EC",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Kenya",
+        "Market sales": "Yes",
+        "Panels": "KE_PMSA_Q",
+        "SISO": "No"
+    },
+    {
+        "Country": "Lebanon",
+        "Market sales": "Yes",
+        "Panels": "LPI",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Mali",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Mexico",
+        "Market sales": "Yes",
+        "Panels": "IQVIA",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Morocco",
+        "Market sales": "Yes",
+        "Panels": "LMPM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Niger",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Pakistan",
+        "Market sales": "Yes",
+        "Panels": "PKPI",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Paraguay",
+        "Market sales": "Yes",
+        "Panels": "PRG",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Peru",
+        "Market sales": "Yes",
+        "Panels": "PER",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Philippines",
+        "Market sales": "Yes",
+        "Panels": "IMS Philippine Pharmacy",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Poland",
+        "Market sales": "Yes",
+        "Panels": "Pharmascope IMS",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Portugal",
+        "Market sales": "Yes",
+        "Panels": "PORTUGAL PTR",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Romania",
+        "Market sales": "Yes",
+        "Panels": "ROMANIA_OTC",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Russia",
+        "Market sales": "Yes",
+        "Panels": "RFPI",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Saudi Arabia",
+        "Market sales": "Yes",
+        "Panels": "SAPI",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Senegal",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Slovakia",
+        "Market sales": "Yes",
+        "Panels": "SELL OUT",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "South Africa",
+        "Market sales": "Yes",
+        "Panels": "TPM",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "South Korea",
+        "Market sales": "Yes",
+        "Panels": "KPA",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Spain",
+        "Market sales": "Yes",
+        "Panels": "IMS OTC",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Switzerland",
+        "Market sales": "Yes",
+        "Panels": "SWITZERLAND DRUGSTORE, SWITZERLAND PHARMACY",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Tchad",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Thailand",
+        "Market sales": "Yes",
+        "Panels": "TLHI, TLPI",
+        "SISO": "No"
+    },
+    {
+        "Country": "Togo",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM",
+        "SISO": "No"
+    },
+    {
+        "Country": "Tunisia",
+        "Market sales": "Yes",
+        "Panels": "LMPT",
+        "SISO": "No"
+    },
+    {
+        "Country": "Turkey",
+        "Market sales": "Yes",
+        "Panels": "NEC, TPI",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "UAE",
+        "Market sales": "Yes",
+        "Panels": "UAEP",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "UK",
+        "Market sales": "Yes",
+        "Panels": "IRI_UK",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Ukraine",
+        "Market sales": "Yes",
+        "Panels": "Proxima Research - Hospital, Proxima Research - Retail",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Uruguay",
+        "Market sales": "Yes",
+        "Panels": "Mutuales, PMU",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "USA",
+        "Market sales": "Yes",
+        "Panels": "USA NIELSEN",
+        "SISO": "Yes"
+    },
+    {
+        "Country": "Vietnam",
+        "Market sales": "Yes",
+        "Panels": "VIETNAM HOSPITAL, VIETNAM RETAIL",
+        "SISO": "No"
+    }
+]

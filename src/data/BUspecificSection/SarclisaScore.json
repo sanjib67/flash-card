@@ -1,0 +1,146 @@
+[
+    {
+        "Country": "Austria",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Belgium",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Canada",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "PEQ": "No",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Denmark",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Finland",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "France",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Germany",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Italy",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "No"
+    },
+    {
+        "Country": "Japan",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "No",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Kuwait",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "No",
+        "SFE": "No",
+        "Market access": "No"
+    },
+    {
+        "Country": "Netherlands",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Russia",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "No",
+        "SFE": "No",
+        "Market access": "No"
+    },
+    {
+        "Country": "Spain",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Sweden",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Switzerland",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "PEQ": "Yes",
+        "SFE": "Yes",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "UAE",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "PEQ": "No",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "UK",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "PEQ": "Yes",
+        "SFE": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "USA",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "PEQ": "No",
+        "SFE": "No",
+        "Market access": "Yes"
+    }
+]

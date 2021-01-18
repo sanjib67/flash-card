@@ -1,0 +1,50 @@
+[
+    {
+        "Category": "Epidemiology",
+        "Parameter": "Calculation",
+        "Details": "Penetration = Patients on Therapy (reimbursed and unreimbursed) / Label Population"
+    },
+    {
+        "Parameter": "Label population definition",
+        "Details": "Adult moderate-severe candidate with locally advanced or metastatic treated with a systemic therapy (‘drug-treated’). An estimated 25% are immunocompromised and not candidates to receive immunotherapy, such as Libtayo.  May be updated accordingly with internal epidemiology models/forecasts. "
+    },
+    {
+        "Parameter": "Patients on therapy",
+        "Details": "Declared monthly by commercial teams or estimated by applying a patient equivalent methodology using volumes, average posology and compliance rate as inputs"
+    },
+    {
+        "Category": "ATU (awareness of treatment and usage)",
+        "Parameter": "Source",
+        "Details": "IPSOS Market research. In 2020, data is updated twice a year (Q2 and Q4)"
+    },
+    {
+        "Category": "SFE (Sales force effectiveness): Interaction by customer, frequency of interaction",
+        "Parameter": "Source",
+        "Details": "Local CRMs, updated monthly"
+    },
+    {
+        "Details": "US: tiering primarily based on patient volume (claims)"
+    },
+    {
+        "Details": "EU: visits include Medical and Sales teams. Europe account tiering / ratings may be based on the following criteria: Potential (CSCC new patient volume), “Country-certified” Skin Cancer Center of Excellence status, Multi-disciplinary team collaboration level, and Libtayo adoption rate.  Applicability of these criteria may vary by country"
+    },
+    {
+        "Category": "Market access: Reimbursement status by country",
+        "Parameter": "Source",
+        "Details": "Global Market access / MADRID data base and Marketing teams (launch dates)"
+    },
+    {
+        "Category": "PEq calculation for Libtayo and its competitors",
+        "Parameter": "For Libtayo",
+        "Details": "Patient numbers are shared by each market on a monthly basis, or are estimated by applying a patient equivalent methodology using volumes, average posology and compliance rate as inputs "
+    },
+    {
+        "Parameter": "For the competitors",
+        "Details": "1 Libtayo patient equivalent = [365 days / year] * [1 year / 12 months] * [dose: 1 Libtayo unit / 21 days] * 100% compliance = 1.45 units per month"
+    },
+    {
+        "Category": "Accounts",
+        "Parameter": "Definition",
+        "Details": "New vs repeated accounts (hospitals)"
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "Country": "Argentina",
+        "Market sales": "Yes",
+        "Panels": "LMNPA"
+    },
+    {
+        "Country": "Australia",
+        "Market sales": "Yes",
+        "Panels": "AHI, API"
+    },
+    {
+        "Country": "Brazil",
+        "Market sales": "Yes",
+        "Panels": "NRC, PMB/PPP"
+    },
+    {
+        "Country": "Canada",
+        "Market sales": "Yes",
+        "Panels": "CDH"
+    },
+    {
+        "Country": "Czech Republic",
+        "Market sales": "Yes",
+        "Panels": "SUKL"
+    },
+    {
+        "Country": "France",
+        "Market sales": "Yes",
+        "Panels": "GERS"
+    },
+    {
+        "Country": "Germany",
+        "Market sales": "Yes",
+        "Panels": "DKM, Pharmascope"
+    },
+    {
+        "Country": "Hong Kong",
+        "Market sales": "Yes",
+        "Panels": "HKPA"
+    },
+    {
+        "Country": "India",
+        "Market sales": "Yes",
+        "Panels": "TSA"
+    },
+    {
+        "Country": "Italy",
+        "Market sales": "Yes",
+        "Panels": "IMF, IMFO+DPC"
+    },
+    {
+        "Country": "Japan",
+        "Market sales": "Yes",
+        "Panels": "JHPM, JPM"
+    },
+    {
+        "Country": "Malaysia",
+        "Market sales": "Yes",
+        "Panels": "MGR, MPA"
+    },
+    {
+        "Country": "Morocco",
+        "Market sales": "Yes",
+        "Panels": "LMPM"
+    },
+    {
+        "Country": "Romania",
+        "Market sales": "Yes",
+        "Panels": "ROHI, ROPI"
+    },
+    {
+        "Country": "Saudi Arabia",
+        "Market sales": "Yes",
+        "Panels": "SALPO_MTH, SAPI"
+    },
+    {
+        "Country": "Singapore",
+        "Market sales": "Yes",
+        "Panels": "SOR, SPA"
+    },
+    {
+        "Country": "South Africa",
+        "Market sales": "Yes",
+        "Panels": "TPM"
+    },
+    {
+        "Country": "Spain",
+        "Market sales": "Yes",
+        "Panels": "EMH, NPA"
+    },
+    {
+        "Country": "Sweden",
+        "Market sales": "Yes",
+        "Panels": "IQVIA"
+    },
+    {
+        "Country": "Taiwan",
+        "Market sales": "Yes",
+        "Panels": "TWHA, TWPA"
+    },
+    {
+        "Country": "Thailand",
+        "Market sales": "Yes",
+        "Panels": "TLHI, TLPI"
+    },
+    {
+        "Country": "Turkey",
+        "Market sales": "Yes",
+        "Panels": "THI, TPI"
+    },
+    {
+        "Country": "UK",
+        "Market sales": "Yes",
+        "Panels": "HPAI, INTPHA, XBPI"
+    },
+    {
+        "Country": "USA",
+        "Market sales": "Yes",
+        "Panels": "NPA, NSP"
+    }
+]

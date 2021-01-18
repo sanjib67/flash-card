@@ -1,0 +1,30 @@
+[
+    {
+        "Flashcard attribute": "Category 3",
+        "Flashcube attribute": "CHC split"
+    },
+    {
+        "Flashcard attribute": "Category 2",
+        "Flashcube attribute": "Mega-Category"
+    },
+    {
+        "Flashcard attribute": "Category 1",
+        "Flashcube attribute": "Sub-Category"
+    },
+    {
+        "Flashcard attribute": "Corporation Group",
+        "Flashcube attribute": "Corporation group 1"
+    },
+    {
+        "Flashcard attribute": "Corporation",
+        "Flashcube attribute": "Corporation"
+    },
+    {
+        "Flashcard attribute": "Product Family",
+        "Flashcube attribute": "Product group 3"
+    },
+    {
+        "Flashcard attribute": "Product Local",
+        "Flashcube attribute": "Product group 2"
+    }
+]

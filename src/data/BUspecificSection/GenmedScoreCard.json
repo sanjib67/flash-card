@@ -1,0 +1,912 @@
+[
+    {
+        "Country": "Algeria",
+        "Market sales": "Yes",
+        "Panel names": "LMNPA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Argentina",
+        "Market sales": "Yes",
+        "Panel names": "PMA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Australia",
+        "Market sales": "Yes",
+        "Panel names": "AHI, API",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Austria",
+        "Market sales": "Yes",
+        "Panel names": "DPMO, DPMOK",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Azerbaijan",
+        "Market sales": "Yes",
+        "Panel names": "AUDIT OF RETAIL DRUG SALES IN AZERBAIJAN",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Belgium",
+        "Market sales": "Yes",
+        "Panel names": "LMPB",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Benin",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Bosnia",
+        "Market sales": "Yes",
+        "Panel names": "BIHMIE",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & Premix\r\n - Rapid & LMWH",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Brazil",
+        "Market sales": "Yes",
+        "Panel names": "NRC, PMB/PPP",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Bulgaria",
+        "Market sales": "Yes",
+        "Panel names": "BGHI, BGPI, NHIF",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & Premix\r\n - Rapid & LMWH",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Burkina Faso",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Cameroun",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Canada",
+        "Market sales": "Yes",
+        "Panel names": "CDH, GPM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Chile",
+        "Market sales": "Yes",
+        "Panel names": "PMC",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "China",
+        "Market sales": "Yes",
+        "Panel names": "CHPA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Colombia",
+        "Market sales": "Yes",
+        "Panel names": "PMC, SISMED",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Congo",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Costa Rica",
+        "Market sales": "Yes",
+        "Panel names": "CR",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Cote d Ivoire",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Croatia",
+        "Market sales": "Yes",
+        "Panel names": "HRHI, HRPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Czech Republic",
+        "Market sales": "Yes",
+        "Panel names": "CRPI, SUKL, WHS",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Denmark",
+        "Market sales": "Yes",
+        "Panel names": "DLI",
+        "Weekly sales": " - Basal & Basal+GLP1 Combo\r\n - PCSK9 & Rapid",
+        "Promo/Share of voice": "No",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Ecuador",
+        "Market sales": "Yes",
+        "Panel names": "EQ",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Egypt",
+        "Market sales": "Yes",
+        "Panel names": "PME, PMH_MTH",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "El Salvador",
+        "Market sales": "Yes",
+        "Panel names": "ES",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Finland",
+        "Market sales": "Yes",
+        "Panel names": "FHI, PMF",
+        "Weekly sales": " - Basal & Basal+GLP1 Combo\r\n - PCSK9 & Rapid",
+        "Promo/Share of voice": "No",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "France",
+        "Market sales": "Yes",
+        "Panel names": "Exponent, GERS",
+        "Weekly sales": " - Other AC Inj. & LMWH",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Gabon",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Georgia",
+        "Market sales": "Yes",
+        "Panel names": "AUDIT OF RETAIL DRUG SALES IN GEORGIA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Germany",
+        "Market sales": "Yes",
+        "Panel names": "DKM, Pharmascope",
+        "Weekly sales": " - Basal & Basal+GLP1 Combo\r\n - Rapid & Other AC Inj.\r\n- LMWH & UFH",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & Premix\r\n - Rapid & LMWH",
+        "Patients": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & Premix",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Greece",
+        "Market sales": "Yes",
+        "Panel names": "GPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Guatemala",
+        "Market sales": "Yes",
+        "Panel names": "GT",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Guinee",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Honduras",
+        "Market sales": "Yes",
+        "Panel names": "HD",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Hong Kong",
+        "Market sales": "Yes",
+        "Panel names": "HKPA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Hungary",
+        "Market sales": "Yes",
+        "Panel names": "HHA, HPA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & Premix",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "India",
+        "Market sales": "Yes",
+        "Panel names": "TSA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Indonesia",
+        "Market sales": "Yes",
+        "Panel names": "ITMA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Iraq",
+        "Market sales": "Yes",
+        "Panel names": "AMS",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Ireland",
+        "Market sales": "Yes",
+        "Panel names": "IHI, IPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Italy",
+        "Market sales": "Yes",
+        "Panel names": "IMF, IMFO+DPC",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - Basal & Basal+GLP1 Combo & PCSK9",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Japan",
+        "Market sales": "Yes",
+        "Panel names": "JHPM, JPM",
+        "Weekly sales": " - Basal & Basal+GLP1 Combo\r\n - PCSK9 & Rapid",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Jordan",
+        "Market sales": "Yes",
+        "Panel names": "JPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Kazakhstan",
+        "Market sales": "Yes",
+        "Panel names": "AUDIT OF RETAIL DRUG SALES IN KAZAKHSTAN (SEGMENT), PHARMANALYTICA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Kenya",
+        "Market sales": "Yes",
+        "Panel names": "KE_PMSA_Q",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Kuwait",
+        "Market sales": "Yes",
+        "Panel names": "KLPO, KPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Latvia",
+        "Market sales": "Yes",
+        "Panel names": "Softdent",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Lebanon",
+        "Market sales": "Yes",
+        "Panel names": "LPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Lithuania",
+        "Market sales": "Yes",
+        "Panel names": "PHARMACEPT, Softdent",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Luxembourg",
+        "Market sales": "Yes",
+        "Panel names": "LMPL",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "PCSK9",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Malaysia",
+        "Market sales": "Yes",
+        "Panel names": "MGR, MPA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Mali",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Mexico",
+        "Market sales": "Yes",
+        "Panel names": "IQVIA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Morocco",
+        "Market sales": "Yes",
+        "Panel names": "LMPM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Netherlands",
+        "Market sales": "Yes",
+        "Panel names": "PharminForm",
+        "Weekly sales": " - Basal & Basal+GLP1 Combo",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9 & Premix",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Nicaragua",
+        "Market sales": "Yes",
+        "Panel names": "NC",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Niger",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Norway",
+        "Market sales": "Yes",
+        "Panel names": "NPH, NPP",
+        "Weekly sales": " - Basal & Basal+GLP1 Combo\r\n - PCSK9 & Rapid",
+        "Promo/Share of voice": "No",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & LMWH",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Pakistan",
+        "Market sales": "Yes",
+        "Panel names": "PKPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Panama",
+        "Market sales": "Yes",
+        "Panel names": "PN",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Paraguay",
+        "Market sales": "Yes",
+        "Panel names": "PRG",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Peru",
+        "Market sales": "Yes",
+        "Panel names": "PER",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Philippines",
+        "Market sales": "Yes",
+        "Panel names": "IMS Philippine Pharmacy",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Poland",
+        "Market sales": "Yes",
+        "Panel names": "PLHI, Sell-Out",
+        "Weekly sales": " - Basal & Premix\r\n - Rapid & LMWH & NOAC",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Portugal",
+        "Market sales": "Yes",
+        "Panel names": "EHN, HMR",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & Premix\r\n - Rapid & LMWH",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Romania",
+        "Market sales": "Yes",
+        "Panel names": "ROHI, ROPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Russia",
+        "Market sales": "Yes",
+        "Panel names": "AMT, PUBLIC, RFPI, RLO/DLO, RLO/DLO_ONLS",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Saudi Arabia",
+        "Market sales": "Yes",
+        "Panel names": "SALPO_MTH, SAPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Senegal",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Serbia",
+        "Market sales": "Yes",
+        "Panel names": "SRB",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & Premix\r\n - Rapid & LMWH",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Singapore",
+        "Market sales": "Yes",
+        "Panel names": "SOR, SPA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Slovakia",
+        "Market sales": "Yes",
+        "Panel names": "SRHI, SRPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Slovenia",
+        "Market sales": "Yes",
+        "Panel names": "SLPI",
+        "Weekly sales": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9 & Premix & LMWH\r\n - Others Diabetes",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "South Africa",
+        "Market sales": "Yes",
+        "Panel names": "TPM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "South Korea",
+        "Market sales": "Yes",
+        "Panel names": "UBIST",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Spain",
+        "Market sales": "Yes",
+        "Panel names": "EMH, NPA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - Basal & PCSK9",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Sweden",
+        "Market sales": "Yes",
+        "Panel names": "IQVIA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "Switzerland",
+        "Market sales": "Yes",
+        "Panel names": "WHS",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & LMWH",
+        "Patients": " - PCSK9",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Taiwan",
+        "Market sales": "Yes",
+        "Panel names": "TWHA, TWPA",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Tchad",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Thailand",
+        "Market sales": "Yes",
+        "Panel names": "TLHI, TLPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Togo",
+        "Market sales": "Yes",
+        "Panel names": "DB_FWA.PRM",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Tunisia",
+        "Market sales": "Yes",
+        "Panel names": "LMPT",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Turkey",
+        "Market sales": "Yes",
+        "Panel names": "THI, TPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "UAE",
+        "Market sales": "Yes",
+        "Panel names": "UAEP",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "Yes"
+    },
+    {
+        "Country": "UK",
+        "Market sales": "Yes",
+        "Panel names": "HPAI, INTPHA, XBPI",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid & LMWH",
+        "Patients": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9 & Premix",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Ukraine",
+        "Market sales": "Yes",
+        "Panel names": "Proxima Research - Hospital, Proxima Research - Retail",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Uruguay",
+        "Market sales": "Yes",
+        "Panel names": "Mutuales, PMU",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "USA",
+        "Market sales": "Yes",
+        "Panel names": "IMS Visco Patient Claims, NPA. NSP",
+        "Weekly sales": " - Basal & Basal+GLP1 Combo\r\n - GLP-1 & PCSK9\r\n - Premix & Rapid\r\n - Other AC Inj. & LMWH\r\n - UFH & NOAC & APA w/o ASA",
+        "Promo/Share of voice": "Yes",
+        "Forecast": " - Basal & Basal+GLP1 Combo\r\n - PCSK9 & Rapid & LMWH\r\n - Anti Arrhythmics & SYNVISC MKT. & Renal",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Uzbekistan",
+        "Market sales": "Yes",
+        "Panel names": "AUDIT OF DRUGSTORE/HOSPITAL DRUG PROCUREMENT IN UZBEKISTAN (NEW)",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    },
+    {
+        "Country": "Vietnam",
+        "Market sales": "Yes",
+        "Panel names": "VIETNAM HOSPITAL, VIETNAM RETAIL",
+        "Weekly sales": "No",
+        "Promo/Share of voice": "No",
+        "Forecast": "No",
+        "Patients": "No",
+        "SIT (Stock in trade)": "No"
+    }
+]

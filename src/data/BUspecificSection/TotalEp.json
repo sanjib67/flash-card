@@ -1,0 +1,457 @@
+[
+    {
+        "Country": "Algeria",
+        "Market sales": "Yes",
+        "Panels": "LMNPA"
+    },
+    {
+        "Country": "Argentina",
+        "Market sales": "Yes",
+        "Panels": "PMA"
+    },
+    {
+        "Country": "Australia",
+        "Market sales": "Yes",
+        "Panels": "AHI, API"
+    },
+    {
+        "Country": "Austria",
+        "Market sales": "Yes",
+        "Panels": "DPMO, DPMOK"
+    },
+    {
+        "Country": "Azerbaijan",
+        "Market sales": "Yes",
+        "Panels": "AUDIT OF RETAIL DRUG SALES IN AZERBAIJAN"
+    },
+    {
+        "Country": "Belgium",
+        "Market sales": "Yes",
+        "Panels": "LMPB"
+    },
+    {
+        "Country": "Benin",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Bosnia",
+        "Market sales": "Yes",
+        "Panels": "BIHMIE"
+    },
+    {
+        "Country": "Brazil",
+        "Market sales": "Yes",
+        "Panels": "NRC, PMB/PPP"
+    },
+    {
+        "Country": "Bulgaria",
+        "Market sales": "Yes",
+        "Panels": "BGHI, BGPI"
+    },
+    {
+        "Country": "Burkina Faso",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Cameroun",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Canada",
+        "Market sales": "Yes",
+        "Panels": "CDH"
+    },
+    {
+        "Country": "Chile",
+        "Market sales": "Yes",
+        "Panels": "PMC"
+    },
+    {
+        "Country": "China",
+        "Market sales": "Yes",
+        "Panels": "CHPA"
+    },
+    {
+        "Country": "Colombia",
+        "Market sales": "Yes",
+        "Panels": "SISMED, PMC"
+    },
+    {
+        "Country": "Congo",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Costa Rica",
+        "Market sales": "Yes",
+        "Panels": "CR"
+    },
+    {
+        "Country": "Cote d Ivoire",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Croatia",
+        "Market sales": "Yes",
+        "Panels": "HRHI, HRPI"
+    },
+    {
+        "Country": "Czech Republic",
+        "Market sales": "Yes",
+        "Panels": "CRPI, WHS"
+    },
+    {
+        "Country": "Denmark",
+        "Market sales": "Yes",
+        "Panels": "DLI"
+    },
+    {
+        "Country": "Ecuador",
+        "Market sales": "Yes",
+        "Panels": "EQ"
+    },
+    {
+        "Country": "Egypt",
+        "Market sales": "Yes",
+        "Panels": "PME, PMH_MTH"
+    },
+    {
+        "Country": "El Salvador",
+        "Market sales": "Yes",
+        "Panels": "ES"
+    },
+    {
+        "Country": "Finland",
+        "Market sales": "Yes",
+        "Panels": "FHI, PMF"
+    },
+    {
+        "Country": "France",
+        "Market sales": "Yes",
+        "Panels": "GERS, Exponent"
+    },
+    {
+        "Country": "Gabon",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Georgia",
+        "Market sales": "Yes",
+        "Panels": "AUDIT OF RETAIL DRUG SALES IN GEORGIA"
+    },
+    {
+        "Country": "Germany",
+        "Market sales": "Yes",
+        "Panels": "DKM, Pharmascope"
+    },
+    {
+        "Country": "Greece",
+        "Market sales": "Yes",
+        "Panels": "GPI"
+    },
+    {
+        "Country": "Guatemala",
+        "Market sales": "Yes",
+        "Panels": "GT"
+    },
+    {
+        "Country": "Guinee",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Honduras",
+        "Market sales": "Yes",
+        "Panels": "HD"
+    },
+    {
+        "Country": "Hong Kong",
+        "Market sales": "Yes",
+        "Panels": "HKPA"
+    },
+    {
+        "Country": "Hungary",
+        "Market sales": "Yes",
+        "Panels": "HHA, HPA"
+    },
+    {
+        "Country": "India",
+        "Market sales": "Yes",
+        "Panels": "TSA"
+    },
+    {
+        "Country": "Indonesia",
+        "Market sales": "Yes",
+        "Panels": "ITMA"
+    },
+    {
+        "Country": "Iraq",
+        "Market sales": "Yes",
+        "Panels": "AMS"
+    },
+    {
+        "Country": "Ireland",
+        "Market sales": "Yes",
+        "Panels": "IPI, IHI"
+    },
+    {
+        "Country": "Italy",
+        "Market sales": "Yes",
+        "Panels": "IMF, IMFO+DPC"
+    },
+    {
+        "Country": "Japan",
+        "Market sales": "Yes",
+        "Panels": "JHPM, JPM"
+    },
+    {
+        "Country": "Jordan",
+        "Market sales": "Yes",
+        "Panels": "JPI"
+    },
+    {
+        "Country": "Kazakhstan",
+        "Market sales": "Yes",
+        "Panels": "AUDIT OF RETAIL DRUG SALES IN KAZAKHSTAN (SEGMENT), PHARMANALYTICA"
+    },
+    {
+        "Country": "Kenya",
+        "Market sales": "Yes",
+        "Panels": "KE_PMSA_Q"
+    },
+    {
+        "Country": "Kuwait",
+        "Market sales": "Yes",
+        "Panels": "KLPO, KPI"
+    },
+    {
+        "Country": "Latvia",
+        "Market sales": "Yes",
+        "Panels": "Softdent"
+    },
+    {
+        "Country": "Lebanon",
+        "Market sales": "Yes",
+        "Panels": "LPI"
+    },
+    {
+        "Country": "Lithuania",
+        "Market sales": "Yes",
+        "Panels": "Softdent"
+    },
+    {
+        "Country": "Luxembourg",
+        "Market sales": "Yes",
+        "Panels": "LMPL"
+    },
+    {
+        "Country": "Malaysia",
+        "Market sales": "Yes",
+        "Panels": "MGR, MPA"
+    },
+    {
+        "Country": "Mali",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Mexico",
+        "Market sales": "Yes",
+        "Panels": "IQVIA"
+    },
+    {
+        "Country": "Morocco",
+        "Market sales": "Yes",
+        "Panels": "LMPM"
+    },
+    {
+        "Country": "Netherlands",
+        "Market sales": "Yes",
+        "Panels": "PharminForm"
+    },
+    {
+        "Country": "Nicaragua",
+        "Market sales": "Yes",
+        "Panels": "NC"
+    },
+    {
+        "Country": "Niger",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Norway",
+        "Market sales": "Yes",
+        "Panels": "NPH, NPP"
+    },
+    {
+        "Country": "Pakistan",
+        "Market sales": "Yes",
+        "Panels": "PKPI"
+    },
+    {
+        "Country": "Panama",
+        "Market sales": "Yes",
+        "Panels": "PN"
+    },
+    {
+        "Country": "Paraguay",
+        "Market sales": "Yes",
+        "Panels": "PRG"
+    },
+    {
+        "Country": "Peru",
+        "Market sales": "Yes",
+        "Panels": "PER"
+    },
+    {
+        "Country": "Philippines",
+        "Market sales": "Yes",
+        "Panels": "IMS Philippine Pharmacy"
+    },
+    {
+        "Country": "Poland",
+        "Market sales": "Yes",
+        "Panels": "PLHI, Sell-Out"
+    },
+    {
+        "Country": "Portugal",
+        "Market sales": "Yes",
+        "Panels": "HMR"
+    },
+    {
+        "Country": "Romania",
+        "Market sales": "Yes",
+        "Panels": "ROHI, ROPI"
+    },
+    {
+        "Country": "Russia",
+        "Market sales": "Yes",
+        "Panels": "PUBLIC, RFPI, RLO/DLO, RLO/DLO_ONLS, RLO/DLO_VZN"
+    },
+    {
+        "Country": "Saudi Arabia",
+        "Market sales": "Yes",
+        "Panels": "SALPO_MTH, SAPI"
+    },
+    {
+        "Country": "Senegal",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Serbia",
+        "Market sales": "Yes",
+        "Panels": "SRB"
+    },
+    {
+        "Country": "Singapore",
+        "Market sales": "Yes",
+        "Panels": "SOR, SPA"
+    },
+    {
+        "Country": "Slovakia",
+        "Market sales": "Yes",
+        "Panels": "SRHI, SRPI"
+    },
+    {
+        "Country": "Slovenia",
+        "Market sales": "Yes",
+        "Panels": "SLPI"
+    },
+    {
+        "Country": "South Africa",
+        "Market sales": "Yes",
+        "Panels": "TPM"
+    },
+    {
+        "Country": "South Korea",
+        "Market sales": "Yes",
+        "Panels": "UBIST"
+    },
+    {
+        "Country": "Spain",
+        "Market sales": "Yes",
+        "Panels": "EMH, NPA"
+    },
+    {
+        "Country": "Sweden",
+        "Market sales": "Yes",
+        "Panels": "IQVIA"
+    },
+    {
+        "Country": "Switzerland",
+        "Market sales": "Yes",
+        "Panels": "WHS"
+    },
+    {
+        "Country": "Taiwan",
+        "Market sales": "Yes",
+        "Panels": "TWHA, TWPA"
+    },
+    {
+        "Country": "Tchad",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Thailand",
+        "Market sales": "Yes",
+        "Panels": "TLHI, TLPI"
+    },
+    {
+        "Country": "Togo",
+        "Market sales": "Yes",
+        "Panels": "DB_FWA.PRM"
+    },
+    {
+        "Country": "Tunisia",
+        "Market sales": "Yes",
+        "Panels": "LMPT"
+    },
+    {
+        "Country": "Turkey",
+        "Market sales": "Yes",
+        "Panels": "THI, TPI"
+    },
+    {
+        "Country": "UAE",
+        "Market sales": "Yes",
+        "Panels": "UAEP"
+    },
+    {
+        "Country": "UK",
+        "Market sales": "Yes",
+        "Panels": "HPAI, INTPHA, XBPI"
+    },
+    {
+        "Country": "Ukraine",
+        "Market sales": "Yes",
+        "Panels": "Proxima Research - Hospital, Proxima Research - Retail"
+    },
+    {
+        "Country": "Uruguay",
+        "Market sales": "Yes",
+        "Panels": "Mutuales, PMU"
+    },
+    {
+        "Country": "USA",
+        "Market sales": "Yes",
+        "Panels": "NSP"
+    },
+    {
+        "Country": "Uzbekistan",
+        "Market sales": "Yes",
+        "Panels": "AUDIT OF DRUGSTORE/HOSPITAL DRUG PROCUREMENT IN UZBEKISTAN (NEW)"
+    },
+    {
+        "Country": "Vietnam",
+        "Market sales": "Yes",
+        "Panels": "VIETNAM HOSPITAL, VIETNAM RETAIL"
+    }
+]

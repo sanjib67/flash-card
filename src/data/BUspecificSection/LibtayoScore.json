@@ -1,0 +1,167 @@
+[
+    {
+        "Country": "Austria",
+        "Panels": "DPMO, DPMOK",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "No",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "Yes",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Belgium",
+        "Panels": "BHA_DU",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "No",
+        "ATU: Awareness, usage and trial": "No",
+        "Account": "Yes",
+        "SFE (Sales force effectiveness)": "Yes",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Brazil",
+        "Panels": "NRC, PMB/PPP",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "No",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "No",
+        "Market access": "No"
+    },
+    {
+        "Country": "Colombia",
+        "Panels": "SISMED",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "Epi: Epidemiology": "No",
+        "ATU: Awareness, usage and trial": "No",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "No",
+        "Market access": "No"
+    },
+    {
+        "Country": "Denmark",
+        "Panels": "DLI",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "No",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "Yes",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Finland",
+        "Panels": "FHI, PMF",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "No",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "Yes",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "France",
+        "Panels": "GERS",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "Yes",
+        "Account": "Yes",
+        "SFE (Sales force effectiveness)": "Yes",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Germany",
+        "Panels": "DKM, Pharmascope",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "Yes",
+        "Account": "Yes",
+        "SFE (Sales force effectiveness)": "Yes",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Italy",
+        "Panels": "IMF, IMFO+DPC",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "No",
+        "ATU: Awareness, usage and trial": "Yes",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Netherlands",
+        "Panels": "PharminForm",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "No",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Spain",
+        "Panels": "EMH",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "Yes",
+        "Account": "Yes",
+        "SFE (Sales force effectiveness)": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Sweden",
+        "Panels": "IQVIA, Reveal",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "No",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "Yes",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "Switzerland",
+        "Panels": "WHS",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "No",
+        "Epi: Epidemiology": "No",
+        "ATU: Awareness, usage and trial": "No",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "No",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "UK",
+        "Panels": "HPAI",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "Yes",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "Yes",
+        "Market access": "Yes"
+    },
+    {
+        "Country": "USA",
+        "Panels": "NSP",
+        "Market sales": "Yes",
+        "Finance: Internal sales": "Yes",
+        "Epi: Epidemiology": "Yes",
+        "ATU: Awareness, usage and trial": "Yes",
+        "Account": "No",
+        "SFE (Sales force effectiveness)": "No",
+        "Market access": "No"
+    }
+]
