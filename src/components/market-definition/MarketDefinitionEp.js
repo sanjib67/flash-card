@@ -76,6 +76,6 @@ export default class MarketDefinitionEp extends Component {
 
                 <RsuiteTable wordWrap={true} virtualized={true} data={this.state.data} tableColumns={this.state.tableColumns} />
             </div>
-        );
+        );               
     }
 }
