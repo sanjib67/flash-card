@@ -46,7 +46,7 @@ import BUSpecificSectionChc from "./components/BUSpecificSection/CHC/BuChc";
 import Vaccine from "./components/BUSpecificSection/BuVaccine";
 
 class App extends React.Component {
-  base = "/";
+  base = "/testhelp";
 
   state = {
     sideBar: [
