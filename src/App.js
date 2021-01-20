@@ -45,9 +45,8 @@ import SpecialityCare from "./components/BUSpecificSection/SpecialityCare/Specia
 import BUSpecificSectionChc from "./components/BUSpecificSection/CHC/BuChc";
 import Vaccine from "./components/BUSpecificSection/BuVaccine";
 
-
 class App extends React.Component {
-  base = "/";
+  base = "/testhelp";
 
   state = {
     sideBar: [
@@ -325,14 +324,12 @@ class App extends React.Component {
             path={this.base}
             render={() => <Home sideBar={this.state.sideBar} />}
           />
-         
+
           <Route
-            path={this.base+"/landing-page"}
+            path={this.base + "/landing-page"}
             render={() => <LandingPage sideBar={this.state.sideBar} />}
           />
 
-          
-          
           <Footer />
         </BrowserRouter>
       </div>
