@@ -21,14 +21,13 @@ export default class AsiaScorecard extends Component {
       {
         name: "Panels",
         width: 200,
-      }
+      },
     ],
   };
 
   render() {
     return (
       <div className="content col">
-        
         <br></br>
         <h1>Asia Scorecard</h1>
         <RsuiteTable

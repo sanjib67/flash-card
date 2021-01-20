@@ -86,7 +86,7 @@ export default class ChcInformation extends Component {
               </th>
               <th scope="row">Non Sanofi market</th>
               <b>
-                <td>
+                <td style={{width:"500px"}}>
                   Market is selected irrespective of Sanofi products present in
                   the selected geography
                 </td>
@@ -124,7 +124,7 @@ export default class ChcInformation extends Component {
               <td>
                 {" "}
                 <b>
-                  Rolling quarter : last 3 months of data (for the selected
+                  Rolling quarter : <br/> last 3 months of data (for the selected
                   metric)
                 </b>
               </td>

@@ -26,14 +26,7 @@ export default class Genmed extends Component {
             Genmed Scorecard
           </button>
 
-          <button
-            className="btns"
-            onClick={() => {
-              this.setState({ table: "genmedinfo" });
-            }}
-          >
-            Genmed Information
-          </button>
+          
           <button
             className="btns"
             onClick={() => {
@@ -41,6 +34,14 @@ export default class Genmed extends Component {
             }}
           >
             Total Genmed Def
+          </button>
+          <button
+            className="btns"
+            onClick={() => {
+              this.setState({ table: "genmedinfo" });
+            }}
+          >
+            Genmed Information
           </button>
 
           <button

@@ -31,7 +31,6 @@ export default class ChcMarket extends Component {
         <br></br>
         <h1>CHC Market</h1>
         <div className="content">
-         
           <RsuiteTable
             wordWrap={true}
             virtualized={true}
