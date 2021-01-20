@@ -47,7 +47,7 @@ import Vaccine from "./components/BUSpecificSection/BuVaccine";
 
 
 class App extends React.Component {
-  base = "/help";
+  base = "/";
 
   state = {
     sideBar: [
@@ -322,12 +322,12 @@ class App extends React.Component {
 
           <Route
             exact
-            path="/help"
+            path={this.base}
             render={() => <Home sideBar={this.state.sideBar} />}
           />
          
           <Route
-            path="/help/landing-page"
+            path={this.base+"/landing-page"}
             render={() => <LandingPage sideBar={this.state.sideBar} />}
           />
 

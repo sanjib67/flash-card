@@ -39,7 +39,7 @@ export default class BuChc extends Component {
               this.setState({ table: "chcinfo" });
             }}
           ></button>
-            CHC Information
+            CHC Information 
           </button>
           &nbsp;
           &nbsp;
