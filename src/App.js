@@ -1,6 +1,6 @@
 import React from "react";
 // import XLSX from "xlsx";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter,Route } from "react-router-dom";
 import "./App.css";
 
 import Header from "./components/Header";
@@ -316,6 +316,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <HashRouter basename={process.env.PUBLIC_URL}>
         <BrowserRouter>
           <Header />
 
@@ -332,6 +333,7 @@ class App extends React.Component {
 
           <Footer />
         </BrowserRouter>
+        </HashRouter>
       </div>
     );
   }
