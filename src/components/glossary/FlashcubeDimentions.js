@@ -28,7 +28,7 @@ export default class FlashcubeDimentions extends Component {
     render() {
         return (
             <div className='content'>
-                <h1>Flashcube Dimentions</h1>
+                <h1>Flashcube Dimensions</h1>
                 <RsuiteTable wordWrap={true} virtualized={true} data={this.state.data} tableColumns={this.state.tableColumns} />
             </div>
         );
