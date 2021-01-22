@@ -1,6 +1,6 @@
 import React from "react";
 // import XLSX from "xlsx";
-import { BrowserRouter,HashRouter, Route } from "react-router-dom";
+import { BrowserRouter as Router,HashRouter, Route } from "react-router-dom";
 import "./App.css";
 
 import Header from "./components/Header";
@@ -57,7 +57,7 @@ class App extends React.Component {
         children: [
           {
             name: "Overview",
-            path: this.base + "/landing-page/overview",
+            path: this.base + "landing-page#/overview",
             component: Overview,
             active: true,
           },
@@ -316,7 +316,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <BrowserRouter  >
+        <Router  >
         <HashRouter>
           <Header />
 
@@ -333,7 +333,7 @@ class App extends React.Component {
 
           <Footer />
           </HashRouter>
-        </BrowserRouter>
+        </Router>
       </div>
     );
   }
